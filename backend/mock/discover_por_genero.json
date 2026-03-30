@@ -1,0 +1,1946 @@
+{
+  "acao": [
+    {
+      "id": 1084187,
+      "title": "Lindas e Letais",
+      "overview": "Um thriller repleto de ação no qual cinco bailarinas, perdidas em uma floresta remota a caminho de uma competição de dança, encontram abrigo em uma pousada sinistra à beira da estrada, administrada por Devora Kasimer, e precisam usar seu treinamento de elite como arma para sobreviver.",
+      "vote_average": 6.8,
+      "poster_url": "https://image.tmdb.org/t/p/w342/6vbABd8OYF2bbZyYOift0BxhQnv.jpg",
+      "genre_ids": [
+        28,
+        53
+      ]
+    },
+    {
+      "id": 1290821,
+      "title": "Missão Refúgio",
+      "overview": "Um ex-assassino de aluguel, agora um homem recluso numa ilha costeira remota, salva uma garota de uma tempestade terrível, colocando os dois na mira do perigo. Forçado a sair da aposentadoria e do isolamento, o homem é obrigado a enfrentar seu passado perigoso para proteger a menina enquanto tenta sobreviver uma jornada tensa repleta de perigos e redenção.",
+      "vote_average": 6.7,
+      "poster_url": "https://image.tmdb.org/t/p/w342/hSvhZRkbYD9crC4nqy8uCk9EdFH.jpg",
+      "genre_ids": [
+        28,
+        80,
+        53
+      ]
+    },
+    {
+      "id": 1265609,
+      "title": "Máquina de Guerra",
+      "overview": "Em sua última missão de treinamento, um engenheiro de combate precisa liderar sua equipe de elite em uma luta pela sobrevivência contra uma máquina mortal.",
+      "vote_average": 7.3,
+      "poster_url": "https://image.tmdb.org/t/p/w342/48h40o6Q97hZaqH0g7bOiXOrImX.jpg",
+      "genre_ids": [
+        28,
+        878,
+        53
+      ]
+    },
+    {
+      "id": 1311031,
+      "title": "Demon Slayer: Kimetsu no Yaiba Castelo Infinito",
+      "overview": "Enquanto os membros dos caçadores e os Hashira participavam de um rigoroso programa de fortalecimento coletivo, conhecido como Treinamento dos Hashira, em preparação para a batalha final contra os demônios, Muzan Kibutsuji aparece na Mansão Ubuyashiki. Com a vida do líder da organização em risco, Tanjiro e os Hashira correm até o quartel-general, mas acabam sendo lançados, pelas mãos de Muzan, em uma queda profunda rumo a um espaço misterioso para um confronto final, o Castelo Infinito.",
+      "vote_average": 7.7,
+      "poster_url": "https://image.tmdb.org/t/p/w342/c55sXCaQBj3vuHqZe62tv90xCQS.jpg",
+      "genre_ids": [
+        16,
+        28,
+        14
+      ]
+    },
+    {
+      "id": 1236153,
+      "title": "Justiça Artificial",
+      "overview": "Em um futuro próximo, um detetive é acusado de assassinar a própria esposa. Ele tem 90 minutos para provar sua inocência à avançada justiça de Inteligência Artificial que ele mesmo ajudou a implementar.",
+      "vote_average": 7.0,
+      "poster_url": "https://image.tmdb.org/t/p/w342/vI7bNC07BaSEvZ9ATzV57wpAYwQ.jpg",
+      "genre_ids": [
+        878,
+        28,
+        53
+      ]
+    },
+    {
+      "id": 1168190,
+      "title": "Dupla Perigosa",
+      "overview": "Dois meios-irmãos que não se falavam há muito, Jonny e James, se reencontram após a morte misteriosa do pai deles. Ao buscarem a verdade, desvendam segredos de uma conspiração que pode destruir a família.",
+      "vote_average": 6.9,
+      "poster_url": "https://image.tmdb.org/t/p/w342/jYpk5Zun4VTWrplO3m9BHANi4S5.jpg",
+      "genre_ids": [
+        28,
+        35,
+        80,
+        9648
+      ]
+    },
+    {
+      "id": 1419406,
+      "title": "A Sombra do Perigo",
+      "overview": "Um policial aposentado, especialista em rastreamento, é convocado de volta à ativa em Macau para desmantelar uma gangue de ladrões de alta tecnologia, colocando suas táticas tradicionais contra a tecnologia avançada, num jogo de gato e rato com uma equipe de jovens detetives de elite.",
+      "vote_average": 7.2,
+      "poster_url": "https://image.tmdb.org/t/p/w342/wqdHjQ1UpfQgS9jN9So5PLNTwoX.jpg",
+      "genre_ids": [
+        28,
+        80,
+        18,
+        53
+      ]
+    },
+    {
+      "id": 634649,
+      "title": "Homem-Aranha: Sem Volta Para Casa",
+      "overview": "Peter Parker é desmascarado e não consegue mais separar sua vida normal dos grandes riscos de ser um super-herói. Quando ele pede ajuda ao Doutor Estranho, os riscos se tornam ainda mais perigosos, e o forçam a descobrir o que realmente significa ser o Homem-Aranha...",
+      "vote_average": 7.9,
+      "poster_url": "https://image.tmdb.org/t/p/w342/xaKydnMw6wR1MBAjS5seGPVusbs.jpg",
+      "genre_ids": [
+        28,
+        12,
+        878
+      ]
+    },
+    {
+      "id": 1242898,
+      "title": "Predador: Terras Selvagens",
+      "overview": "No futuro, em um planeta remoto, um jovem Predador, rejeitado por seu clã, encontra em Thia uma aliada improvável e embarca em uma jornada traiçoeira em busca do adversário supremo.",
+      "vote_average": 7.7,
+      "poster_url": "https://image.tmdb.org/t/p/w342/f3yLlUrJDdDL8d4nxywyotN45SL.jpg",
+      "genre_ids": [
+        28,
+        878,
+        12
+      ]
+    },
+    {
+      "id": 1291608,
+      "title": "Dhurandhar",
+      "overview": "No início da década de 2000, um policial se infiltra nas gangues do submundo criminoso de Karachi para desmantelar um grupo violento.",
+      "vote_average": 7.0,
+      "poster_url": "https://image.tmdb.org/t/p/w342/8FHOtUpNIk5ZPEay2N2EY5lrxkv.jpg",
+      "genre_ids": [
+        28,
+        80,
+        53
+      ]
+    },
+    {
+      "id": 1387382,
+      "title": "Temporada de Sangue",
+      "overview": "Um pai solteiro fará de tudo para proteger sua filha de 13 anos do mundo corrupto que a cerca, enfrentando ameaças que testam seus limites enquanto luta para garantir a ela um futuro mais seguro.",
+      "vote_average": 7.0,
+      "poster_url": "https://image.tmdb.org/t/p/w342/fDXOdFhBoUNyY7GsM11z7EfKk68.jpg",
+      "genre_ids": [
+        28,
+        18,
+        53
+      ]
+    },
+    {
+      "id": 24428,
+      "title": "Os Vingadores: The Avengers",
+      "overview": "Loki, o irmão de Thor, ganha acesso ao poder ilimitado do cubo cósmico ao roubá-lo de dentro das instalações da S.H.I.E.L.D. Nick Fury, o diretor desta agência internacional que mantém a paz, logo reúne os únicos super-heróis que serão capazes de defender a Terra de ameaças sem precedentes. Homem de Ferro, Capitão América, Hulk, Thor, Viúva Negra e Gavião Arqueiro formam o time dos sonhos de Fury, mas eles precisam aprender a colocar os egos de lado e agir como um grupo em prol da humanidade.",
+      "vote_average": 8.0,
+      "poster_url": "https://image.tmdb.org/t/p/w342/u49fzmIJHkb1H4oGFTXtBGgaUS1.jpg",
+      "genre_ids": [
+        878,
+        28,
+        12
+      ]
+    },
+    {
+      "id": 22383,
+      "title": "Os Profissionais",
+      "overview": "Milionário contrata quatro mercenários para resgatar sua esposa, que foi sequestrada por Jesus Raza e seu bando. Os quatro partem para o México, na esperança de cumprir o contrato, o que fará com que cada um ganhe US$ 10 mil.",
+      "vote_average": 7.1,
+      "poster_url": "https://image.tmdb.org/t/p/w342/4xjK1vOruPuXiiU5DN1kFTFUJLY.jpg",
+      "genre_ids": [
+        37,
+        12,
+        28
+      ]
+    },
+    {
+      "id": 1233413,
+      "title": "Pecadores",
+      "overview": "Dispostos a deixar suas vidas conturbadas para trás, irmãos gêmeos retornam à sua cidade natal para recomeçar suas vidas do zero, quando descobrem que um mal ainda maior está à espera deles para recebê-los de volta.",
+      "vote_average": 7.5,
+      "poster_url": "https://image.tmdb.org/t/p/w342/v0Ljeti537c6cNKweuEN0iaU3x4.jpg",
+      "genre_ids": [
+        27,
+        28,
+        53
+      ]
+    },
+    {
+      "id": 934456,
+      "title": "Americana",
+      "overview": "Quando uma rara Camisa Fantasma Lakota cai no mercado negro em uma pequena cidade da Dakota do Sul, as vidas de forasteiros e excluídos locais se entrelaçam de forma violenta.",
+      "vote_average": 6.3,
+      "poster_url": "https://image.tmdb.org/t/p/w342/83Gis9pOKCvAdaKXCNChey4IZyL.jpg",
+      "genre_ids": [
+        80,
+        53,
+        37,
+        28
+      ]
+    },
+    {
+      "id": 155,
+      "title": "Batman: O Cavaleiro das Trevas",
+      "overview": "Após dois anos desde o surgimento do Batman, os criminosos de Gotham City têm muito o que temer. Com a ajuda do tenente James Gordon e do promotor público Harvey Dent, Batman luta contra o crime organizado. Acuados com o combate, os chefes do crime aceitam a proposta feita pelo Coringa e o contratam para combater o Homem-Morcego.",
+      "vote_average": 8.5,
+      "poster_url": "https://image.tmdb.org/t/p/w342/4lj1ikfsSmMZNyfdi8R8Tv5tsgb.jpg",
+      "genre_ids": [
+        28,
+        80,
+        53
+      ]
+    },
+    {
+      "id": 1306368,
+      "title": "Dinheiro Suspeito",
+      "overview": "Quando uma equipe de policiais de Miami encontra milhões de dólares em um muquifo usado como esconderijo, a confiança fica abalada e todos viram suspeitos.",
+      "vote_average": 7.1,
+      "poster_url": "https://image.tmdb.org/t/p/w342/bm04TGkE5ySrHbHlO6YloYZvs4P.jpg",
+      "genre_ids": [
+        28,
+        53,
+        80
+      ]
+    },
+    {
+      "id": 374720,
+      "title": "Dunkirk",
+      "overview": "Durante a Segunda Guerra Mundial, em maio de 1940, cerca de 400.000 soldados britânicos, franceses e belgas viram-se cercados pelas tropas alemãs na bolsa de Dunquerque. A Operação Dínamo foi lançada para evacuar a Força Expedicionária Britânica para Inglaterra. A história segue os destinos entrelaçados de soldados, pilotos, marinheiros e civis britânicos durante a evacuação de Dunquerque.",
+      "vote_average": 7.5,
+      "poster_url": "https://image.tmdb.org/t/p/w342/mXJOgvCZm4PJ9I4zEbAH3CVCjfa.jpg",
+      "genre_ids": [
+        10752,
+        28,
+        18
+      ]
+    },
+    {
+      "id": 13012,
+      "title": "Felon",
+      "overview": "Wade Porter está prestes a se casar, mas o sonho vira pesadelo quando ele, acidentalmente, mata um assaltante que invadira sua casa. Sentenciado a três anos de prisão, as coisas pioram quando um acidente no ônibus que iria levá-lo ao seu cárcere, faz com que ele acaba na ala de segurança máxima controlada por um corrupto tenente.",
+      "vote_average": 7.1,
+      "poster_url": "https://image.tmdb.org/t/p/w342/1eYGh6DETJFXQt5PWjV8lp8YZvx.jpg",
+      "genre_ids": [
+        80,
+        18,
+        53,
+        28
+      ]
+    },
+    {
+      "id": 299536,
+      "title": "Vingadores: Guerra Infinita",
+      "overview": "Homem de Ferro, Thor, Hulk e os Vingadores se unem para combater seu inimigo mais poderoso, o maligno Thanos. Em uma missão para coletar todas as seis pedras infinitas, Thanos planeja usá-las para infligir sua vontade maléfica sobre a realidade.",
+      "vote_average": 8.2,
+      "poster_url": "https://image.tmdb.org/t/p/w342/A4kvp7vY1BDLrrQIagRCffLKj1t.jpg",
+      "genre_ids": [
+        12,
+        28,
+        878
+      ]
+    }
+  ],
+  "comedia": [
+    {
+      "id": 1297842,
+      "title": "Um Cabra Bom de Bola",
+      "overview": "Uma pequena cabra com grandes sonhos recebe uma oportunidade única na vida de se juntar aos profissionais e jogar berrobol, um esporte de alta intensidade, misto e de contato total, dominado pelos animais mais rápidos e ferozes do mundo.",
+      "vote_average": 7.8,
+      "poster_url": "https://image.tmdb.org/t/p/w342/x0SRTrltSJi1iQiIAUpyvkxnr41.jpg",
+      "genre_ids": [
+        16,
+        35,
+        10751
+      ]
+    },
+    {
+      "id": 1198994,
+      "title": "Socorro!",
+      "overview": "Após um acidente aéreo, um chefe e uma funcionária que se odeiam são os únicos sobreviventes. Isolados numa ilha deserta, eles precisam decidir se cooperam ou competem para escapar, mas é difícil deixar para trás os conflitos do escritório.",
+      "vote_average": 7.1,
+      "poster_url": "https://image.tmdb.org/t/p/w342/furPD78BZsKAWZoGvoqArIJYPy2.jpg",
+      "genre_ids": [
+        27,
+        53,
+        35
+      ]
+    },
+    {
+      "id": 1084242,
+      "title": "Zootopia 2",
+      "overview": "Os detetives Judy Hopps e Nick Wilde se encontram na trilha sinuosa de um réptil misterioso que chega a Zootopia e vira a metrópole dos mamíferos de cabeça para baixo.",
+      "vote_average": 7.6,
+      "poster_url": "https://image.tmdb.org/t/p/w342/fOCTW3D6RywUzoxpvxF7G6YM5bT.jpg",
+      "genre_ids": [
+        16,
+        35,
+        12,
+        10751,
+        9648
+      ]
+    },
+    {
+      "id": 1327819,
+      "title": "Cara de Um, Focinho de Outro",
+      "overview": "Mabel é uma jovem amante da natureza que tenta impedir o prefeito Jerry de construir uma rodovia que destruirá suas florestas locais. Graças a um experimento secreto de troca de cérebros, Mabel consegue transferir sua mente para um castor robô e segue para um lago, onde refugiados da industrialização invasora desembarcaram. Lá, ela tenta convencer os animais, liderados pelo castor majestoso Rei George, a se juntarem a ela e impedirem a construção da rodovia.",
+      "vote_average": 7.6,
+      "poster_url": "https://image.tmdb.org/t/p/w342/ftPFJBGbldoWiiPrmesW96zBzdH.jpg",
+      "genre_ids": [
+        16,
+        10751,
+        878,
+        35,
+        12
+      ]
+    },
+    {
+      "id": 1168190,
+      "title": "Dupla Perigosa",
+      "overview": "Dois meios-irmãos que não se falavam há muito, Jonny e James, se reencontram após a morte misteriosa do pai deles. Ao buscarem a verdade, desvendam segredos de uma conspiração que pode destruir a família.",
+      "vote_average": 6.9,
+      "poster_url": "https://image.tmdb.org/t/p/w342/jYpk5Zun4VTWrplO3m9BHANi4S5.jpg",
+      "genre_ids": [
+        28,
+        35,
+        80,
+        9648
+      ]
+    },
+    {
+      "id": 467905,
+      "title": "Manual Prático da Vingança Lucrativa",
+      "overview": "Becket Redfellow é um homem marcado pela frustração e pela falta de oportunidades. Após a morte de sua mãe, ele decide reivindicar a fortuna que acredita ser sua por direito, custe o que custar. Disposto a tudo para recuperar seu lugar na elite, o herdeiro despojado traça um plano implacável para eliminar, um a um, os familiares que se interpõem entre ele e o patrimônio dos Redfellow. No entanto, sua jornada de vingança rapidamente se transforma em uma sequência de acidentes inquietantes, onde cada crime parece aproximá-lo ainda mais do seu próprio desastre.",
+      "vote_average": 7.0,
+      "poster_url": "https://image.tmdb.org/t/p/w342/yC7kvzSBopVid128M60E5YOKsp.jpg",
+      "genre_ids": [
+        35,
+        53
+      ]
+    },
+    {
+      "id": 1054867,
+      "title": "Uma Batalha Após a Outra",
+      "overview": "Bob, um revolucionário fracassado, vive chapado e em um estado de paranoia, sobrevivendo isolado com Willa, sua filha espirituosa e independente. Quando seu perverso arqui-inimigo ressurge após 16 anos e ela desaparece, o ex-radical corre para encontrá-la, pai e filha tendo que enfrentar as consequências do passado dele.",
+      "vote_average": 7.4,
+      "poster_url": "https://image.tmdb.org/t/p/w342/a1a2JYoBTchMy1stqpSHxS5MMle.jpg",
+      "genre_ids": [
+        53,
+        80,
+        35
+      ]
+    },
+    {
+      "id": 502356,
+      "title": "Super Mario Bros. O Filme",
+      "overview": "Transportados do Brooklyn para o Reino Cogumelo num passe de mágica, dois corajosos encanadores conhecem uma princesa e combatem um tirano que cospe fogo.",
+      "vote_average": 7.6,
+      "poster_url": "https://image.tmdb.org/t/p/w342/ij8sapIEbLf2g8npOu6XgsQS2w0.jpg",
+      "genre_ids": [
+        10751,
+        35,
+        12,
+        16,
+        14
+      ]
+    },
+    {
+      "id": 803796,
+      "title": "Guerreiras do K-Pop",
+      "overview": "Quando não estão lotando estádios, as estrelas do K-pop Rumi, Mira e Zoey usam seus poderes secretos para proteger os fãs contra ameaças sobrenaturais.",
+      "vote_average": 8.0,
+      "poster_url": "https://image.tmdb.org/t/p/w342/gbdMa7woiuF7IiEB5Spwv5od4oo.jpg",
+      "genre_ids": [
+        14,
+        10402,
+        35,
+        16
+      ]
+    },
+    {
+      "id": 547012,
+      "title": "Como Sair de Buffalo",
+      "overview": "Peg Dahl, uma golpista de Buffalo, fará de tudo para escapar de sua cidade natal, Buffalo, estado de Nova York, e assim ela chega ao submundo das cobranças de dívidas.",
+      "vote_average": 6.7,
+      "poster_url": "https://image.tmdb.org/t/p/w342/cBZG2akI4aMbIb2pyeZAzKli1Qr.jpg",
+      "genre_ids": [
+        35,
+        18
+      ]
+    },
+    {
+      "id": 696393,
+      "title": "Alerta Apocalipse",
+      "overview": "Quando um fungo altamente perigoso escapa de um laboratório secreto, Robert Quinn, um ex-agente de bioterrorismo que só queria curtir a aposentadoria em paz, é chamado de volta à ação. Ao lado de Travis e Naomi, dois jovens funcionários que definitivamente não ganham o suficiente para isso, ele precisa enfrentar uma ameaça invisível e fora de controle. Em uma corrida contra o tempo, o trio descobre que salvar o mundo dá muito mais trabalho do que parece.",
+      "vote_average": 6.7,
+      "poster_url": "https://image.tmdb.org/t/p/w342/3Ap6J9pYqgrxQaYWYdX2fyBYBWF.jpg",
+      "genre_ids": [
+        27,
+        878,
+        35
+      ]
+    },
+    {
+      "id": 400928,
+      "title": "Um Laço de Amor",
+      "overview": "Frank, um homem solteiro, cria sozinho sua sobrinha Mary, uma criança-prodígio. Quando a garota se destaca na escola por causa de suas habilidades com a matemática, a avó dela planeja um futuro que pode separá-la do tio.",
+      "vote_average": 8.0,
+      "poster_url": "https://image.tmdb.org/t/p/w342/21uwPrntyCV9Z0LW7pZcVfbrqWo.jpg",
+      "genre_ids": [
+        18,
+        35
+      ]
+    },
+    {
+      "id": 57214,
+      "title": "Projeto X: Uma Festa Fora de Controle",
+      "overview": "Três garotos no último ano do colégio decidem fazer uma festa de aniversário para serem reconhecidos. Porém no decorrer da festa as coisas saem de controle.",
+      "vote_average": 6.9,
+      "poster_url": "https://image.tmdb.org/t/p/w342/yZcrard3hundE2NpgBaJdel3gAw.jpg",
+      "genre_ids": [
+        35
+      ]
+    },
+    {
+      "id": 991494,
+      "title": "Bob Esponja: Em Busca da Calça Quadrada",
+      "overview": "Bob Esponja e seus amigos da Fenda do Bikini embarcam na maior aventura de suas vidas. Ao tentar provar que é grandão, ele acaba invocando o temido pirata fantasma Holandês Voador, que arrasta Bob Esponja e Patrick para uma jornada caótica no submundo. Enfrentando desafios enormes e com uma equipe de resgate em seu encalço, Bob Esponja descobre que a verdadeira coragem aparece quando os amigos encaram o desconhecido juntos.",
+      "vote_average": 6.7,
+      "poster_url": "https://image.tmdb.org/t/p/w342/obDYToEfPFNMKW6x0eamCrjTMzK.jpg",
+      "genre_ids": [
+        16,
+        10751,
+        35,
+        12,
+        14
+      ]
+    },
+    {
+      "id": 496243,
+      "title": "Parasita",
+      "overview": "Toda a família de Ki-taek está desempregada, vivendo num porão sujo e apertado. Uma obra do acaso faz com que o filho adolescente da família comece a dar aulas de inglês à garota de uma família rica. Fascinados com a vida luxuosa destas pessoas, pai, mãe, filho e filha bolam um plano para se infiltrarem também na família glamorosa, um a um. No entanto, os segredos e mentiras necessários à ascensão social custarão caro a todos.",
+      "vote_average": 8.5,
+      "poster_url": "https://image.tmdb.org/t/p/w342/igw938inb6Fy0YVcwIyxQ7Lu5FO.jpg",
+      "genre_ids": [
+        35,
+        53,
+        18
+      ]
+    },
+    {
+      "id": 11235,
+      "title": "Momento Inesquecível",
+      "overview": "Uma companhia petrolífera americana envia um homem para a Escócia para comprar uma vila inteira onde eles querem construir uma refinaria. Mas as coisas não correm como o esperado.",
+      "vote_average": 6.8,
+      "poster_url": "https://image.tmdb.org/t/p/w342/jqxD0H9a1rg5bXftsm6gsNOjt4n.jpg",
+      "genre_ids": [
+        35,
+        18
+      ]
+    },
+    {
+      "id": 1119449,
+      "title": "Boa Sorte, Divirta-se, Não Morra",
+      "overview": "Um homem vindo do futuro chega a uma lanchonete em Los Angeles, onde precisa recrutar a combinação exata de clientes insatisfeitos para acompanhá-lo em uma missão de uma noite e seis quarteirões para salvar o mundo da ameaça terminal de uma inteligência artificial descontrolada.",
+      "vote_average": 7.0,
+      "poster_url": "https://image.tmdb.org/t/p/w342/ybXcKzJr0nuRZaLB74ujITNPNeH.jpg",
+      "genre_ids": [
+        878,
+        28,
+        35
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Forrest Gump: O Contador de Histórias",
+      "overview": "Quarenta anos da história dos Estados Unidos, vistos pelos olhos de Forrest Gump, um rapaz com QI abaixo da média e com boas intenções. Por obra do acaso, ele consegue participar de momentos cruciais, como a Guerra do Vietnã e o Caso Watergate, mas continua pensando no seu amor de infância, Jenny Curran.",
+      "vote_average": 8.5,
+      "poster_url": "https://image.tmdb.org/t/p/w342/d74WpIsH8379TIL4wUxDneRCYv2.jpg",
+      "genre_ids": [
+        35,
+        18,
+        10749
+      ]
+    },
+    {
+      "id": 269149,
+      "title": "Zootopia: Essa Cidade é o Bicho",
+      "overview": "Em uma cidade de animais antropomórficos, uma raposa fugitiva vigarista e um coelho policial recruta precisam trabalhar juntos para desvendar uma conspiração.",
+      "vote_average": 7.8,
+      "poster_url": "https://image.tmdb.org/t/p/w342/27Ko4be7CeFmq2hVN7lp7TWG1sd.jpg",
+      "genre_ids": [
+        16,
+        12,
+        10751,
+        35
+      ]
+    },
+    {
+      "id": 680,
+      "title": "Pulp Fiction: Tempo de Violência",
+      "overview": "Vincent Vega e Jules Winnfield são dois assassinos profissionais que trabalham fazendo cobranças para Marsellus Wallace, um poderosos gângster. Vega é forçado a sair com a garota do chefe, temendo passar dos limites. Enquanto isso, o pugilista Butch Coolidge se mete em apuros por ganhar uma luta que deveria perder.",
+      "vote_average": 8.5,
+      "poster_url": "https://image.tmdb.org/t/p/w342/tptjnB2LDbuUWya9Cx5sQtv5hqb.jpg",
+      "genre_ids": [
+        53,
+        80,
+        35
+      ]
+    }
+  ],
+  "drama": [
+    {
+      "id": 875828,
+      "title": "Peaky Blinders: O Homem Imortal",
+      "overview": "Após o envolvimento do filho em um complô nazista, o gângster Tommy Shelby precisa deixar o exílio e voltar a Birmingham para salvar a família e a nação.",
+      "vote_average": 7.3,
+      "poster_url": "https://image.tmdb.org/t/p/w342/8XLNDeumvz0cXa6sntZJ6p4zfLb.jpg",
+      "genre_ids": [
+        80,
+        18
+      ]
+    },
+    {
+      "id": 1316092,
+      "title": "“O Morro dos Ventos Uivantes”",
+      "overview": "O órfão Heathcliff é acolhido ainda criança pela família Earnshaw e apaixona-se pela pequena Catherine. O afeto, embora correspondido, transforma-se num amor impossível. Tal vínculo devastador é envolto por uma atmosfera sombria e um teor dramático e audaz.",
+      "vote_average": 6.4,
+      "poster_url": "https://image.tmdb.org/t/p/w342/762vOiAWzosAH95sKLzUqYaAoHR.jpg",
+      "genre_ids": [
+        10749,
+        18
+      ]
+    },
+    {
+      "id": 1419406,
+      "title": "A Sombra do Perigo",
+      "overview": "Um policial aposentado, especialista em rastreamento, é convocado de volta à ativa em Macau para desmantelar uma gangue de ladrões de alta tecnologia, colocando suas táticas tradicionais contra a tecnologia avançada, num jogo de gato e rato com uma equipe de jovens detetives de elite.",
+      "vote_average": 7.2,
+      "poster_url": "https://image.tmdb.org/t/p/w342/wqdHjQ1UpfQgS9jN9So5PLNTwoX.jpg",
+      "genre_ids": [
+        28,
+        80,
+        18,
+        53
+      ]
+    },
+    {
+      "id": 1387382,
+      "title": "Temporada de Sangue",
+      "overview": "Um pai solteiro fará de tudo para proteger sua filha de 13 anos do mundo corrupto que a cerca, enfrentando ameaças que testam seus limites enquanto luta para garantir a ela um futuro mais seguro.",
+      "vote_average": 7.0,
+      "poster_url": "https://image.tmdb.org/t/p/w342/fDXOdFhBoUNyY7GsM11z7EfKk68.jpg",
+      "genre_ids": [
+        28,
+        18,
+        53
+      ]
+    },
+    {
+      "id": 1167307,
+      "title": "Davi: Nasce Um Rei",
+      "overview": "Em um reino tomado pelo medo e pela opressão, um jovem pastor de ovelhas decide enfrentar um gigante guerreiro e a escuridão que o acompanha. Com nada além de fé, coragem, uma funda e algumas pedras nas mãos, ele desafia um império e desperta o coração de uma nação.",
+      "vote_average": 8.0,
+      "poster_url": "https://image.tmdb.org/t/p/w342/kr5Owq7ixs2gsOMZm1MferN8qZX.jpg",
+      "genre_ids": [
+        16,
+        10751,
+        18,
+        10402
+      ]
+    },
+    {
+      "id": 374720,
+      "title": "Dunkirk",
+      "overview": "Durante a Segunda Guerra Mundial, em maio de 1940, cerca de 400.000 soldados britânicos, franceses e belgas viram-se cercados pelas tropas alemãs na bolsa de Dunquerque. A Operação Dínamo foi lançada para evacuar a Força Expedicionária Britânica para Inglaterra. A história segue os destinos entrelaçados de soldados, pilotos, marinheiros e civis britânicos durante a evacuação de Dunquerque.",
+      "vote_average": 7.5,
+      "poster_url": "https://image.tmdb.org/t/p/w342/mXJOgvCZm4PJ9I4zEbAH3CVCjfa.jpg",
+      "genre_ids": [
+        10752,
+        28,
+        18
+      ]
+    },
+    {
+      "id": 13012,
+      "title": "Felon",
+      "overview": "Wade Porter está prestes a se casar, mas o sonho vira pesadelo quando ele, acidentalmente, mata um assaltante que invadira sua casa. Sentenciado a três anos de prisão, as coisas pioram quando um acidente no ônibus que iria levá-lo ao seu cárcere, faz com que ele acaba na ala de segurança máxima controlada por um corrupto tenente.",
+      "vote_average": 7.1,
+      "poster_url": "https://image.tmdb.org/t/p/w342/1eYGh6DETJFXQt5PWjV8lp8YZvx.jpg",
+      "genre_ids": [
+        80,
+        18,
+        53,
+        28
+      ]
+    },
+    {
+      "id": 157336,
+      "title": "Interestelar",
+      "overview": "As reservas naturais da Terra estão chegando ao fim e um grupo de astronautas recebe a missão de verificar possíveis planetas para receberem a população mundial, possibilitando a continuação da espécie. Cooper é chamado para liderar o grupo e aceita a missão sabendo que pode nunca mais ver os filhos. Ao lado de Brand, Jenkins e Doyle, ele seguirá em busca de um novo lar.",
+      "vote_average": 8.5,
+      "poster_url": "https://image.tmdb.org/t/p/w342/6ricSDD83BClJsFdGB6x7cM0MFQ.jpg",
+      "genre_ids": [
+        12,
+        18,
+        878
+      ]
+    },
+    {
+      "id": 278,
+      "title": "Um Sonho de Liberdade",
+      "overview": "Em 1946, Andy Dufresne, um banqueiro jovem e bem sucedido, tem a sua vida radicalmente modificada ao ser condenado por um crime que nunca cometeu, o homicídio de sua esposa e do amante dela. Ele é mandado para uma prisão que é o pesadelo de qualquer detento, a Penitenciária Estadual de Shawshank, no Maine. Lá ele irá cumprir a pena perpétua. Andy logo será apresentado a Warden Norton, o corrupto e cruel agente penitenciário, que usa a Bíblia como arma de controle e ao Capitão Byron Hadley que trata os internos como animais. Andy faz amizade com Ellis Boyd Redding, um prisioneiro que cumpre pena há 20 anos e controla o mercado negro da instituição.",
+      "vote_average": 8.7,
+      "poster_url": "https://image.tmdb.org/t/p/w342/umX3lBhHoTV7Lsci140Yr8VpXyN.jpg",
+      "genre_ids": [
+        18,
+        80
+      ]
+    },
+    {
+      "id": 475557,
+      "title": "Coringa",
+      "overview": "Isolado, intimidado e desconsiderado pela sociedade, o fracassado comediante Arthur Fleck inicia seu caminho como uma mente criminosa após assassinar três homens em pleno metrô. Sua ação inicia um movimento popular contra a elite de Gotham City, da qual Thomas Wayne é seu maior representante.",
+      "vote_average": 8.1,
+      "poster_url": "https://image.tmdb.org/t/p/w342/xLxgVxFWvb9hhUyCDDXxRPPnFck.jpg",
+      "genre_ids": [
+        80,
+        53,
+        18
+      ]
+    },
+    {
+      "id": 547012,
+      "title": "Como Sair de Buffalo",
+      "overview": "Peg Dahl, uma golpista de Buffalo, fará de tudo para escapar de sua cidade natal, Buffalo, estado de Nova York, e assim ela chega ao submundo das cobranças de dívidas.",
+      "vote_average": 6.7,
+      "poster_url": "https://image.tmdb.org/t/p/w342/cBZG2akI4aMbIb2pyeZAzKli1Qr.jpg",
+      "genre_ids": [
+        35,
+        18
+      ]
+    },
+    {
+      "id": 400928,
+      "title": "Um Laço de Amor",
+      "overview": "Frank, um homem solteiro, cria sozinho sua sobrinha Mary, uma criança-prodígio. Quando a garota se destaca na escola por causa de suas habilidades com a matemática, a avó dela planeja um futuro que pode separá-la do tio.",
+      "vote_average": 8.0,
+      "poster_url": "https://image.tmdb.org/t/p/w342/21uwPrntyCV9Z0LW7pZcVfbrqWo.jpg",
+      "genre_ids": [
+        18,
+        35
+      ]
+    },
+    {
+      "id": 226857,
+      "title": "Amor Sem Fim",
+      "overview": "Jade Butterfield (Gabriella Wilde) é uma jovem superprotegida pelos pais, que aparenta ter um futuro brilhante pela frente. Só que ela se apaixona perdidamente por David Elliott (Alex Pettyfer), um jovem mais humilde que tem um passado conturbado. O relacionamento não é aprovado pelo pai de Jade, Hugh (Bruce Greenwood), que recomenda cautela à filha. Ainda assim, ela se entrega de corpo e alma à paixão por David.",
+      "vote_average": 6.9,
+      "poster_url": "https://image.tmdb.org/t/p/w342/slvVVYVxiKQ5rVKPIrFczozdomF.jpg",
+      "genre_ids": [
+        18,
+        10749
+      ]
+    },
+    {
+      "id": 335984,
+      "title": "Blade Runner 2049",
+      "overview": "Trinta anos após os acontecimentos do primeiro filme, um novo blade runner, o oficial K da polícia de Los Angeles, desenterra um segredo há muito enterrado que tem o potencial de mergulhar o que resta da sociedade no caos. A descoberta de K o leva a uma busca para encontrar Rick Deckard, um ex-blade runner do LAPD que está desaparecido há 30 anos.",
+      "vote_average": 7.6,
+      "poster_url": "https://image.tmdb.org/t/p/w342/49pANIZXRAdHUiWjjBv4vxPeqRC.jpg",
+      "genre_ids": [
+        878,
+        18
+      ]
+    },
+    {
+      "id": 238,
+      "title": "O Poderoso Chefão",
+      "overview": "Em 1945, Don Corleone é o chefe de uma mafiosa família italiana de Nova York. Ele costuma apadrinhar várias pessoas, realizando importantes favores para elas, em troca de favores futuros. Com a chegada das drogas, as famílias começam uma disputa pelo promissor mercado. Quando Corleone se recusa a facilitar a entrada dos narcóticos na cidade, não oferecendo ajuda política e policial, sua família começa a sofrer atentados para que mudem de posição. É nessa complicada época que Michael, um herói de guerra nunca envolvido nos negócios da família, vê a necessidade de proteger o seu pai e tudo o que ele construiu ao longo dos anos.",
+      "vote_average": 8.7,
+      "poster_url": "https://image.tmdb.org/t/p/w342/oJagOzBu9Rdd9BrciseCm3U3MCU.jpg",
+      "genre_ids": [
+        18,
+        80
+      ]
+    },
+    {
+      "id": 372058,
+      "title": "Your name.",
+      "overview": "Mitsuha é a filha do prefeito de uma pequena cidade, mas sonha em tentar a sorte em Tóquio. Taki trabalha em um restaurante em Tóquio e deseja largar o seu emprego. Os dois não se conhecem, mas estão conectados pelas imagens de seus sonhos.",
+      "vote_average": 8.5,
+      "poster_url": "https://image.tmdb.org/t/p/w342/eIm2nKC0125GyEPSWl6ODCA9J1S.jpg",
+      "genre_ids": [
+        16,
+        10749,
+        18
+      ]
+    },
+    {
+      "id": 496243,
+      "title": "Parasita",
+      "overview": "Toda a família de Ki-taek está desempregada, vivendo num porão sujo e apertado. Uma obra do acaso faz com que o filho adolescente da família comece a dar aulas de inglês à garota de uma família rica. Fascinados com a vida luxuosa destas pessoas, pai, mãe, filho e filha bolam um plano para se infiltrarem também na família glamorosa, um a um. No entanto, os segredos e mentiras necessários à ascensão social custarão caro a todos.",
+      "vote_average": 8.5,
+      "poster_url": "https://image.tmdb.org/t/p/w342/igw938inb6Fy0YVcwIyxQ7Lu5FO.jpg",
+      "genre_ids": [
+        35,
+        53,
+        18
+      ]
+    },
+    {
+      "id": 11235,
+      "title": "Momento Inesquecível",
+      "overview": "Uma companhia petrolífera americana envia um homem para a Escócia para comprar uma vila inteira onde eles querem construir uma refinaria. Mas as coisas não correm como o esperado.",
+      "vote_average": 6.8,
+      "poster_url": "https://image.tmdb.org/t/p/w342/jqxD0H9a1rg5bXftsm6gsNOjt4n.jpg",
+      "genre_ids": [
+        35,
+        18
+      ]
+    },
+    {
+      "id": 911430,
+      "title": "F1: O Filme",
+      "overview": "Sonny Hayes, a lenda do automobilismo, é persuadido a deixar a aposentadoria para liderar uma equipe de Fórmula 1 em dificuldades—e ser mentor de um jovem piloto famoso—enquanto busca mais uma oportunidade de glória.",
+      "vote_average": 7.8,
+      "poster_url": "https://image.tmdb.org/t/p/w342/fMcY5hpVZQ0cLKHvFM1mo6GrAr0.jpg",
+      "genre_ids": [
+        28,
+        18
+      ]
+    },
+    {
+      "id": 2061,
+      "title": "Pusher",
+      "overview": "Uma semana na vida de Frank, um pequeno traficante que está devendo dinheiro para o maior chefão do crime da cidade. Todas as tentativas de obter a grana para pagar a dívida dão errado, empurrando o sujeito para situações cada vez mais extremas.",
+      "vote_average": 7.0,
+      "poster_url": "https://image.tmdb.org/t/p/w342/bBdk1BjLIgaeumoLWJlXBqdVOZw.jpg",
+      "genre_ids": [
+        28,
+        80,
+        18
+      ]
+    }
+  ],
+  "terror": [
+    {
+      "id": 1198994,
+      "title": "Socorro!",
+      "overview": "Após um acidente aéreo, um chefe e uma funcionária que se odeiam são os únicos sobreviventes. Isolados numa ilha deserta, eles precisam decidir se cooperam ou competem para escapar, mas é difícil deixar para trás os conflitos do escritório.",
+      "vote_average": 7.1,
+      "poster_url": "https://image.tmdb.org/t/p/w342/furPD78BZsKAWZoGvoqArIJYPy2.jpg",
+      "genre_ids": [
+        27,
+        53,
+        35
+      ]
+    },
+    {
+      "id": 1193501,
+      "title": "O Som da Morte",
+      "overview": "Um grupo de estudantes disfuncionais se depara com um Apito da Morte asteca amaldiçoado. Logo, eles descobrem que usar o objeto produz um som aterrorizante capaz de prever suas futuras mortes.",
+      "vote_average": 6.0,
+      "poster_url": "https://image.tmdb.org/t/p/w342/1tX11KQzujSDXdszFNRvQbbNi72.jpg",
+      "genre_ids": [
+        27,
+        9648
+      ]
+    },
+    {
+      "id": 1272837,
+      "title": "Extermínio: O Templo dos Ossos",
+      "overview": "Dr. Kelson se vê envolvido num novo relacionamento chocante – com consequências que podem mudar o mundo como eles o conhecem – e o encontro de Spike com Jimmy Crystal se torna um pesadelo do qual ele não consegue escapar.",
+      "vote_average": 7.2,
+      "poster_url": "https://image.tmdb.org/t/p/w342/tbECC1mMbytgaynCnBhgVPzCZcd.jpg",
+      "genre_ids": [
+        27,
+        53,
+        878
+      ]
+    },
+    {
+      "id": 1233413,
+      "title": "Pecadores",
+      "overview": "Dispostos a deixar suas vidas conturbadas para trás, irmãos gêmeos retornam à sua cidade natal para recomeçar suas vidas do zero, quando descobrem que um mal ainda maior está à espera deles para recebê-los de volta.",
+      "vote_average": 7.5,
+      "poster_url": "https://image.tmdb.org/t/p/w342/v0Ljeti537c6cNKweuEN0iaU3x4.jpg",
+      "genre_ids": [
+        27,
+        28,
+        53
+      ]
+    },
+    {
+      "id": 573,
+      "title": "Frenesi",
+      "overview": "Londres está sendo aterrorizada por um assassino em série que estupra as suas vítimas e as mata estranguladas com uma gravata. Devido a uma série de mal-entendidos, o veterano de guerra da RAF Richard Blaney, alcoólatra, divorciado e recentemente desempregado, acaba se tornando o suspeito número um dos crimes quando sua ex-esposa é assassinada com o mesmo modus operandi.",
+      "vote_average": 7.1,
+      "poster_url": "https://image.tmdb.org/t/p/w342/6Ld9abTC7Ai1xmz8a04GLK5AIir.jpg",
+      "genre_ids": [
+        80,
+        53,
+        27
+      ]
+    },
+    {
+      "id": 1246049,
+      "title": "Drácula - Uma História de Amor Eterno",
+      "overview": "No século XV, o príncipe Vlad II perde o seu amor, a princesa Elisabeta. Tomado pela dor, rejeita a Deus e herda uma maldição eterna: vira o Conde Drácula, um vampiro condenado a vagar pelos séculos na esperança de reencontrar a amada.",
+      "vote_average": 7.1,
+      "poster_url": "https://image.tmdb.org/t/p/w342/eypGGvlpSiEpbeGkczyJCKboS4F.jpg",
+      "genre_ids": [
+        27,
+        14,
+        10749
+      ]
+    },
+    {
+      "id": 696393,
+      "title": "Alerta Apocalipse",
+      "overview": "Quando um fungo altamente perigoso escapa de um laboratório secreto, Robert Quinn, um ex-agente de bioterrorismo que só queria curtir a aposentadoria em paz, é chamado de volta à ação. Ao lado de Travis e Naomi, dois jovens funcionários que definitivamente não ganham o suficiente para isso, ele precisa enfrentar uma ameaça invisível e fora de controle. Em uma corrida contra o tempo, o trio descobre que salvar o mundo dá muito mais trabalho do que parece.",
+      "vote_average": 6.7,
+      "poster_url": "https://image.tmdb.org/t/p/w342/3Ap6J9pYqgrxQaYWYdX2fyBYBWF.jpg",
+      "genre_ids": [
+        27,
+        878,
+        35
+      ]
+    },
+    {
+      "id": 1062722,
+      "title": "Frankenstein",
+      "overview": "Dr. Victor Frankenstein, um cientista brilhante, mas egoísta, dá vida a uma criatura em um experimento monstruoso que acaba levando à ruína tanto do criador quanto de sua trágica criação.",
+      "vote_average": 7.6,
+      "poster_url": "https://image.tmdb.org/t/p/w342/rB0tZwNImTT8febX5qVycZ5YVeF.jpg",
+      "genre_ids": [
+        18,
+        14,
+        27
+      ]
+    },
+    {
+      "id": 1228246,
+      "title": "Five Nights at Freddy's 2",
+      "overview": "Um ano após o pesadelo sobrenatural na Freddy Fazbear's Pizza, as histórias sobre o que aconteceu ali foram distorcidas, transformando-se em uma lenda local exagerada, inspirando o primeiro Fazfest da cidade. Sem saber a verdade sobre o ocorrido, Abby sai escondida para se reconectar com Freddy, Bonnie, Chica e Foxy, dando início a uma aterrorizante série de eventos que revelarão segredos sombrios sobre a verdadeira origem da Freddy's e libertarão um horror há muito esquecido, escondido por décadas.",
+      "vote_average": 6.7,
+      "poster_url": "https://image.tmdb.org/t/p/w342/12H82Xrr2ijDF0lJWUarqGFV7bC.jpg",
+      "genre_ids": [
+        27,
+        53
+      ]
+    },
+    {
+      "id": 567609,
+      "title": "Casamento Sangrento",
+      "overview": "Grace acaba de se casar com o herdeiro milionário de uma família especializada em jogos de tabuleiro. Antes de realmente integrar a família, no entanto, ela é obrigada a participar de uma tradição familiar: um jogo de esconde-esconde pela mansão dos Le Domas. Aos poucos, Grace percebe que a brincadeira inocente é na verdade uma caçada sangrenta contra a recém-casada, em que todas as armas e golpes são permitidos para assassiná-la. A jovem terá a difícil missão de sobreviver aos ataques até o amanhecer.",
+      "vote_average": 7.0,
+      "poster_url": "https://image.tmdb.org/t/p/w342/vWMXRFvpxxs5p0IKZdqWph10jIn.jpg",
+      "genre_ids": [
+        27,
+        35
+      ]
+    },
+    {
+      "id": 1315303,
+      "title": "O Primata",
+      "overview": "A universitária Lucy vai passar férias em casa com a família e aproveita a ausência do pai para organizar uma festa na piscina. Durante o evento, seu chimpanzé de estimação surge irreconhecível e agressivo, contaminado com raiva, forçando o grupo a buscar algum jeito de escapar da fúria do animal.",
+      "vote_average": 6.5,
+      "poster_url": "https://image.tmdb.org/t/p/w342/fJd3J9FwWTAI1EZsvaTHfZKKTPy.jpg",
+      "genre_ids": [
+        27,
+        53
+      ]
+    },
+    {
+      "id": 348,
+      "title": "Alien: O Oitavo Passageiro",
+      "overview": "Quando a tripulação da sonda espacial Nostromo responde a um pedido de socorro vindo de um planeta inóspito, eles descobrem uma forma de vida mortal que se reproduz dentro de humanos. Agora, a tripulação deve lutar para permanecer viva e impedir que a criatura chegue até a Terra.",
+      "vote_average": 8.2,
+      "poster_url": "https://image.tmdb.org/t/p/w342/rJEU0u6hvtqBy344z0bpI194LeQ.jpg",
+      "genre_ids": [
+        27,
+        878
+      ]
+    },
+    {
+      "id": 24913,
+      "title": "A Noite das Brincadeiras Mortais",
+      "overview": "Um grupo de estudantes vai passar o fim de semana do Dia da Mentira na casa de uma colega em uma ilha remota. Aos poucos, as pessoas vão morrendo uma a uma em circunstâncias cada vez mais estranhas.",
+      "vote_average": 6.0,
+      "poster_url": "https://image.tmdb.org/t/p/w342/gw4H1ZRBkPUaCzj3Bk2gBXbrpZ4.jpg",
+      "genre_ids": [
+        27,
+        9648
+      ]
+    },
+    {
+      "id": 1078605,
+      "title": "A Hora do Mal",
+      "overview": "Quando todas as crianças de uma mesma classe, exceto uma, somem misteriosamente, na mesma noite e exatamente ao mesmo tempo, todos da cidade começam a se questionar quem ou o que está por trás deste estranho desaparecimento.",
+      "vote_average": 7.3,
+      "poster_url": "https://image.tmdb.org/t/p/w342/psEJSjQr6I9GSJTdW28CKC4Kffs.jpg",
+      "genre_ids": [
+        27,
+        9648
+      ]
+    },
+    {
+      "id": 4232,
+      "title": "Pânico",
+      "overview": "Após uma série de mortes misteriosas, um grupo de amigos são ameaçados por um assassino. Em uma mistura de emoções fortes e muitos sustos, aqui a única coisa que se pode ter certeza é que todos são vítimas e todos são suspeitos.",
+      "vote_average": 7.4,
+      "poster_url": "https://image.tmdb.org/t/p/w342/cJj2gYzkPFSqYGGOhfLgeANlXkB.jpg",
+      "genre_ids": [
+        80,
+        27,
+        9648
+      ]
+    },
+    {
+      "id": 574475,
+      "title": "Premonição 6: Laços de Sangue",
+      "overview": "Atormentada por um pesadelo violento recorrente, a estudante universitária Stefanie volta para casa para encontrar a única pessoa que pode quebrar o ciclo e salvar sua família do destino horrível que inevitavelmente os aguarda.",
+      "vote_average": 7.1,
+      "poster_url": "https://image.tmdb.org/t/p/w342/x3J781PsdMrjenzQKM5eJXqK5Nd.jpg",
+      "genre_ids": [
+        27,
+        9648
+      ]
+    },
+    {
+      "id": 1284460,
+      "title": "Alpha",
+      "overview": "Alpha, uma adolescente de 13 anos em crise, vive com sua mãe solteira. A realidade delas toma contornos assustadores no dia em que Alpha aparece em casa com uma tatuagem no braço, em meio a uma epidemia de vírus mortal que se espalha petrificando as pessoas.",
+      "vote_average": 6.4,
+      "poster_url": "https://image.tmdb.org/t/p/w342/89rX9774vG6GzE128Varjy6rKOl.jpg",
+      "genre_ids": [
+        27,
+        18,
+        878,
+        53
+      ]
+    },
+    {
+      "id": 934433,
+      "title": "Pânico VI",
+      "overview": "Sam, Tara, Chad e Mindy, os quatro sobreviventes do massacre realizado pelo Ghostface, decidem deixar Woodsboro para trás em busca de um novo começo em uma cidade diferente. Mas não demora muito para eles se tornarem alvo de um novo serial killer mascarado.",
+      "vote_average": 7.0,
+      "poster_url": "https://image.tmdb.org/t/p/w342/vSCqFktU5FzjtkW5XRlp8JndRdV.jpg",
+      "genre_ids": [
+        27,
+        53,
+        80
+      ]
+    },
+    {
+      "id": 646385,
+      "title": "Pânico",
+      "overview": "Vinte e cinco anos após uma série de crimes brutais chocar a tranquila Woodsboro, um novo assassino se apropria da máscara de Ghostface e começa a perseguir um grupo de adolescentes para trazer à tona segredos do passado mortal da cidade.",
+      "vote_average": 6.7,
+      "poster_url": "https://image.tmdb.org/t/p/w342/lvskZGlyH9LuGKO8OdBWQWTGlGx.jpg",
+      "genre_ids": [
+        27,
+        9648
+      ]
+    },
+    {
+      "id": 1038392,
+      "title": "Invocação do Mal 4: O Último Ritual",
+      "overview": "O casal de investigadores Ed e Lorraine Warren assume um novo caso de horror sobrenatural que os força a um confronto derradeiro. Para vencer esta batalha final contra as forças malignas, eles são obrigados a encarar seus medos mais profundos, colocando suas vidas em extremo risco.",
+      "vote_average": 6.9,
+      "poster_url": "https://image.tmdb.org/t/p/w342/40nHGUfypLhlr7gJx8At1IbYkaK.jpg",
+      "genre_ids": [
+        27
+      ]
+    }
+  ],
+  "ficcao_cientifica": [
+    {
+      "id": 83533,
+      "title": "Avatar: Fogo e Cinzas",
+      "overview": "Após a devastadora guerra contra a RDA e a perda de seu filho mais velho, Jake Sully e Neytiri enfrentam uma nova ameaça em Pandora: o Povo das Cinzas, uma tribo Na'vi violenta e sedenta por poder, liderada pela implacável Varang. A família de Jake deve lutar por sua sobrevivência e pelo futuro de Pandora em um conflito que os leva aos seus limites emocionais e físicos.",
+      "vote_average": 7.3,
+      "poster_url": "https://image.tmdb.org/t/p/w342/9k2zKeUfcKkAz1dGt5MP6dZMm4G.jpg",
+      "genre_ids": [
+        878,
+        12,
+        14
+      ]
+    },
+    {
+      "id": 687163,
+      "title": "Devoradores de Estrelas",
+      "overview": "O professor de ciências Ryland Grace acorda em uma espaçonave anos-luz de casa sem memória de quem ele é ou como chegou lá. Enquanto sua memória volta, ele começa a descobrir sua missão: desvendar o misteriosa substância que está causando a morte do Sol.",
+      "vote_average": 8.2,
+      "poster_url": "https://image.tmdb.org/t/p/w342/bOzG3SG6gBxHGGHYiq7xXeNb1bG.jpg",
+      "genre_ids": [
+        878,
+        12
+      ]
+    },
+    {
+      "id": 1265609,
+      "title": "Máquina de Guerra",
+      "overview": "Em sua última missão de treinamento, um engenheiro de combate precisa liderar sua equipe de elite em uma luta pela sobrevivência contra uma máquina mortal.",
+      "vote_average": 7.3,
+      "poster_url": "https://image.tmdb.org/t/p/w342/48h40o6Q97hZaqH0g7bOiXOrImX.jpg",
+      "genre_ids": [
+        28,
+        878,
+        53
+      ]
+    },
+    {
+      "id": 840464,
+      "title": "Destruição Final 2",
+      "overview": "Tendo encontrado a segurança do bunker da Groenlândia depois que o cometa Clarke dizimou a Terra, a família Garrity deve agora arriscar tudo para embarcar em uma jornada angustiante através do deserto da Europa para encontrar um novo lar.",
+      "vote_average": 6.5,
+      "poster_url": "https://image.tmdb.org/t/p/w342/s6nzVekLSd1y0vGjLz8WPfC1Sau.jpg",
+      "genre_ids": [
+        12,
+        53,
+        878
+      ]
+    },
+    {
+      "id": 1327819,
+      "title": "Cara de Um, Focinho de Outro",
+      "overview": "Mabel é uma jovem amante da natureza que tenta impedir o prefeito Jerry de construir uma rodovia que destruirá suas florestas locais. Graças a um experimento secreto de troca de cérebros, Mabel consegue transferir sua mente para um castor robô e segue para um lago, onde refugiados da industrialização invasora desembarcaram. Lá, ela tenta convencer os animais, liderados pelo castor majestoso Rei George, a se juntarem a ela e impedirem a construção da rodovia.",
+      "vote_average": 7.6,
+      "poster_url": "https://image.tmdb.org/t/p/w342/ftPFJBGbldoWiiPrmesW96zBzdH.jpg",
+      "genre_ids": [
+        16,
+        10751,
+        878,
+        35,
+        12
+      ]
+    },
+    {
+      "id": 1236153,
+      "title": "Justiça Artificial",
+      "overview": "Em um futuro próximo, um detetive é acusado de assassinar a própria esposa. Ele tem 90 minutos para provar sua inocência à avançada justiça de Inteligência Artificial que ele mesmo ajudou a implementar.",
+      "vote_average": 7.0,
+      "poster_url": "https://image.tmdb.org/t/p/w342/vI7bNC07BaSEvZ9ATzV57wpAYwQ.jpg",
+      "genre_ids": [
+        878,
+        28,
+        53
+      ]
+    },
+    {
+      "id": 634649,
+      "title": "Homem-Aranha: Sem Volta Para Casa",
+      "overview": "Peter Parker é desmascarado e não consegue mais separar sua vida normal dos grandes riscos de ser um super-herói. Quando ele pede ajuda ao Doutor Estranho, os riscos se tornam ainda mais perigosos, e o forçam a descobrir o que realmente significa ser o Homem-Aranha...",
+      "vote_average": 7.9,
+      "poster_url": "https://image.tmdb.org/t/p/w342/xaKydnMw6wR1MBAjS5seGPVusbs.jpg",
+      "genre_ids": [
+        28,
+        12,
+        878
+      ]
+    },
+    {
+      "id": 1242898,
+      "title": "Predador: Terras Selvagens",
+      "overview": "No futuro, em um planeta remoto, um jovem Predador, rejeitado por seu clã, encontra em Thia uma aliada improvável e embarca em uma jornada traiçoeira em busca do adversário supremo.",
+      "vote_average": 7.7,
+      "poster_url": "https://image.tmdb.org/t/p/w342/f3yLlUrJDdDL8d4nxywyotN45SL.jpg",
+      "genre_ids": [
+        28,
+        878,
+        12
+      ]
+    },
+    {
+      "id": 24428,
+      "title": "Os Vingadores: The Avengers",
+      "overview": "Loki, o irmão de Thor, ganha acesso ao poder ilimitado do cubo cósmico ao roubá-lo de dentro das instalações da S.H.I.E.L.D. Nick Fury, o diretor desta agência internacional que mantém a paz, logo reúne os únicos super-heróis que serão capazes de defender a Terra de ameaças sem precedentes. Homem de Ferro, Capitão América, Hulk, Thor, Viúva Negra e Gavião Arqueiro formam o time dos sonhos de Fury, mas eles precisam aprender a colocar os egos de lado e agir como um grupo em prol da humanidade.",
+      "vote_average": 8.0,
+      "poster_url": "https://image.tmdb.org/t/p/w342/u49fzmIJHkb1H4oGFTXtBGgaUS1.jpg",
+      "genre_ids": [
+        878,
+        28,
+        12
+      ]
+    },
+    {
+      "id": 1272837,
+      "title": "Extermínio: O Templo dos Ossos",
+      "overview": "Dr. Kelson se vê envolvido num novo relacionamento chocante – com consequências que podem mudar o mundo como eles o conhecem – e o encontro de Spike com Jimmy Crystal se torna um pesadelo do qual ele não consegue escapar.",
+      "vote_average": 7.2,
+      "poster_url": "https://image.tmdb.org/t/p/w342/tbECC1mMbytgaynCnBhgVPzCZcd.jpg",
+      "genre_ids": [
+        27,
+        53,
+        878
+      ]
+    },
+    {
+      "id": 157336,
+      "title": "Interestelar",
+      "overview": "As reservas naturais da Terra estão chegando ao fim e um grupo de astronautas recebe a missão de verificar possíveis planetas para receberem a população mundial, possibilitando a continuação da espécie. Cooper é chamado para liderar o grupo e aceita a missão sabendo que pode nunca mais ver os filhos. Ao lado de Brand, Jenkins e Doyle, ele seguirá em busca de um novo lar.",
+      "vote_average": 8.5,
+      "poster_url": "https://image.tmdb.org/t/p/w342/6ricSDD83BClJsFdGB6x7cM0MFQ.jpg",
+      "genre_ids": [
+        12,
+        18,
+        878
+      ]
+    },
+    {
+      "id": 299536,
+      "title": "Vingadores: Guerra Infinita",
+      "overview": "Homem de Ferro, Thor, Hulk e os Vingadores se unem para combater seu inimigo mais poderoso, o maligno Thanos. Em uma missão para coletar todas as seis pedras infinitas, Thanos planeja usá-las para infligir sua vontade maléfica sobre a realidade.",
+      "vote_average": 8.2,
+      "poster_url": "https://image.tmdb.org/t/p/w342/A4kvp7vY1BDLrrQIagRCffLKj1t.jpg",
+      "genre_ids": [
+        12,
+        28,
+        878
+      ]
+    },
+    {
+      "id": 696393,
+      "title": "Alerta Apocalipse",
+      "overview": "Quando um fungo altamente perigoso escapa de um laboratório secreto, Robert Quinn, um ex-agente de bioterrorismo que só queria curtir a aposentadoria em paz, é chamado de volta à ação. Ao lado de Travis e Naomi, dois jovens funcionários que definitivamente não ganham o suficiente para isso, ele precisa enfrentar uma ameaça invisível e fora de controle. Em uma corrida contra o tempo, o trio descobre que salvar o mundo dá muito mais trabalho do que parece.",
+      "vote_average": 6.7,
+      "poster_url": "https://image.tmdb.org/t/p/w342/3Ap6J9pYqgrxQaYWYdX2fyBYBWF.jpg",
+      "genre_ids": [
+        27,
+        878,
+        35
+      ]
+    },
+    {
+      "id": 335984,
+      "title": "Blade Runner 2049",
+      "overview": "Trinta anos após os acontecimentos do primeiro filme, um novo blade runner, o oficial K da polícia de Los Angeles, desenterra um segredo há muito enterrado que tem o potencial de mergulhar o que resta da sociedade no caos. A descoberta de K o leva a uma busca para encontrar Rick Deckard, um ex-blade runner do LAPD que está desaparecido há 30 anos.",
+      "vote_average": 7.6,
+      "poster_url": "https://image.tmdb.org/t/p/w342/49pANIZXRAdHUiWjjBv4vxPeqRC.jpg",
+      "genre_ids": [
+        878,
+        18
+      ]
+    },
+    {
+      "id": 693134,
+      "title": "Duna: Parte Dois",
+      "overview": "A jornada de Paul Atreides continua. Ele está determinado a buscar vingança contra aqueles que destruíram sua família e seu lar. Com a ajuda de Chani e dos Fremen, ele embarca em uma jornada espiritual, mística e marcial. Se torna Muad'Dib, o líder messiânico dos Fremen, enquanto luta para evitar um futuro sombrio que ele testemunhou em visões. No entanto, suas ações inadvertidamente desencadeiam uma Guerra Santa em seu nome, que se espalha pelo universo conhecido. Enquanto enfrenta escolhas difíceis entre o amor por Chani e o destino de seu povo, Paul precisa usar suas habilidades e conhecimentos para evitar o terrível futuro que previu.",
+      "vote_average": 8.1,
+      "poster_url": "https://image.tmdb.org/t/p/w342/8LJJjLjAzAwXS40S5mx79PJ2jSs.jpg",
+      "genre_ids": [
+        878,
+        12
+      ]
+    },
+    {
+      "id": 27205,
+      "title": "A Origem",
+      "overview": "Cobb é um ladrão habilidoso que comete espionagem corporativa infiltrando-se no subconsciente de seus alvos durante o estado de sono. Impedido de retornar para sua família, ele recebe a oportunidade de se redimir ao realizar uma tarefa aparentemente impossível: plantar uma ideia na mente do herdeiro de um império. Para realizar o crime perfeito, ele conta com a ajuda do parceiro Arthur, o discreto Eames e a arquiteta de sonhos Ariadne. Juntos, eles correm para que o inimigo não antecipe seus passos.",
+      "vote_average": 8.4,
+      "poster_url": "https://image.tmdb.org/t/p/w342/9e3Dz7aCANy5aRUQF745IlNloJ1.jpg",
+      "genre_ids": [
+        28,
+        878,
+        12
+      ]
+    },
+    {
+      "id": 950396,
+      "title": "Entre Montanhas",
+      "overview": "Dois agentes altamente treinados se aproximam à distância após serem enviados para proteger lados opostos de um desfiladeiro misterioso. Quando um mal emerge, eles precisam trabalhar juntos para sobreviver ao que está lá dentro.",
+      "vote_average": 7.6,
+      "poster_url": "https://image.tmdb.org/t/p/w342/7zL6RxMPmpPSdU5OTdVC4dtiKcr.jpg",
+      "genre_ids": [
+        10749,
+        878,
+        53
+      ]
+    },
+    {
+      "id": 315635,
+      "title": "Homem-Aranha: De Volta ao Lar",
+      "overview": "Depois de atuar ao lado dos Vingadores, chegou a hora do pequeno Peter Parker voltar para casa e para a sua vida, já não mais tão normal. Lutando diariamente contra pequenos crimes nas redondezas, ele pensa ter encontrado a missão de sua vida quando o terrível vilão Abutre surge amedrontando a cidade. O problema é que a tarefa não será tão fácil como ele imaginava.",
+      "vote_average": 7.3,
+      "poster_url": "https://image.tmdb.org/t/p/w342/1nkwRL17cAGO8A1yu3miRBdvOsl.jpg",
+      "genre_ids": [
+        28,
+        12,
+        878
+      ]
+    },
+    {
+      "id": 798645,
+      "title": "O Sobrevivente",
+      "overview": "Em um futuro próximo, \"O Sobrevivente\" é o show de maior audiência na televisão – uma competição mortal onde os participantes precisam sobreviver 30 dias enquanto são caçados por assassinos profissionais. Cada passo é transmitido a um público sedento por sangue e cada dia sobrevivido aumenta o prêmio em dinheiro para o vencedor.",
+      "vote_average": 6.8,
+      "poster_url": "https://image.tmdb.org/t/p/w342/8nBuPCAXLFSuUBjO1WvJ2blEVmK.jpg",
+      "genre_ids": [
+        28,
+        53,
+        878
+      ]
+    },
+    {
+      "id": 1061474,
+      "title": "Superman",
+      "overview": "Superman, um jovem repórter de Metrópolis, embarca em uma jornada para reconciliar sua herança kryptoniana com sua criação humana como Clark Kent.",
+      "vote_average": 7.3,
+      "poster_url": "https://image.tmdb.org/t/p/w342/xeZ8oG6W60fEPf9yCjERUXiHRBF.jpg",
+      "genre_ids": [
+        878,
+        12,
+        28
+      ]
+    }
+  ],
+  "romance": [
+    {
+      "id": 1316092,
+      "title": "“O Morro dos Ventos Uivantes”",
+      "overview": "O órfão Heathcliff é acolhido ainda criança pela família Earnshaw e apaixona-se pela pequena Catherine. O afeto, embora correspondido, transforma-se num amor impossível. Tal vínculo devastador é envolto por uma atmosfera sombria e um teor dramático e audaz.",
+      "vote_average": 6.4,
+      "poster_url": "https://image.tmdb.org/t/p/w342/762vOiAWzosAH95sKLzUqYaAoHR.jpg",
+      "genre_ids": [
+        10749,
+        18
+      ]
+    },
+    {
+      "id": 1246049,
+      "title": "Drácula - Uma História de Amor Eterno",
+      "overview": "No século XV, o príncipe Vlad II perde o seu amor, a princesa Elisabeta. Tomado pela dor, rejeita a Deus e herda uma maldição eterna: vira o Conde Drácula, um vampiro condenado a vagar pelos séculos na esperança de reencontrar a amada.",
+      "vote_average": 7.1,
+      "poster_url": "https://image.tmdb.org/t/p/w342/eypGGvlpSiEpbeGkczyJCKboS4F.jpg",
+      "genre_ids": [
+        27,
+        14,
+        10749
+      ]
+    },
+    {
+      "id": 226857,
+      "title": "Amor Sem Fim",
+      "overview": "Jade Butterfield (Gabriella Wilde) é uma jovem superprotegida pelos pais, que aparenta ter um futuro brilhante pela frente. Só que ela se apaixona perdidamente por David Elliott (Alex Pettyfer), um jovem mais humilde que tem um passado conturbado. O relacionamento não é aprovado pelo pai de Jade, Hugh (Bruce Greenwood), que recomenda cautela à filha. Ainda assim, ela se entrega de corpo e alma à paixão por David.",
+      "vote_average": 6.9,
+      "poster_url": "https://image.tmdb.org/t/p/w342/slvVVYVxiKQ5rVKPIrFczozdomF.jpg",
+      "genre_ids": [
+        18,
+        10749
+      ]
+    },
+    {
+      "id": 950396,
+      "title": "Entre Montanhas",
+      "overview": "Dois agentes altamente treinados se aproximam à distância após serem enviados para proteger lados opostos de um desfiladeiro misterioso. Quando um mal emerge, eles precisam trabalhar juntos para sobreviver ao que está lá dentro.",
+      "vote_average": 7.6,
+      "poster_url": "https://image.tmdb.org/t/p/w342/7zL6RxMPmpPSdU5OTdVC4dtiKcr.jpg",
+      "genre_ids": [
+        10749,
+        878,
+        53
+      ]
+    },
+    {
+      "id": 372058,
+      "title": "Your name.",
+      "overview": "Mitsuha é a filha do prefeito de uma pequena cidade, mas sonha em tentar a sorte em Tóquio. Taki trabalha em um restaurante em Tóquio e deseja largar o seu emprego. Os dois não se conhecem, mas estão conectados pelas imagens de seus sonhos.",
+      "vote_average": 8.5,
+      "poster_url": "https://image.tmdb.org/t/p/w342/eIm2nKC0125GyEPSWl6ODCA9J1S.jpg",
+      "genre_ids": [
+        16,
+        10749,
+        18
+      ]
+    },
+    {
+      "id": 1218925,
+      "title": "Chainsaw Man – O Filme: Arco da Reze",
+      "overview": "Denji trabalhava como Caçador de Demônios para a yakuza, tentando pagar a dívida que herdou de seus pais, até que um dia, ele é traído e morre. Em seus últimos momentos de consciência, ele forma um pacto com Pochita e essa fusão cria o Homem-Motosserra. Agora, em uma guerra brutal contra demônios, caçadores e inimigos secretos, uma garota misteriosa chamada Reze entrou em seu universo e Denji precisa enfrentar sua batalha mais perigosa até hoje, movido pelo amor em um mundo onde a sobrevivência não conhece regras.",
+      "vote_average": 8.3,
+      "poster_url": "https://image.tmdb.org/t/p/w342/tj1XhCQ2Rw2sT2o7lIdqPIYvjsx.jpg",
+      "genre_ids": [
+        16,
+        28,
+        10749,
+        14
+      ]
+    },
+    {
+      "id": 597,
+      "title": "Titanic",
+      "overview": "Um artista pobre e uma jovem rica se conhecem e se apaixonam na fatídica jornada do Titanic, em 1912. Embora esteja noiva do arrogante herdeiro de uma siderúrgica, a jovem desafia sua família e amigos em busca do verdadeiro amor.",
+      "vote_average": 7.9,
+      "poster_url": "https://image.tmdb.org/t/p/w342/As0zX43h3w6kD2NS4uVHu9HKdEh.jpg",
+      "genre_ids": [
+        18,
+        10749
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Forrest Gump: O Contador de Histórias",
+      "overview": "Quarenta anos da história dos Estados Unidos, vistos pelos olhos de Forrest Gump, um rapaz com QI abaixo da média e com boas intenções. Por obra do acaso, ele consegue participar de momentos cruciais, como a Guerra do Vietnã e o Caso Watergate, mas continua pensando no seu amor de infância, Jenny Curran.",
+      "vote_average": 8.5,
+      "poster_url": "https://image.tmdb.org/t/p/w342/d74WpIsH8379TIL4wUxDneRCYv2.jpg",
+      "genre_ids": [
+        35,
+        18,
+        10749
+      ]
+    },
+    {
+      "id": 1010581,
+      "title": "Minha Culpa",
+      "overview": "Noah é obrigada a mudar de cidade, deixando seus amigos e namorado para trás, após sua mãe se casar com um novo marido rico. Lá ela conhece Nick, seu novo meio-irmão, e os dois se apaixonam loucamente, vivendo um grande romance proibido.",
+      "vote_average": 7.8,
+      "poster_url": "https://image.tmdb.org/t/p/w342/a59iGvF609yAZ5tfZUoQ3XipeQH.jpg",
+      "genre_ids": [
+        18,
+        10749,
+        53
+      ]
+    },
+    {
+      "id": 858024,
+      "title": "Hamnet: A Vida Antes de Hamlet",
+      "overview": "Um dos mais importantes escritores do cânone ocidental, William Shakespeare vive uma tragédia ao lado de sua esposa Agnes quando o casal perde o filho de 11 anos para uma das várias pragas que assolaram o século XVI. Hamnet era o nome do menino. Explorando os temas da perda e da morte, o filme acompanha a rotina e o dia a dia de uma família, as alegrias e as tristezas de viver numa pequena vila na Inglaterra do passado e a história de amor poderosa que inspirou a criação da peça Hamlet.",
+      "vote_average": 7.7,
+      "poster_url": "https://image.tmdb.org/t/p/w342/njatIGrIlZCxB88UUBC2xgmfCNE.jpg",
+      "genre_ids": [
+        18,
+        10749,
+        36
+      ]
+    },
+    {
+      "id": 399055,
+      "title": "A Forma da Água",
+      "overview": "Década de 60. Em meio aos grandes conflitos políticos e transformações sociais dos Estados Unidos da Guerra Fria, a muda Elisa, zeladora em um laboratório experimental secreto do governo, se encanta com uma criatura fantástica mantida presa e maltratada no local. Para executar um arriscado e apaixonado resgate, ela recorre ao melhor amigo Giles e à colega de turno Zelda, em uma aventura que pode custar muito mais do que o seu emprego.",
+      "vote_average": 7.2,
+      "poster_url": "https://image.tmdb.org/t/p/w342/hHPFq7myTjAVH6CwQjamAuUqhrr.jpg",
+      "genre_ids": [
+        18,
+        14,
+        10749
+      ]
+    },
+    {
+      "id": 402431,
+      "title": "Wicked",
+      "overview": "Elphaba é uma jovem como outra qualquer do Reino de Oz, mas incompreendida por causa de sua pele verde incomum e por ainda não ter descoberto seu verdadeiro poder. Sua rotina é tranquila e pouco interessante, mas ao iniciar seus estudos na Universidade de Shiz, seu destino encontra Glinda, uma jovem popular e ambiciosa, nascida em berço de ouro, que só quer garantir seus privilégios e ainda não conhece sua verdadeira alma. As duas iniciam uma inesperada amizade; no entanto, suas diferenças, como o desejo de Glinda pela popularidade e poder, e a determinação de Elphaba em permanecer fiel a si mesma, entram no caminho, o que pode perpetuar no futuro de cada uma e em como as pessoas de Oz as enxergam.",
+      "vote_average": 6.9,
+      "poster_url": "https://image.tmdb.org/t/p/w342/qcaKkLwIXCAxJtpetVYHniCvLZj.jpg",
+      "genre_ids": [
+        18,
+        10749,
+        14
+      ]
+    },
+    {
+      "id": 313369,
+      "title": "La La Land: Cantando Estações",
+      "overview": "O pianista Sebastian conhece a atriz Mia, e os dois se apaixonam perdidamente. Em busca de oportunidades para suas carreiras na competitiva Los Angeles, os jovens tentam fazer o relacionamento amoroso dar certo, enquanto perseguem fama e sucesso.",
+      "vote_average": 7.9,
+      "poster_url": "https://image.tmdb.org/t/p/w342/AvMietG6xuobpSSdmVnKuTjv4bL.jpg",
+      "genre_ids": [
+        35,
+        18,
+        10749
+      ]
+    },
+    {
+      "id": 321612,
+      "title": "A Bela e a Fera",
+      "overview": "Moradora de uma pequena aldeia francesa, Bela tem o pai capturado pela Fera e decide entregar sua vida ao estranho ser em troca da liberdade do progenitor. No castelo ela conhece objetos mágicos e descobre que a Fera é na verdade um príncipe que precisa de amor para voltar à forma humana.",
+      "vote_average": 7.0,
+      "poster_url": "https://image.tmdb.org/t/p/w342/8JkXzfzwpZNZV72vSbG5c3Vn6Tt.jpg",
+      "genre_ids": [
+        10751,
+        14,
+        10749
+      ]
+    },
+    {
+      "id": 770,
+      "title": "...E o Vento Levou",
+      "overview": "Scarlett O'Hara é uma jovem mimada que consegue tudo o que quer. No entanto, algo falta em sua vida: o amor de Ashley Wilkes, um nobre sulista que deve se casar com a sua prima Melanie. Tudo muda quando a Guerra Civil americana explode e Scarlett precisa lutar para sobreviver e manter a fazenda da família.",
+      "vote_average": 7.9,
+      "poster_url": "https://image.tmdb.org/t/p/w342/jYNxBGPznKSJjNqp1N713oTli0m.jpg",
+      "genre_ids": [
+        18,
+        10752,
+        10749
+      ]
+    },
+    {
+      "id": 744275,
+      "title": "After: Depois do Desencontro",
+      "overview": "Embora a história de amor entre Tessa Young e Hardin Scott tenha passado por muitas complicações, desta vez o problema é mais complexo do que nunca. Agora que Tessa tomou uma das decisões mais importantes de sua vida, tudo mudou completamente. Os segredos que vêm à tona sobre suas famílias colocam em risco seu relacionamento e seu futuro juntos. Embora a jovem saiba que Hardin a ama, os dois estão cercados de ciúme, ódio e perdão. Será que o amor entre os dois será o suficiente para manter seu relacionamento?",
+      "vote_average": 7.0,
+      "poster_url": "https://image.tmdb.org/t/p/w342/us14PtA89IjtR1JOdDamamPth7e.jpg",
+      "genre_ids": [
+        10749,
+        18
+      ]
+    },
+    {
+      "id": 967941,
+      "title": "Wicked: Parte II",
+      "overview": "Elphaba, agora demonizada como a Bruxa Má do Oeste, vive no exílio, escondida na floresta de Oz, e tenta desesperadamente expor a verdade que conhece sobre o Mágico. Enquanto isso, Glinda se tornou o glamouroso símbolo da bondade para todo o reino de Oz e desfruta das vantagens da fama e da popularidade. Quando uma multidão enfurecida se ergue contra a Bruxa Má, Glinda e Elphaba vão precisar se unir uma última vez.",
+      "vote_average": 6.6,
+      "poster_url": "https://image.tmdb.org/t/p/w342/8VUn52P2qFepxG8b5W8pjS7DzCT.jpg",
+      "genre_ids": [
+        14,
+        12,
+        10749
+      ]
+    },
+    {
+      "id": 1262,
+      "title": "Mais Estranho que a Ficção",
+      "overview": "Um auditor de imposto de renda, mentalmente instável, ouve uma voz em sua cabeça e descobre que é o protagonista de uma história em que ele morre no final. Agora, seu objetivo é encontrar a autora da obra e convencê-la a mudar a trágica versão.",
+      "vote_average": 7.3,
+      "poster_url": "https://image.tmdb.org/t/p/w342/e1F7GIAkwMvRAtEtx1Mja17xpb5.jpg",
+      "genre_ids": [
+        18,
+        35,
+        10749,
+        14
+      ]
+    },
+    {
+      "id": 1327862,
+      "title": "Se Não Fosse Você",
+      "overview": "Morgan Grant e sua filha Clara precisam lidar com o que ficou após um acidente devastador revelar uma traição chocante e forçá-las a confrontar segredos da família, redefinir o amor e se redescobrir.",
+      "vote_average": 7.0,
+      "poster_url": "https://image.tmdb.org/t/p/w342/9yLe2bgpjHIFQL09LdOtoMJDlkf.jpg",
+      "genre_ids": [
+        10749,
+        18
+      ]
+    },
+    {
+      "id": 1259102,
+      "title": "Eternidade",
+      "overview": "Numa vida após a morte, onde as almas têm uma semana para decidir onde passar a eternidade, Joan enfrenta a escolha impossível entre o homem com quem passou a vida e o seu primeiro amor, que morreu jovem e esperou décadas pela sua chegada.",
+      "vote_average": 7.0,
+      "poster_url": "https://image.tmdb.org/t/p/w342/ogU6WEsb6NexwUIPorHcSnkvISx.jpg",
+      "genre_ids": [
+        10749,
+        35,
+        18
+      ]
+    }
+  ],
+  "animacao": [
+    {
+      "id": 1297842,
+      "title": "Um Cabra Bom de Bola",
+      "overview": "Uma pequena cabra com grandes sonhos recebe uma oportunidade única na vida de se juntar aos profissionais e jogar berrobol, um esporte de alta intensidade, misto e de contato total, dominado pelos animais mais rápidos e ferozes do mundo.",
+      "vote_average": 7.8,
+      "poster_url": "https://image.tmdb.org/t/p/w342/x0SRTrltSJi1iQiIAUpyvkxnr41.jpg",
+      "genre_ids": [
+        16,
+        35,
+        10751
+      ]
+    },
+    {
+      "id": 1084242,
+      "title": "Zootopia 2",
+      "overview": "Os detetives Judy Hopps e Nick Wilde se encontram na trilha sinuosa de um réptil misterioso que chega a Zootopia e vira a metrópole dos mamíferos de cabeça para baixo.",
+      "vote_average": 7.6,
+      "poster_url": "https://image.tmdb.org/t/p/w342/fOCTW3D6RywUzoxpvxF7G6YM5bT.jpg",
+      "genre_ids": [
+        16,
+        35,
+        12,
+        10751,
+        9648
+      ]
+    },
+    {
+      "id": 1327819,
+      "title": "Cara de Um, Focinho de Outro",
+      "overview": "Mabel é uma jovem amante da natureza que tenta impedir o prefeito Jerry de construir uma rodovia que destruirá suas florestas locais. Graças a um experimento secreto de troca de cérebros, Mabel consegue transferir sua mente para um castor robô e segue para um lago, onde refugiados da industrialização invasora desembarcaram. Lá, ela tenta convencer os animais, liderados pelo castor majestoso Rei George, a se juntarem a ela e impedirem a construção da rodovia.",
+      "vote_average": 7.6,
+      "poster_url": "https://image.tmdb.org/t/p/w342/ftPFJBGbldoWiiPrmesW96zBzdH.jpg",
+      "genre_ids": [
+        16,
+        10751,
+        878,
+        35,
+        12
+      ]
+    },
+    {
+      "id": 1311031,
+      "title": "Demon Slayer: Kimetsu no Yaiba Castelo Infinito",
+      "overview": "Enquanto os membros dos caçadores e os Hashira participavam de um rigoroso programa de fortalecimento coletivo, conhecido como Treinamento dos Hashira, em preparação para a batalha final contra os demônios, Muzan Kibutsuji aparece na Mansão Ubuyashiki. Com a vida do líder da organização em risco, Tanjiro e os Hashira correm até o quartel-general, mas acabam sendo lançados, pelas mãos de Muzan, em uma queda profunda rumo a um espaço misterioso para um confronto final, o Castelo Infinito.",
+      "vote_average": 7.7,
+      "poster_url": "https://image.tmdb.org/t/p/w342/c55sXCaQBj3vuHqZe62tv90xCQS.jpg",
+      "genre_ids": [
+        16,
+        28,
+        14
+      ]
+    },
+    {
+      "id": 502356,
+      "title": "Super Mario Bros. O Filme",
+      "overview": "Transportados do Brooklyn para o Reino Cogumelo num passe de mágica, dois corajosos encanadores conhecem uma princesa e combatem um tirano que cospe fogo.",
+      "vote_average": 7.6,
+      "poster_url": "https://image.tmdb.org/t/p/w342/ij8sapIEbLf2g8npOu6XgsQS2w0.jpg",
+      "genre_ids": [
+        10751,
+        35,
+        12,
+        16,
+        14
+      ]
+    },
+    {
+      "id": 1167307,
+      "title": "Davi: Nasce Um Rei",
+      "overview": "Em um reino tomado pelo medo e pela opressão, um jovem pastor de ovelhas decide enfrentar um gigante guerreiro e a escuridão que o acompanha. Com nada além de fé, coragem, uma funda e algumas pedras nas mãos, ele desafia um império e desperta o coração de uma nação.",
+      "vote_average": 8.0,
+      "poster_url": "https://image.tmdb.org/t/p/w342/kr5Owq7ixs2gsOMZm1MferN8qZX.jpg",
+      "genre_ids": [
+        16,
+        10751,
+        18,
+        10402
+      ]
+    },
+    {
+      "id": 803796,
+      "title": "Guerreiras do K-Pop",
+      "overview": "Quando não estão lotando estádios, as estrelas do K-pop Rumi, Mira e Zoey usam seus poderes secretos para proteger os fãs contra ameaças sobrenaturais.",
+      "vote_average": 8.0,
+      "poster_url": "https://image.tmdb.org/t/p/w342/gbdMa7woiuF7IiEB5Spwv5od4oo.jpg",
+      "genre_ids": [
+        14,
+        10402,
+        35,
+        16
+      ]
+    },
+    {
+      "id": 129,
+      "title": "A Viagem de Chihiro",
+      "overview": "Chihiro e seus pais estão se mudando para uma cidade diferente. A caminho da nova casa, o pai decide pegar um atalho. Eles se deparam com uma mesa repleta de comida, embora ninguém esteja por perto. Chihiro sente o perigo, mas seus pais começam a comer. Quando anoitece, eles se transformam em porcos. Agora, apenas Chihiro pode salvá-los.",
+      "vote_average": 8.5,
+      "poster_url": "https://image.tmdb.org/t/p/w342/hhoKhsyJ3hFaxEm5pMdZRiTu2lJ.jpg",
+      "genre_ids": [
+        16,
+        10751,
+        14
+      ]
+    },
+    {
+      "id": 372058,
+      "title": "Your name.",
+      "overview": "Mitsuha é a filha do prefeito de uma pequena cidade, mas sonha em tentar a sorte em Tóquio. Taki trabalha em um restaurante em Tóquio e deseja largar o seu emprego. Os dois não se conhecem, mas estão conectados pelas imagens de seus sonhos.",
+      "vote_average": 8.5,
+      "poster_url": "https://image.tmdb.org/t/p/w342/eIm2nKC0125GyEPSWl6ODCA9J1S.jpg",
+      "genre_ids": [
+        16,
+        10749,
+        18
+      ]
+    },
+    {
+      "id": 991494,
+      "title": "Bob Esponja: Em Busca da Calça Quadrada",
+      "overview": "Bob Esponja e seus amigos da Fenda do Bikini embarcam na maior aventura de suas vidas. Ao tentar provar que é grandão, ele acaba invocando o temido pirata fantasma Holandês Voador, que arrasta Bob Esponja e Patrick para uma jornada caótica no submundo. Enfrentando desafios enormes e com uma equipe de resgate em seu encalço, Bob Esponja descobre que a verdadeira coragem aparece quando os amigos encaram o desconhecido juntos.",
+      "vote_average": 6.7,
+      "poster_url": "https://image.tmdb.org/t/p/w342/obDYToEfPFNMKW6x0eamCrjTMzK.jpg",
+      "genre_ids": [
+        16,
+        10751,
+        35,
+        12,
+        14
+      ]
+    },
+    {
+      "id": 1218925,
+      "title": "Chainsaw Man – O Filme: Arco da Reze",
+      "overview": "Denji trabalhava como Caçador de Demônios para a yakuza, tentando pagar a dívida que herdou de seus pais, até que um dia, ele é traído e morre. Em seus últimos momentos de consciência, ele forma um pacto com Pochita e essa fusão cria o Homem-Motosserra. Agora, em uma guerra brutal contra demônios, caçadores e inimigos secretos, uma garota misteriosa chamada Reze entrou em seu universo e Denji precisa enfrentar sua batalha mais perigosa até hoje, movido pelo amor em um mundo onde a sobrevivência não conhece regras.",
+      "vote_average": 8.3,
+      "poster_url": "https://image.tmdb.org/t/p/w342/tj1XhCQ2Rw2sT2o7lIdqPIYvjsx.jpg",
+      "genre_ids": [
+        16,
+        28,
+        10749,
+        14
+      ]
+    },
+    {
+      "id": 269149,
+      "title": "Zootopia: Essa Cidade é o Bicho",
+      "overview": "Em uma cidade de animais antropomórficos, uma raposa fugitiva vigarista e um coelho policial recruta precisam trabalhar juntos para desvendar uma conspiração.",
+      "vote_average": 7.8,
+      "poster_url": "https://image.tmdb.org/t/p/w342/27Ko4be7CeFmq2hVN7lp7TWG1sd.jpg",
+      "genre_ids": [
+        16,
+        12,
+        10751,
+        35
+      ]
+    },
+    {
+      "id": 1175942,
+      "title": "Os Caras Malvados 2",
+      "overview": "Os agora reformados Bad Guys estão tentando (muito, muito mesmo) ser bons, mas em vez disso se veem sequestrados para um assalto de alto risco e alcance mundial, arquitetado por uma nova equipe de criminosos que eles nunca imaginaram: as Bad Girls.",
+      "vote_average": 7.7,
+      "poster_url": "https://image.tmdb.org/t/p/w342/dbpNAldCtWjotI4vEiphPrz8DJh.jpg",
+      "genre_ids": [
+        10751,
+        35,
+        80,
+        12,
+        16
+      ]
+    },
+    {
+      "id": 808,
+      "title": "Shrek",
+      "overview": "Há muito tempo, em um pântano muito remoto, vivia um ogro feroz chamado Shrek. Um dia, sua solidão é interrompida por uma invasão de personagens surpreendentes. Há pequenos ratos cegos em sua comida, um enorme e péssimo lobo em sua cama, três porquinhos sem teto e outros seres que foram deportados de suas terras pelo maligno lorde Farquaad. Para salvar seu território, Shrek faz um pacto com Farquaad e parte em uma jornada para fazer a linda princesa Fiona concordar em ser a noiva do Senhor. Em uma missão tão importante, ele é acompanhado por um burro divertido, pronto para fazer qualquer coisa por Shrek: tudo, exceto ficar em silêncio.",
+      "vote_average": 7.8,
+      "poster_url": "https://image.tmdb.org/t/p/w342/wxeqfC221YMptRRdzxlijAh7q8l.jpg",
+      "genre_ids": [
+        16,
+        35,
+        14,
+        12,
+        10751
+      ]
+    },
+    {
+      "id": 569094,
+      "title": "Homem-Aranha: Através do Aranhaverso",
+      "overview": "Miles Morales retorna para o próximo capítulo da saga do Aranhaverso, uma aventura épica que transportará o Homem-Aranha em tempo integral e amigável do bairro do Brooklyn através do Multiverso para unir forças com Gwen Stacy e uma nova equipe de Homens-Aranha para enfrentar com um vilão mais poderoso do que qualquer coisa que eles já encontraram.",
+      "vote_average": 8.3,
+      "poster_url": "https://image.tmdb.org/t/p/w342/4CwKj1fw33BXYzxvrpM3GlAhK4L.jpg",
+      "genre_ids": [
+        16,
+        28,
+        12,
+        878
+      ]
+    },
+    {
+      "id": 1241982,
+      "title": "Moana 2",
+      "overview": "Depois de receber um chamado inesperado de seus ancestrais navegadores, Moana vai viajar para mares distantes da Oceania, em águas perdidas em uma aventura perigosa.",
+      "vote_average": 7.0,
+      "poster_url": "https://image.tmdb.org/t/p/w342/dnqgkKoIGf6hErzRm6VtaK1OJrD.jpg",
+      "genre_ids": [
+        16,
+        12,
+        10751,
+        35,
+        14
+      ]
+    },
+    {
+      "id": 519182,
+      "title": "Meu Malvado Favorito 4",
+      "overview": "Nesta sequência, o vilão mais amado do planeta retorna e agora Gru, Lucy, Margo, Edith e Agnes dão as boas-vindas a um novo membro da família: Gru Jr., que pretende atormentar seu pai. Enquanto se adapta com o pequeno, Gru enfrenta um novo inimigo, Maxime Le Mal, forçando sua namorada Valentina e a família a fugir do perigo.",
+      "vote_average": 7.0,
+      "poster_url": "https://image.tmdb.org/t/p/w342/s8BefU3RIJrfipTpsDtOiatlp8j.jpg",
+      "genre_ids": [
+        10751,
+        35,
+        16,
+        878,
+        28
+      ]
+    },
+    {
+      "id": 324857,
+      "title": "Homem-Aranha: No Aranhaverso",
+      "overview": "Miles Morales é um jovem negro do Brooklyn que se tornou o Homem-Aranha inspirado no legado de Peter Parker, já falecido. Entretanto, ao visitar o túmulo de seu ídolo em uma noite chuvosa, ele é surpreendido com a presença do próprio Peter, vestindo o traje do herói aracnídeo sob um sobretudo. A surpresa fica ainda maior quando Miles descobre que ele veio de uma dimensão paralela, assim como outras variações do Homem-Aranha.",
+      "vote_average": 8.4,
+      "poster_url": "https://image.tmdb.org/t/p/w342/voO5GpUKdMfryPHxqxdPBj319ky.jpg",
+      "genre_ids": [
+        16,
+        28,
+        12,
+        878
+      ]
+    },
+    {
+      "id": 14836,
+      "title": "Coraline e o Mundo Secreto",
+      "overview": "Entediada em sua nova casa, a pequena Coraline descobre uma porta secreta que contém um mundo parecido com o dela, porém melhor em muitas maneiras. Coraline se encanta com a descoberta, mas logo descobre que há algo de errado quando seus pais alternativos tentam mantê-la eternamente nesse mundo paralelo.",
+      "vote_average": 7.9,
+      "poster_url": "https://image.tmdb.org/t/p/w342/rranXmvqPT4NoXzmxhFtXr9nNYT.jpg",
+      "genre_ids": [
+        16,
+        10751,
+        14
+      ]
+    },
+    {
+      "id": 980477,
+      "title": "Ne Zha 2: O Renascer da Alma",
+      "overview": "Após uma grande catástrofe, as almas de Ne Zha e Ao Bing são salvas, mas seus corpos enfrentam a ruína. Para lhes dar uma nova vida, Taiyi Zhenren recorre à mística lótus de sete cores em uma ousada tentativa de reconstruí-los e mudar seus destinos.",
+      "vote_average": 8.1,
+      "poster_url": "https://image.tmdb.org/t/p/w342/wJnb4ikygiVuYLuvj4b4Jpvudn1.jpg",
+      "genre_ids": [
+        16,
+        14,
+        12,
+        28
+      ]
+    }
+  ],
+  "thriller": [
+    {
+      "id": 1084187,
+      "title": "Lindas e Letais",
+      "overview": "Um thriller repleto de ação no qual cinco bailarinas, perdidas em uma floresta remota a caminho de uma competição de dança, encontram abrigo em uma pousada sinistra à beira da estrada, administrada por Devora Kasimer, e precisam usar seu treinamento de elite como arma para sobreviver.",
+      "vote_average": 6.8,
+      "poster_url": "https://image.tmdb.org/t/p/w342/6vbABd8OYF2bbZyYOift0BxhQnv.jpg",
+      "genre_ids": [
+        28,
+        53
+      ]
+    },
+    {
+      "id": 1290821,
+      "title": "Missão Refúgio",
+      "overview": "Um ex-assassino de aluguel, agora um homem recluso numa ilha costeira remota, salva uma garota de uma tempestade terrível, colocando os dois na mira do perigo. Forçado a sair da aposentadoria e do isolamento, o homem é obrigado a enfrentar seu passado perigoso para proteger a menina enquanto tenta sobreviver uma jornada tensa repleta de perigos e redenção.",
+      "vote_average": 6.7,
+      "poster_url": "https://image.tmdb.org/t/p/w342/hSvhZRkbYD9crC4nqy8uCk9EdFH.jpg",
+      "genre_ids": [
+        28,
+        80,
+        53
+      ]
+    },
+    {
+      "id": 1198994,
+      "title": "Socorro!",
+      "overview": "Após um acidente aéreo, um chefe e uma funcionária que se odeiam são os únicos sobreviventes. Isolados numa ilha deserta, eles precisam decidir se cooperam ou competem para escapar, mas é difícil deixar para trás os conflitos do escritório.",
+      "vote_average": 7.1,
+      "poster_url": "https://image.tmdb.org/t/p/w342/furPD78BZsKAWZoGvoqArIJYPy2.jpg",
+      "genre_ids": [
+        27,
+        53,
+        35
+      ]
+    },
+    {
+      "id": 1171145,
+      "title": "Caminhos do Crime",
+      "overview": "Um ladrão enigmático realiza assaltos de alto risco ao longo da icônica rodovia 101. Quando ele mira o golpe de sua vida — na esperança de que este seja seu último trabalho —, seu caminho cruza com o de uma corretora de seguros desiludida, forçando os dois a colaborar. Determinado a desvendar o caso, um detetive implacável se aproxima da operação.",
+      "vote_average": 7.0,
+      "poster_url": "https://image.tmdb.org/t/p/w342/hHnEDdzdmK8ZyTfkvWz2BI64YXY.jpg",
+      "genre_ids": [
+        80,
+        53
+      ]
+    },
+    {
+      "id": 1265609,
+      "title": "Máquina de Guerra",
+      "overview": "Em sua última missão de treinamento, um engenheiro de combate precisa liderar sua equipe de elite em uma luta pela sobrevivência contra uma máquina mortal.",
+      "vote_average": 7.3,
+      "poster_url": "https://image.tmdb.org/t/p/w342/48h40o6Q97hZaqH0g7bOiXOrImX.jpg",
+      "genre_ids": [
+        28,
+        878,
+        53
+      ]
+    },
+    {
+      "id": 840464,
+      "title": "Destruição Final 2",
+      "overview": "Tendo encontrado a segurança do bunker da Groenlândia depois que o cometa Clarke dizimou a Terra, a família Garrity deve agora arriscar tudo para embarcar em uma jornada angustiante através do deserto da Europa para encontrar um novo lar.",
+      "vote_average": 6.5,
+      "poster_url": "https://image.tmdb.org/t/p/w342/s6nzVekLSd1y0vGjLz8WPfC1Sau.jpg",
+      "genre_ids": [
+        12,
+        53,
+        878
+      ]
+    },
+    {
+      "id": 1236153,
+      "title": "Justiça Artificial",
+      "overview": "Em um futuro próximo, um detetive é acusado de assassinar a própria esposa. Ele tem 90 minutos para provar sua inocência à avançada justiça de Inteligência Artificial que ele mesmo ajudou a implementar.",
+      "vote_average": 7.0,
+      "poster_url": "https://image.tmdb.org/t/p/w342/vI7bNC07BaSEvZ9ATzV57wpAYwQ.jpg",
+      "genre_ids": [
+        878,
+        28,
+        53
+      ]
+    },
+    {
+      "id": 467905,
+      "title": "Manual Prático da Vingança Lucrativa",
+      "overview": "Becket Redfellow é um homem marcado pela frustração e pela falta de oportunidades. Após a morte de sua mãe, ele decide reivindicar a fortuna que acredita ser sua por direito, custe o que custar. Disposto a tudo para recuperar seu lugar na elite, o herdeiro despojado traça um plano implacável para eliminar, um a um, os familiares que se interpõem entre ele e o patrimônio dos Redfellow. No entanto, sua jornada de vingança rapidamente se transforma em uma sequência de acidentes inquietantes, onde cada crime parece aproximá-lo ainda mais do seu próprio desastre.",
+      "vote_average": 7.0,
+      "poster_url": "https://image.tmdb.org/t/p/w342/yC7kvzSBopVid128M60E5YOKsp.jpg",
+      "genre_ids": [
+        35,
+        53
+      ]
+    },
+    {
+      "id": 1368166,
+      "title": "A Empregada",
+      "overview": "Millie é uma mulher passando por dificuldades que se sente aliviada com a chance de um novo começo como empregada doméstica de Nina e Andrew, um casal rico. Logo, ela descobre que os segredos da família são muito mais perigosos do que os seus.",
+      "vote_average": 7.2,
+      "poster_url": "https://image.tmdb.org/t/p/w342/aoBcz7hOFPdJS9aWMr1z4Gk76rN.jpg",
+      "genre_ids": [
+        9648,
+        53
+      ]
+    },
+    {
+      "id": 1419406,
+      "title": "A Sombra do Perigo",
+      "overview": "Um policial aposentado, especialista em rastreamento, é convocado de volta à ativa em Macau para desmantelar uma gangue de ladrões de alta tecnologia, colocando suas táticas tradicionais contra a tecnologia avançada, num jogo de gato e rato com uma equipe de jovens detetives de elite.",
+      "vote_average": 7.2,
+      "poster_url": "https://image.tmdb.org/t/p/w342/wqdHjQ1UpfQgS9jN9So5PLNTwoX.jpg",
+      "genre_ids": [
+        28,
+        80,
+        18,
+        53
+      ]
+    },
+    {
+      "id": 1054867,
+      "title": "Uma Batalha Após a Outra",
+      "overview": "Bob, um revolucionário fracassado, vive chapado e em um estado de paranoia, sobrevivendo isolado com Willa, sua filha espirituosa e independente. Quando seu perverso arqui-inimigo ressurge após 16 anos e ela desaparece, o ex-radical corre para encontrá-la, pai e filha tendo que enfrentar as consequências do passado dele.",
+      "vote_average": 7.4,
+      "poster_url": "https://image.tmdb.org/t/p/w342/a1a2JYoBTchMy1stqpSHxS5MMle.jpg",
+      "genre_ids": [
+        53,
+        80,
+        35
+      ]
+    },
+    {
+      "id": 1291608,
+      "title": "Dhurandhar",
+      "overview": "No início da década de 2000, um policial se infiltra nas gangues do submundo criminoso de Karachi para desmantelar um grupo violento.",
+      "vote_average": 7.0,
+      "poster_url": "https://image.tmdb.org/t/p/w342/8FHOtUpNIk5ZPEay2N2EY5lrxkv.jpg",
+      "genre_ids": [
+        28,
+        80,
+        53
+      ]
+    },
+    {
+      "id": 1387382,
+      "title": "Temporada de Sangue",
+      "overview": "Um pai solteiro fará de tudo para proteger sua filha de 13 anos do mundo corrupto que a cerca, enfrentando ameaças que testam seus limites enquanto luta para garantir a ela um futuro mais seguro.",
+      "vote_average": 7.0,
+      "poster_url": "https://image.tmdb.org/t/p/w342/fDXOdFhBoUNyY7GsM11z7EfKk68.jpg",
+      "genre_ids": [
+        28,
+        18,
+        53
+      ]
+    },
+    {
+      "id": 1272837,
+      "title": "Extermínio: O Templo dos Ossos",
+      "overview": "Dr. Kelson se vê envolvido num novo relacionamento chocante – com consequências que podem mudar o mundo como eles o conhecem – e o encontro de Spike com Jimmy Crystal se torna um pesadelo do qual ele não consegue escapar.",
+      "vote_average": 7.2,
+      "poster_url": "https://image.tmdb.org/t/p/w342/tbECC1mMbytgaynCnBhgVPzCZcd.jpg",
+      "genre_ids": [
+        27,
+        53,
+        878
+      ]
+    },
+    {
+      "id": 1233413,
+      "title": "Pecadores",
+      "overview": "Dispostos a deixar suas vidas conturbadas para trás, irmãos gêmeos retornam à sua cidade natal para recomeçar suas vidas do zero, quando descobrem que um mal ainda maior está à espera deles para recebê-los de volta.",
+      "vote_average": 7.5,
+      "poster_url": "https://image.tmdb.org/t/p/w342/v0Ljeti537c6cNKweuEN0iaU3x4.jpg",
+      "genre_ids": [
+        27,
+        28,
+        53
+      ]
+    },
+    {
+      "id": 934456,
+      "title": "Americana",
+      "overview": "Quando uma rara Camisa Fantasma Lakota cai no mercado negro em uma pequena cidade da Dakota do Sul, as vidas de forasteiros e excluídos locais se entrelaçam de forma violenta.",
+      "vote_average": 6.3,
+      "poster_url": "https://image.tmdb.org/t/p/w342/83Gis9pOKCvAdaKXCNChey4IZyL.jpg",
+      "genre_ids": [
+        80,
+        53,
+        37,
+        28
+      ]
+    },
+    {
+      "id": 155,
+      "title": "Batman: O Cavaleiro das Trevas",
+      "overview": "Após dois anos desde o surgimento do Batman, os criminosos de Gotham City têm muito o que temer. Com a ajuda do tenente James Gordon e do promotor público Harvey Dent, Batman luta contra o crime organizado. Acuados com o combate, os chefes do crime aceitam a proposta feita pelo Coringa e o contratam para combater o Homem-Morcego.",
+      "vote_average": 8.5,
+      "poster_url": "https://image.tmdb.org/t/p/w342/4lj1ikfsSmMZNyfdi8R8Tv5tsgb.jpg",
+      "genre_ids": [
+        28,
+        80,
+        53
+      ]
+    },
+    {
+      "id": 425274,
+      "title": "Truque de Mestre: O 3° Ato",
+      "overview": "Os Quatro Cavaleiros estão de volta com uma nova geração de ilusionistas e uma trama cheia de reviravoltas, mágicas e surpresas, em um truque que envolve a joia mais valiosa do mundo.",
+      "vote_average": 6.5,
+      "poster_url": "https://image.tmdb.org/t/p/w342/xUddC5HTjMWmClD007QBWR0BLHY.jpg",
+      "genre_ids": [
+        53,
+        80
+      ]
+    },
+    {
+      "id": 1306368,
+      "title": "Dinheiro Suspeito",
+      "overview": "Quando uma equipe de policiais de Miami encontra milhões de dólares em um muquifo usado como esconderijo, a confiança fica abalada e todos viram suspeitos.",
+      "vote_average": 7.1,
+      "poster_url": "https://image.tmdb.org/t/p/w342/bm04TGkE5ySrHbHlO6YloYZvs4P.jpg",
+      "genre_ids": [
+        28,
+        53,
+        80
+      ]
+    },
+    {
+      "id": 13012,
+      "title": "Felon",
+      "overview": "Wade Porter está prestes a se casar, mas o sonho vira pesadelo quando ele, acidentalmente, mata um assaltante que invadira sua casa. Sentenciado a três anos de prisão, as coisas pioram quando um acidente no ônibus que iria levá-lo ao seu cárcere, faz com que ele acaba na ala de segurança máxima controlada por um corrupto tenente.",
+      "vote_average": 7.1,
+      "poster_url": "https://image.tmdb.org/t/p/w342/1eYGh6DETJFXQt5PWjV8lp8YZvx.jpg",
+      "genre_ids": [
+        80,
+        18,
+        53,
+        28
+      ]
+    }
+  ]
+}
