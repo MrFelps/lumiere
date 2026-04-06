@@ -1,0 +1,107 @@
+.cadastro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 0;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: 'Inter', sans-serif;
+  background-color: #000; 
+}
+
+h1 {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 25px; 
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; 
+  padding: 40px;
+  width: 450px; 
+  border-radius: 8px;
+  background-color: #1e1e1e;
+  box-sizing: border-color;
+  
+  .input-block {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 100%;
+  }
+
+  .row {
+    display: flex;
+    gap: 15px; 
+    width: 100%;
+    box-sizing: border-box;
+    
+    .input-block {
+      flex: 1;
+      width: 0;
+    }
+  }
+
+  label {
+    color: #a1a1a1; 
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  input {
+    border: 1px solid #1a1a1a;
+    border-radius: 4px;
+    height: 48px;
+    background-color: #050505;
+    color: #fff; 
+    font-size: 16px;
+    padding: 0 15px;
+    width: 100%;
+    box-sizing: border-box;
+    outline: none;
+    transition: border-color 0.2s;
+
+    &:focus {
+      border-color: #895129; 
+    }
+
+    &::placeholder {
+      color: #555; 
+    }
+  }
+
+  button {
+    border-radius: 4px;
+    color: #fff;
+    background-color: #895129;
+    height: 50px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 15px;
+    transition: filter 0.2s;
+    width: 100%;
+
+    &:hover {
+      filter: brightness(1.15);
+    }
+  }
+
+  .login-link {
+    color: #b3b3b3;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 20px;
+    
+    .entrarLaranja {
+      color: #A5522D;
+      cursor: pointer;
+      margin-left: 5px;
+      font-weight: bold;
+  }
+}
+}

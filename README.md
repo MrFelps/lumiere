@@ -1,29 +1,16 @@
-﻿# [NOME A DEFINIR] - Grupo 7
-<!-- TODO: time precisa decidir o nome do app -->
+# React + Vite
 
-## Time
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-| Dev | Nome | Responsabilidade |
-|-----|------|-----------------|
-| Dev 1 | Guilherme | Frontend - Telas Principais |
-| Dev 2 | Pedro | Frontend - Login, Perfil e Bot |
-| Dev 3 | Leticia | Backend - Filmes e Bot |
-| Dev 4 | Marcos | Backend - Banco de Dados |
-| Dev 5 | Felipe | Backend - FastAPI e JSON Mock |
+Currently, two official plugins are available:
 
-## Como rodar o backend
-```bash
-cd backend
-pip install fastapi uvicorn
-uvicorn main:app --reload
-```
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## Branches
+## React Compiler
 
-- main -> codigo estavel
-- dev -> integracao geral
-- feature/nome -> desenvolvimento individual
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## JSON Mock
+## Expanding the ESLint configuration
 
-Disponivel em backend/mock/filmes.json
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.

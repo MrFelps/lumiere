@@ -1,0 +1,31 @@
+.main-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 40px; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  background-color: transparent;
+  z-index: 1000; 
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.logo-img {
+  height: 80px; 
+  width: auto; 
+}
+
+.logo-text {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
