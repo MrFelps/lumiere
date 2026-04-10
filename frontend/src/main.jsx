@@ -5,6 +5,8 @@ import { GoogleOAuthProvider } from '@react-oauth/google'
 import Cadastro from './pages/Cadastro'
 import Login from './pages/Login'
 import './index.css'
+import SelecaoGeneros from './pages/SelecaoGeneros';
+import Notificacoes from "./pages/Notificacao/index";
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -14,7 +16,9 @@ ReactDOM.createRoot(document.getElementById('root')).render(
           <Route path="/" element={<Login />} />
           <Route path="/login" element={<Login />} />
           <Route path="/cadastro" element={<Cadastro />} />
-          
+          <Route path="/selecao-generos" element={<SelecaoGeneros />} />
+          <Route path="/notificacoes" element={<Notificacoes />} />
+
           <Route path="*" element={<Navigate to="/login" replace />} />
         </Routes>
       </BrowserRouter>
