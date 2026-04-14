@@ -7,6 +7,7 @@ import Login from './pages/Login'
 import './index.css'
 import SelecaoGeneros from './pages/SelecaoGeneros';
 import Notificacoes from "./pages/Notificacao/index";
+import Perfil from './pages/Perfil';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -18,6 +19,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
           <Route path="/cadastro" element={<Cadastro />} />
           <Route path="/selecao-generos" element={<SelecaoGeneros />} />
           <Route path="/notificacoes" element={<Notificacoes />} />
+          <Route path="/perfil" element={<Perfil />} />
 
           <Route path="*" element={<Navigate to="/login" replace />} />
         </Routes>
