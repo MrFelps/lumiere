@@ -1,0 +1,149 @@
+{
+  "id": 1084187,
+  "title": "Lindas e Letais",
+  "overview": "Um thriller repleto de ação no qual cinco bailarinas, perdidas em uma floresta remota a caminho de uma competição de dança, encontram abrigo em uma pousada sinistra à beira da estrada, administrada por Devora Kasimer, e precisam usar seu treinamento de elite como arma para sobreviver.",
+  "release_date": "2026-03-13",
+  "runtime": 88,
+  "vote_average": 6.8,
+  "vote_count": 126,
+  "tagline": "Sangue, suor e tutus.",
+  "status": "Released",
+  "poster_url": "https://image.tmdb.org/t/p/w500/6vbABd8OYF2bbZyYOift0BxhQnv.jpg",
+  "backdrop_url": "https://image.tmdb.org/t/p/w780/6GuqUJ33BnWDAoVPZP55gDr5G55.jpg",
+  "genres": [
+    {
+      "id": 28,
+      "name": "Ação"
+    },
+    {
+      "id": 53,
+      "name": "Thriller"
+    }
+  ],
+  "cast": [
+    {
+      "id": 1483976,
+      "name": "Maddie Ziegler",
+      "character": "Bones",
+      "profile_url": "https://image.tmdb.org/t/p/w185/zMY7VuUUvJjzi52bERurbe8vKsR.jpg"
+    },
+    {
+      "id": 1452046,
+      "name": "Lana Condor",
+      "character": "Princess",
+      "profile_url": "https://image.tmdb.org/t/p/w185/vWn27Fk2GLwH7o9fBG9hBWZI6OR.jpg"
+    },
+    {
+      "id": 963429,
+      "name": "Iris Apatow",
+      "character": "Zoe",
+      "profile_url": "https://image.tmdb.org/t/p/w185/5RgL4nUBPkAk8jcJqu6R42ixE0j.jpg"
+    },
+    {
+      "id": 1815539,
+      "name": "Millicent Simmonds",
+      "character": "Chloe",
+      "profile_url": "https://image.tmdb.org/t/p/w185/clNmG7JlsI5qZTVjYoXiGZ3Pvbq.jpg"
+    },
+    {
+      "id": 2749024,
+      "name": "Avantika",
+      "character": "Grace",
+      "profile_url": "https://image.tmdb.org/t/p/w185/4kASmotHYtrwkIMGmyArKLvaQOz.jpg"
+    },
+    {
+      "id": 8445,
+      "name": "Michael Culkin",
+      "character": "Lothar Marcovic",
+      "profile_url": "https://image.tmdb.org/t/p/w185/a8GdQBEU15QvIHXOYbs5vUgyNSh.jpg"
+    },
+    {
+      "id": 82807,
+      "name": "Lydia Leonard",
+      "character": "Miss Thorna",
+      "profile_url": "https://image.tmdb.org/t/p/w185/hZyocFIvGrZxJD3sDxAtWvMjDyJ.jpg"
+    },
+    {
+      "id": 139,
+      "name": "Uma Thurman",
+      "character": "Devora Kasimer",
+      "profile_url": "https://image.tmdb.org/t/p/w185/sBgAZWi3o4FsnaTvnTNtK6jpQcF.jpg"
+    },
+    {
+      "id": 2069533,
+      "name": "Tamás Hagyó",
+      "character": "Bus Driver",
+      "profile_url": "https://image.tmdb.org/t/p/w185/dHFdRHgEIomRk95rX44MBKjObZ3.jpg"
+    },
+    {
+      "id": 4617051,
+      "name": "Julian Krenn",
+      "character": "Yuri",
+      "profile_url": "https://image.tmdb.org/t/p/w185/zLARA7blzks4bo43Pkla3rCOFkO.jpg"
+    }
+  ],
+  "directors": [
+    {
+      "id": 1404799,
+      "name": "Vicky Jewson"
+    }
+  ],
+  "recommendations": [
+    {
+      "id": 44214,
+      "title": "Cisne Negro",
+      "overview": "Nina é uma bailarina cuja obsessão pela dança supera todas as facetas de sua vida. Quando o diretor artístico da companhia decide substituir sua prima ballerina para a produção de estreia de \"O Lago dos Cisnes\", Nina é sua primeira escolha. Sua concorrente é a novata Lily. Embora Nina seja perfeita para o papel do Cisne Branco, Lily personifica o Cisne Negro. A rivalidade entre as duas bailarinas se transforma em uma amizade distorcida e o lado obscuro de Nina começa a vir à tona.",
+      "vote_average": 7.7,
+      "poster_url": "https://image.tmdb.org/t/p/w342/tqlmLBt2i5SHNpXEj2nqk10Crwa.jpg"
+    },
+    {
+      "id": 324544,
+      "title": "Nas Terras Perdidas",
+      "overview": "Uma rainha, desesperada para ganhar o dom da mudança de forma, toma uma atitude ousada: contrata a feiticeira Gray Alys, uma mulher tão temida quanto poderosa. Enviada para a selva fantasmagórica das Terras Perdidas, Alys e seu guia, o andarilho Boyce, devem enganar e lutar contra o homem e o diabo em uma fábula que explora a natureza do bem e do mal, da dívida e da satisfação, do amor e da perda.",
+      "vote_average": 6.4,
+      "poster_url": "https://image.tmdb.org/t/p/w342/c3gA6bnnsXG2JoHBBkXsD6w6emm.jpg"
+    },
+    {
+      "id": 1242898,
+      "title": "Predador: Terras Selvagens",
+      "overview": "No futuro, em um planeta remoto, um jovem Predador, rejeitado por seu clã, encontra em Thia uma aliada improvável e embarca em uma jornada traiçoeira em busca do adversário supremo.",
+      "vote_average": 7.7,
+      "poster_url": "https://image.tmdb.org/t/p/w342/f3yLlUrJDdDL8d4nxywyotN45SL.jpg"
+    },
+    {
+      "id": 1125899,
+      "title": "Cleaner",
+      "overview": "Ativistas criminosos fazem 300 reféns. Um extremista planeja assassinato em massa como mensagem para o mundo. Ex-soldada que virou limpadora de janelas tenta resgatar os reféns.",
+      "vote_average": 6.3,
+      "poster_url": "https://image.tmdb.org/t/p/w342/x5AakXuniWrSC26XE9LxAlzlNn0.jpg"
+    },
+    {
+      "id": 834,
+      "title": "Anjos da Noite: A Evolução",
+      "overview": "Após o final do primeiro filme, a união de Selene a vampira e seu namorado Michael o vampiro-lobisomen terá de ser mais forte que o amor. Os dois terão de enfrentar uma legião de vampiros e lobisomen, e a evolução das espécies. Além disso, o centenário vampiro Marcus desperta de seu sono, pronto para matá-los.",
+      "vote_average": 6.6,
+      "poster_url": "https://image.tmdb.org/t/p/w342/psVdP3DDfDzNg0nl25UwBG4rWdw.jpg"
+    },
+    {
+      "id": 1086910,
+      "title": "A Princesa Perdida",
+      "overview": "Alec Touati é um bilionário americano que embarca em uma jornada transformadora para descobrir suas raízes. Após uma visão induzida por Ayahuasca, ele se vê em um castelo assombrado no Marrocos, onde conhece Hanna. Ela compartilha a história de sua mãe, uma princesa obrigada a se casar com um príncipe saudita, mas que se apaixonou pelo zelador do castelo. À medida que a gravidez da princesa se torna evidente, o casal enfrenta consequências perigosas. Alec deve proteger o legado do castelo e confrontar seu próprio destino.",
+      "vote_average": 6.3,
+      "poster_url": "https://image.tmdb.org/t/p/w342/8EnFIZuCmkgkTSbWmCZGrp6CtDK.jpg"
+    },
+    {
+      "id": 426814,
+      "title": "Os Domésticos",
+      "overview": "Em um mundo pós-apocalíptico onde os sobreviventes se dividiram em facções mortais, o ex-casal Nina e Mark parte em busca do paradeiro dos pais dela. O cruel é que não há lugar seguro, e o desafio mais difícil será conseguir sobreviver.",
+      "vote_average": 6.1,
+      "poster_url": "https://image.tmdb.org/t/p/w342/h6OReqEC3AQEG4LaWtLH6PIQ2aB.jpg"
+    },
+    {
+      "id": 1027385,
+      "title": "Jogo Perigoso: Vítimas da Herança",
+      "overview": "Uma reunião de família em uma mansão remota toma um rumo letal quando eles ficam presos lá dentro e são forçados a jogar um jogo de sobrevivência mortal, onde apenas um sairá vivo.",
+      "vote_average": 6.0,
+      "poster_url": "https://image.tmdb.org/t/p/w342/r3cbG9vXgbP3PypCR9ILP7b6aSE.jpg"
+    }
+  ]
+}

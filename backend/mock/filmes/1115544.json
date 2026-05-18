@@ -1,0 +1,153 @@
+{
+  "id": 1115544,
+  "title": "Mike & Nick & Nick & Alice",
+  "overview": "Uma comédia de ação hilária e estilizada, para maiores de 18 anos, sobre dois gângsteres e a mulher que eles amam, tentando sobreviver à noite mais perigosa de suas vidas. Como se isso não bastasse, tem um ingrediente inusitado na mistura: uma máquina do tempo.",
+  "release_date": "2026-03-14",
+  "runtime": 107,
+  "vote_average": 6.6,
+  "vote_count": 73,
+  "tagline": "Uma comédia de viagem no tempo, traição e muita ação.",
+  "status": "Released",
+  "poster_url": "https://image.tmdb.org/t/p/w500/7F0jc75HrSkLVcvOXR2FXAIwuEv.jpg",
+  "backdrop_url": "https://image.tmdb.org/t/p/w780/uNToXatdunyvWXyXMrTI1nLvh6r.jpg",
+  "genres": [
+    {
+      "id": 35,
+      "name": "Comédia"
+    },
+    {
+      "id": 878,
+      "name": "Ficção científica"
+    },
+    {
+      "id": 80,
+      "name": "Crime"
+    }
+  ],
+  "cast": [
+    {
+      "id": 11006,
+      "name": "James Marsden",
+      "character": "Quick Draw Mike",
+      "profile_url": "https://image.tmdb.org/t/p/w185/gmM9kCBzMeSGmkVXJGAkm25i9pe.jpg"
+    },
+    {
+      "id": 4937,
+      "name": "Vince Vaughn",
+      "character": "Future Nick / Present Nick",
+      "profile_url": "https://image.tmdb.org/t/p/w185/qImHvsd7SFJh46Ujx50xUfkeMNz.jpg"
+    },
+    {
+      "id": 1222992,
+      "name": "Eiza González",
+      "character": "Alice",
+      "profile_url": "https://image.tmdb.org/t/p/w185/w2pZ8gLqZNguj8cqrDGbMw2Ibj0.jpg"
+    },
+    {
+      "id": 65827,
+      "name": "Keith David",
+      "character": "Sosa",
+      "profile_url": "https://image.tmdb.org/t/p/w185/1x0QXavmIy3QmhyrOsV7gMnJaEx.jpg"
+    },
+    {
+      "id": 1304335,
+      "name": "Jimmy Tatro",
+      "character": "Jimmy Boy",
+      "profile_url": "https://image.tmdb.org/t/p/w185/xehT2IK65qXKSctcYChrWLE04pI.jpg"
+    },
+    {
+      "id": 17401,
+      "name": "Stephen Root",
+      "character": "Chet",
+      "profile_url": "https://image.tmdb.org/t/p/w185/2Zwi6AydqQQ9InVdhjYcfJXNzkp.jpg"
+    },
+    {
+      "id": 1610940,
+      "name": "Lewis Tan",
+      "character": "Roid Rage Ryan",
+      "profile_url": "https://image.tmdb.org/t/p/w185/yMr3mwHHBpfbXwDDkahOzFtTCak.jpg"
+    },
+    {
+      "id": 222121,
+      "name": "Ben Schwartz",
+      "character": "Symon",
+      "profile_url": "https://image.tmdb.org/t/p/w185/hWEQe66jXUAGVhbU5dy8s0IrrAQ.jpg"
+    },
+    {
+      "id": 4570,
+      "name": "Emily Hampshire",
+      "character": "Sam",
+      "profile_url": "https://image.tmdb.org/t/p/w185/kXb6SAUOACHN9F3M4rkxF7BsJGN.jpg"
+    },
+    {
+      "id": 1457999,
+      "name": "Arturo Castro",
+      "character": "Dumbass Tony",
+      "profile_url": "https://image.tmdb.org/t/p/w185/pbLoDCfjm3fLtGHVqQcnbM2d0cu.jpg"
+    }
+  ],
+  "directors": [
+    {
+      "id": 937016,
+      "name": "BenDavid Grabinski"
+    }
+  ],
+  "recommendations": [
+    {
+      "id": 843543,
+      "title": "Ajustando um Amor",
+      "overview": "O que você faria se pudesse viajar para o passado de seus da pessoa que você ama, curar seus traumas, resolver seus problemas e transformá-la no parceiro perfeito?",
+      "vote_average": 5.8,
+      "poster_url": "https://image.tmdb.org/t/p/w342/7SwFrSfjN2sW1HV8S9GkgzIsLuN.jpg"
+    },
+    {
+      "id": 22230,
+      "title": "Feliz Coincidência",
+      "overview": "Ruby Weaver (Marisa Tomei) tem um sério problema para achar o homem certo, tanto que tem um caixa com a fotografia de todos os seus ex-namorados. Sam Deed (Vincent D'Onofrio), seu atual namorado, parece ser diferente: é extremamente gentil e preocupado com ela. Porém algumas coisas com o tempo se revelam surpreendentes, assim ela conta para a sua analista, Maggie Ann Ford (Holland Taylor), detalhes sobre Sam. O mais mais espantoso é que Sam diz que é do futuro, de 2470 para ser mais exato, e que voltou no tempo para evitar ser processado pela morte da sua irmã, que ele jura para Ruby que foi acidental. Sam viu a foto de Ruby no século XXV quando pesquisava sobre mortes acidentais e acha que quando voltou ao passado foi uma feliz coincidência encontrá-la. Mas há uma notícia que não é boa, pois Ruby morrerá brevemente em um acidente.",
+      "vote_average": 6.8,
+      "poster_url": "https://image.tmdb.org/t/p/w342/i8PFA5SAoB1KAguax0REjzfxoNE.jpg"
+    },
+    {
+      "id": 1119449,
+      "title": "Boa Sorte, Divirta-se, Não Morra",
+      "overview": "Um homem vindo do futuro chega a uma lanchonete em Los Angeles, onde precisa recrutar a combinação exata de clientes insatisfeitos para acompanhá-lo em uma missão de uma noite e seis quarteirões para salvar o mundo da ameaça terminal de uma inteligência artificial descontrolada.",
+      "vote_average": 7.0,
+      "poster_url": "https://image.tmdb.org/t/p/w342/ybXcKzJr0nuRZaLB74ujITNPNeH.jpg"
+    },
+    {
+      "id": 696806,
+      "title": "O Projeto Adam",
+      "overview": "Depois de viajar no tempo e ir parar em 2022 sem querer, o piloto de combate Adam Reed se une à sua versão de 12 anos de idade para salvar o futuro.",
+      "vote_average": 7.0,
+      "poster_url": "https://image.tmdb.org/t/p/w342/11MJy6lkt7yTEIowEPIkaK4B7lM.jpg"
+    },
+    {
+      "id": 528502,
+      "title": "Aporia",
+      "overview": "Desde a perda de seu marido Sophie tem lutado para administrar a dor, um emprego de tempo integral e cuidados com sua filha devastada mas, quando um ex-físico revela uma máquina secreta que dobra o tempo, Sophie se depara com uma escolha impossível.",
+      "vote_average": 6.2,
+      "poster_url": "https://image.tmdb.org/t/p/w342/8BnoaS3M8zEVE6pCkOoyyEjswCH.jpg"
+    },
+    {
+      "id": 12921,
+      "title": "Cerveja Maluca",
+      "overview": "Dois irmãos malucos por cerveja descobrem que um estranho cientista quer dominar o planeta com um produto alucinógeno adicionado à bebida.",
+      "vote_average": 6.0,
+      "poster_url": "https://image.tmdb.org/t/p/w342/rScplcvRHX7o7XK88SFb5mddo8y.jpg"
+    },
+    {
+      "id": 1052280,
+      "title": "Identidades em Jogo",
+      "overview": "Uma festa pré-casamento se transforma em um pesadelo para um grupo de amigos da faculdade depois que um convidado inesperado aparece carregando uma mala misteriosa.",
+      "vote_average": 6.5,
+      "poster_url": "https://image.tmdb.org/t/p/w342/307q3Fe0pOeXUjw6PfNM28FG4Dv.jpg"
+    },
+    {
+      "id": 22494,
+      "title": "Perguntas Frequentes sobre Viagem no Tempo",
+      "overview": "Em uma noite no bar, Ray encontra uma jovem que afirma ter vindo do futuro. O encontro desencadeia uma série de eventos que põe em perigo o resto do mundo. Cabe agora a Ray e seus amigos tentar resolver o mistério da viagem no tempo.",
+      "vote_average": 6.9,
+      "poster_url": "https://image.tmdb.org/t/p/w342/hIUvhfDn85pap04sZgbKIKLzvI.jpg"
+    }
+  ]
+}

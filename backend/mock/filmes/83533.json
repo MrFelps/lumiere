@@ -1,0 +1,153 @@
+{
+  "id": 83533,
+  "title": "Avatar: Fogo e Cinzas",
+  "overview": "Após a devastadora guerra contra a RDA e a perda de seu filho mais velho, Jake Sully e Neytiri enfrentam uma nova ameaça em Pandora: o Povo das Cinzas, uma tribo Na'vi violenta e sedenta por poder, liderada pela implacável Varang. A família de Jake deve lutar por sua sobrevivência e pelo futuro de Pandora em um conflito que os leva aos seus limites emocionais e físicos.",
+  "release_date": "2025-12-17",
+  "runtime": 197,
+  "vote_average": 7.3,
+  "vote_count": 1969,
+  "tagline": "Este mundo é muito mais profundo do que você imagina.",
+  "status": "Released",
+  "poster_url": "https://image.tmdb.org/t/p/w500/9k2zKeUfcKkAz1dGt5MP6dZMm4G.jpg",
+  "backdrop_url": "https://image.tmdb.org/t/p/w780/u8DU5fkLoM5tTRukzPC31oGPxaQ.jpg",
+  "genres": [
+    {
+      "id": 878,
+      "name": "Ficção científica"
+    },
+    {
+      "id": 12,
+      "name": "Aventura"
+    },
+    {
+      "id": 14,
+      "name": "Fantasia"
+    }
+  ],
+  "cast": [
+    {
+      "id": 65731,
+      "name": "Sam Worthington",
+      "character": "Jake",
+      "profile_url": "https://image.tmdb.org/t/p/w185/mflBcox36s9ZPbsZPVOuhf6axaJ.jpg"
+    },
+    {
+      "id": 8691,
+      "name": "Zoe Saldaña",
+      "character": "Neytiri",
+      "profile_url": "https://image.tmdb.org/t/p/w185/vQBwmsSOAd0JDaEcZ5p43J9xzsY.jpg"
+    },
+    {
+      "id": 10205,
+      "name": "Sigourney Weaver",
+      "character": "Kiri",
+      "profile_url": "https://image.tmdb.org/t/p/w185/wTSnfktNBLd6kwQxgvkqYw6vEon.jpg"
+    },
+    {
+      "id": 32747,
+      "name": "Stephen Lang",
+      "character": "Quaritch",
+      "profile_url": "https://image.tmdb.org/t/p/w185/gnO5VfkDgA2fsHweD0622LUY3Hu.jpg"
+    },
+    {
+      "id": 566331,
+      "name": "Oona Chaplin",
+      "character": "Varang",
+      "profile_url": "https://image.tmdb.org/t/p/w185/tT7QQOrumeGRquaLmWNZk2DyL3Z.jpg"
+    },
+    {
+      "id": 1895760,
+      "name": "Jack Champion",
+      "character": "Spider",
+      "profile_url": "https://image.tmdb.org/t/p/w185/8PXFKzhjFJ0oYP60Bj1kA44XBjY.jpg"
+    },
+    {
+      "id": 204,
+      "name": "Kate Winslet",
+      "character": "Ronal",
+      "profile_url": "https://image.tmdb.org/t/p/w185/6qNnMsKtKz9si5rabpUEG85UfHp.jpg"
+    },
+    {
+      "id": 7248,
+      "name": "Cliff Curtis",
+      "character": "Tonowari",
+      "profile_url": "https://image.tmdb.org/t/p/w185/3D6qz8vL6DWHAO3HeXeaSuwxq3s.jpg"
+    },
+    {
+      "id": 59231,
+      "name": "Joel David Moore",
+      "character": "Norm",
+      "profile_url": "https://image.tmdb.org/t/p/w185/mMVhVglj6BZFuvqAXnEibce08k7.jpg"
+    },
+    {
+      "id": 30485,
+      "name": "CCH Pounder",
+      "character": "Mo'at",
+      "profile_url": "https://image.tmdb.org/t/p/w185/mr6BLDN75T8DJl9dNK3hN4YwqJa.jpg"
+    }
+  ],
+  "directors": [
+    {
+      "id": 2710,
+      "name": "James Cameron"
+    }
+  ],
+  "recommendations": [
+    {
+      "id": 76600,
+      "title": "Avatar: O Caminho da Água",
+      "overview": "12 anos depois de explorar Pandora e se juntar aos Na'vi, Jake Sully formou uma família com Neytiri e se estabeleceu entre os clãs do novo mundo. Porém, a paz não durará para sempre.",
+      "vote_average": 7.6,
+      "poster_url": "https://image.tmdb.org/t/p/w342/9gZkGcvhyZmhpYDCeTCh0k6RGyh.jpg"
+    },
+    {
+      "id": 299534,
+      "title": "Vingadores: Ultimato",
+      "overview": "Após os eventos devastadores de \"Vingadores: Guerra Infinita\", o universo está em ruínas devido aos esforços do Titã Louco, Thanos. Com a ajuda de aliados remanescentes, os Vingadores devem se reunir mais uma vez a fim de desfazer as ações de Thanos e restaurar a ordem no universo de uma vez por todas, não importando as consequências.",
+      "vote_average": 8.2,
+      "poster_url": "https://image.tmdb.org/t/p/w342/9fRX8UKlIW7Lb9GqNsJVakWWFCi.jpg"
+    },
+    {
+      "id": 447365,
+      "title": "Guardiões da Galáxia: Vol. 3",
+      "overview": "Peter Quill, que ainda está se recuperando da perda de Gamora, tem que reunir a sua equipe para defender o universo e proteger um dos seus. Uma missão que, se não for concluída com sucesso, pode levar ao fim dos Guardiões como os conhecemos.",
+      "vote_average": 7.9,
+      "poster_url": "https://image.tmdb.org/t/p/w342/4yycSPnchdNAZirGkmCYQwTd3cr.jpg"
+    },
+    {
+      "id": 1893,
+      "title": "Star Wars: Episódio I - A Ameaça Fantasma",
+      "overview": "Enquanto resgatam a Rainha Amidala, governante de um planeta pacífico invadido por forças ameaçadoras, os Cavaleiros Jedi Obi-Wan Kenobi e Qui-Gon Jinn descobrem Anakin Skywalker, uma criança prodígio de 9 anos excepcionalmente poderosa na Força.",
+      "vote_average": 6.6,
+      "poster_url": "https://image.tmdb.org/t/p/w342/gNk8UNAumXlfCdtaxDqsQe7ZGlt.jpg"
+    },
+    {
+      "id": 14822,
+      "title": "A Volta da Montanha Enfeitiçada",
+      "overview": "Os irmãos Tony e Tina, vieram do espaço e têm uma curiosa energia capaz de ajudar muitas pessoas. Foi em uma situação de ajudar a pessoas em perigo que Tony, acaba caindo em uma seringa que tinha um líquido que hipnotizava as pessoas… E foi assim que o pequeno Tony foi raptado. Desesperada com o sumiço do irmão Tina, pede ajuda a um grupo de garotos que se intitulam uma gangue. A ajuda desses garotos mais os poderes telepáticos de Tina, serão a bússola para reencontrar Tony, e salvá-lo das garras de um inescrupuloso cientista.",
+      "vote_average": 5.9,
+      "poster_url": "https://image.tmdb.org/t/p/w342/l2HCYrEFtcIaYX8Eus1EBsdJ91t.jpg"
+    },
+    {
+      "id": 912649,
+      "title": "Venom: A Última Rodada",
+      "overview": "Eddie e Venom estão fugindo. Perseguidos pelos dois mundos, a dupla é forçada a tomar uma decisão devastadora que vai fechar as cortinas da última rodada de Venom e Eddie.",
+      "vote_average": 6.7,
+      "poster_url": "https://image.tmdb.org/t/p/w342/eZIIPjL7oGqfmF7Gw5ZnbDjH6yu.jpg"
+    },
+    {
+      "id": 330459,
+      "title": "Rogue One: Uma História Star Wars",
+      "overview": "Ainda criança, Jyn Erso foi afastada de seu pai, devido à exigência do diretor Krennic de que ele trabalhasse na construção da arma mais poderosa do Império, a Estrela da Morte. Criada por Saw Gerrera, ela teve que aprender a sobreviver por conta própria ao completar 16 anos. Já adulta, Jyn é resgatada da prisão pela Aliança Rebelde, que deseja ter acesso a uma mensagem enviada por seu pai a Gerrera. Com a promessa de liberdade ao término da missão, ela aceita trabalhar para os rebeldes ao lado do capitão Cassian Andor e do robô K-2SO.",
+      "vote_average": 7.5,
+      "poster_url": "https://image.tmdb.org/t/p/w342/74C2YX0NLWnozVMRS56d5CKDdEv.jpg"
+    },
+    {
+      "id": 1892,
+      "title": "Guerra nas Estrelas: O Retorno de Jedi",
+      "overview": "O imperador está supervisionando a construção de uma nova Estrela da Morte. Enquanto isso Luke Skywalker liberta Han Solo e a Princesa Leia das mãos de Jaba. Luke só se tornará um cavaleiro jedi quando destruir Darth Vader, que ainda pretende atraí-lo para o lado sombrio da Força.",
+      "vote_average": 7.9,
+      "poster_url": "https://image.tmdb.org/t/p/w342/llaJ35p5e23ygDbqd0H3otJLWsA.jpg"
+    }
+  ]
+}

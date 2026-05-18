@@ -1,0 +1,153 @@
+{
+  "id": 1297842,
+  "title": "Um Cabra Bom de Bola",
+  "overview": "Uma pequena cabra com grandes sonhos recebe uma oportunidade única na vida de se juntar aos profissionais e jogar berrobol, um esporte de alta intensidade, misto e de contato total, dominado pelos animais mais rápidos e ferozes do mundo.",
+  "release_date": "2026-02-11",
+  "runtime": 100,
+  "vote_average": 7.8,
+  "vote_count": 218,
+  "tagline": "Você nunca é pequeno demais para sonhar grande.",
+  "status": "Released",
+  "poster_url": "https://image.tmdb.org/t/p/w500/x0SRTrltSJi1iQiIAUpyvkxnr41.jpg",
+  "backdrop_url": "https://image.tmdb.org/t/p/w780/tq3h43fZy0H80vzf47MAY7R9Mxo.jpg",
+  "genres": [
+    {
+      "id": 16,
+      "name": "Animação"
+    },
+    {
+      "id": 35,
+      "name": "Comédia"
+    },
+    {
+      "id": 10751,
+      "name": "Família"
+    }
+  ],
+  "cast": [
+    {
+      "id": 1474123,
+      "name": "Caleb McLaughlin",
+      "character": "Will Harris (voice)",
+      "profile_url": "https://image.tmdb.org/t/p/w185/4jVS3EziBn7bf97ErxkW7jsdiLM.jpg"
+    },
+    {
+      "id": 17773,
+      "name": "Gabrielle Union",
+      "character": "Jett Fillmore (voice)",
+      "profile_url": "https://image.tmdb.org/t/p/w185/toeSCybsYufRKfgz77AKy4C8axD.jpg"
+    },
+    {
+      "id": 1718307,
+      "name": "Stephen Curry",
+      "character": "Lenny Williamson (voice)",
+      "profile_url": "https://image.tmdb.org/t/p/w185/dmLZdGhZkCYktooIp8iqXhAvoWz.jpg"
+    },
+    {
+      "id": 1763709,
+      "name": "Aaron Pierre",
+      "character": "Mane Attraction (voice)",
+      "profile_url": "https://image.tmdb.org/t/p/w185/z2cMMZyWzv5ztT6pFdAAjB3u7CQ.jpg"
+    },
+    {
+      "id": 1267240,
+      "name": "Nicola Coughlan",
+      "character": "Olivia Burke (voice)",
+      "profile_url": "https://image.tmdb.org/t/p/w185/shSN86O3qckxcO7YXVtaNy9ksSU.jpg"
+    },
+    {
+      "id": 35029,
+      "name": "David Harbour",
+      "character": "Archie Everhardt (voice)",
+      "profile_url": "https://image.tmdb.org/t/p/w185/qMFtMWlYVtFVyBoBhX5IoA5sN5a.jpg"
+    },
+    {
+      "id": 208519,
+      "name": "Nick Kroll",
+      "character": "Modo Olachenko (voice)",
+      "profile_url": "https://image.tmdb.org/t/p/w185/ggDaWSVuEXryxTJ6sKo2kiEhZPL.jpg"
+    },
+    {
+      "id": 15899,
+      "name": "Jenifer Lewis",
+      "character": "Flo Everson (voice)",
+      "profile_url": "https://image.tmdb.org/t/p/w185/htrTYcoJQQpSYo6BrRehe3h46vo.jpg"
+    },
+    {
+      "id": 10872,
+      "name": "Patton Oswalt",
+      "character": "Dennis Cooper (voice)",
+      "profile_url": "https://image.tmdb.org/t/p/w185/ljQvjbPmcIAl205Lb2Mu4CW8WO7.jpg"
+    },
+    {
+      "id": 2974019,
+      "name": "Jelly Roll",
+      "character": "Grizz (voice)",
+      "profile_url": "https://image.tmdb.org/t/p/w185/zRW0Tb9JJq7pfLZAGbXxufsgGWU.jpg"
+    }
+  ],
+  "directors": [
+    {
+      "id": 2122835,
+      "name": "Tyree Dillihay"
+    }
+  ],
+  "recommendations": [
+    {
+      "id": 862,
+      "title": "Toy Story: Um Mundo de Aventuras",
+      "overview": "Buzz Lightyear é o novo e sofisticado astronauta de brinquedo do garoto Andy. Buzz não imaginava que encontraria um rival: Woody, um cowboy de brinquedo que, dominado pelo ciúme, acredita ter perdido um lugar precioso no coração do seu dono. Os dois brinquedos vivem brigando até que vão parar nas garras do vizinho, um verdadeiro destruidor de brinquedos. Agora, mais do que nunca, Buzz e Woody precisam precisam se unir para escapar do perigo. Com a ajuda de seus amigos da caixa de brinquedos, eles vão viver uma incrível aventura.",
+      "vote_average": 8.0,
+      "poster_url": "https://image.tmdb.org/t/p/w342/6AafgfifXkFS4g2xGJZIwsPQK6P.jpg"
+    },
+    {
+      "id": 10158,
+      "title": "Homens Brancos Não Sabem Enterrar",
+      "overview": "Billy Hoyle e Sidney Deane são excelentes jogadores de basquete. Eles decidem unir forças e passam a enganar seus competidores. Como Billy é branco, ele finge não saber nada sobre o esporte. Mas nas quadras, eles arrasam ao aplicar um jogo rápido.",
+      "vote_average": 6.6,
+      "poster_url": "https://image.tmdb.org/t/p/w342/21Xi5urX49QDfjvW3Oa8iVHEHUG.jpg"
+    },
+    {
+      "id": 379686,
+      "title": "Space Jam: Um Novo Legado",
+      "overview": "O superastro do basquete LeBron James se junta à gangue Looney Tunes para derrotar o Goon Squad e salvar seu filho.",
+      "vote_average": 6.6,
+      "poster_url": "https://image.tmdb.org/t/p/w342/itN4fscYy1hIQy5lSdv44SddsoG.jpg"
+    },
+    {
+      "id": 2300,
+      "title": "Space Jam: O Jogo do Século",
+      "overview": "Um poderoso vilão intergalático decide que Pernalonga e sua turma são a atração perfeita para seu novo parque de diversões. Ele envia um grupo de pequenos alienígenas para capturá-los. Para evitar o seu próprio sequestro, Pernalonga propõe um jogo de basquete em troca de sua liberdade. Mas os pequenos alienígenas têm uma arma secreta: Eles roubaram as habilidades dos melhores jogadores da NBA e formaram um time da pesada. Agora só existe uma chance de Pernalonga e seus amigos ganharem esta partida. Eles precisam da ajuda do mais famoso jogador de basquete de todos os tempos: Michael Jordan!",
+      "vote_average": 6.8,
+      "poster_url": "https://image.tmdb.org/t/p/w342/zgenqfTIvoEs6jcmokKfbi1ZURS.jpg"
+    },
+    {
+      "id": 614930,
+      "title": "As Tartarugas Ninja: Caos Mutante",
+      "overview": "Depois de anos sendo protegidos do mundo humano, os irmãos tartarugas saem para ganhar os corações dos nova yorkinos e serem aceitos como adolescentes normais através de seus atos heroicos. Sua nova amiga, April O’Neil, vai ajudá-los a derrotar um misterioso sindicado do crime, mas eles logo se veem em maus lençóis quando um exército de mutantes vai atrás deles.",
+      "vote_average": 7.2,
+      "poster_url": "https://image.tmdb.org/t/p/w342/gwrFZLMPox82lsPT8MHpAYmFjw9.jpg"
+    },
+    {
+      "id": 335797,
+      "title": "Sing - Quem Canta Seus Males Espanta",
+      "overview": "Um empolgado coala chamado Buster decide criar uma competição de canto para aumentar os rendimentos de seu antigo teatro. A disputa movimenta o mundo animal e promove a revelação de diversos talentos da cidade, todos de olho nos 15 minutos de fama e US$ 100 mil dólares de prêmio.",
+      "vote_average": 7.1,
+      "poster_url": "https://image.tmdb.org/t/p/w342/rkPf3AH4DPJC1T26T8CwAjBHHvc.jpg"
+    },
+    {
+      "id": 149910,
+      "title": "Super Buddies",
+      "overview": "Nova aventura da Disney, \"Super Buddies\" mostra um grupo de cachorros fofos - Buddha, Mudbud, Budderball, Rosebud e B-Dawg - que combatem o crime. O filme sairá direto em DVD e faz parte da série de filme Air Buddies.",
+      "vote_average": 6.0,
+      "poster_url": "https://image.tmdb.org/t/p/w342/u7sMtMLSe5CrsLqOPVnYseJj7wE.jpg"
+    },
+    {
+      "id": 9023,
+      "title": "Spirit: O Corcel Indomável",
+      "overview": "No final do século XVII em pleno Oeste norte-americano vive Spirit, um cavalo que resiste a ser domado pelo homem. Ele se apaixona por uma égua local, chamada Chuva, e desenvolve uma grande amizade com um jovem índio Lakota chamado Pequeno Rio. Juntos eles acompanham a colonização do local onde vivem, percebendo as mudanças que a chegada da civilização fazem em seu dia-a-dia.",
+      "vote_average": 7.7,
+      "poster_url": "https://image.tmdb.org/t/p/w342/jycgp5AdZFKj2Qh2VACG9ilK93l.jpg"
+    }
+  ]
+}
