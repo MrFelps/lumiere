@@ -24,6 +24,7 @@ function Filmes() {
   const [categoriaAtiva, setCategoriaAtiva] = useState(categoriaDaRota);
   const [filmesExibidos, setFilmesExibidos] = useState([]);
   const [loading, setLoading] = useState(true);
+  const [paginaAtiva, setPaginaAtiva] = useState(1);
 
   // Se a rota mudar (usuário clicou em outro card lá no Descobrir), atualizamos o estado
   useEffect(() => {
@@ -31,6 +32,11 @@ function Filmes() {
       setCategoriaAtiva(location.state.categoriaInicial);
     }
   }, [location.state]);
+
+  // Reseta para a primeira página ao mudar de categoria
+  useEffect(() => {
+    setPaginaAtiva(1);
+  }, [categoriaAtiva]);
 
   useEffect(() => {
     const fetchMovies = async () => {
@@ -45,12 +51,14 @@ function Filmes() {
 
         let data = [];
         if (genreToFetch === "Todos") {
-          data = await getPopularMovies();
+          data = await getPopularMovies(paginaAtiva);
         } else {
-          data = await discoverMoviesByGenre(genreToFetch);
+          data = await discoverMoviesByGenre(genreToFetch, paginaAtiva);
         }
 
         setFilmesExibidos(data);
+        // Rola suavemente para o topo do catálogo ao mudar de página
+        window.scrollTo({ top: 0, behavior: 'smooth' });
       } catch (error) {
         console.error("Erro ao carregar catálogo de filmes:", error);
       } finally {
@@ -59,7 +67,7 @@ function Filmes() {
     };
 
     fetchMovies();
-  }, [categoriaAtiva]);
+  }, [categoriaAtiva, paginaAtiva]);
 
   return (
     <div className="filmes-container">
@@ -115,6 +123,27 @@ function Filmes() {
                 <button className="btn-voltar-todos" onClick={() => setCategoriaAtiva("Todos")}>Ver Todos os Filmes</button>
               </div>
             )}
+          </div>
+        )}
+
+        {!loading && filmesExibidos.length > 0 && (
+          <div className="pagination-bar" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '15px', marginTop: '40px' }}>
+            <button 
+              className="btn-outline-small" 
+              disabled={paginaAtiva === 1} 
+              onClick={() => setPaginaAtiva(p => Math.max(p - 1, 1))}
+              style={{ padding: '8px 16px', fontSize: '0.85rem' }}
+            >
+              ◀ Anterior
+            </button>
+            <span style={{ fontSize: '1rem', color: '#fff', fontWeight: 'bold' }}>Página {paginaAtiva}</span>
+            <button 
+              className="btn-primary-small" 
+              onClick={() => setPaginaAtiva(p => p + 1)}
+              style={{ padding: '8px 16px', fontSize: '0.85rem' }}
+            >
+              Próxima ▶
+            </button>
           </div>
         )}
       </main>

@@ -2,26 +2,10 @@ import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import HeaderLogado from '../../Components/HeaderLogado';
 import { getMovieDetail } from '../../services/tmdb';
+import api from '../../services/api';
 import './style.css';
 
-const LOGGED_USER = { name: "João da Silva", handle: "@joaodasilva", initials: "JD" };
-
-const BACKUP_REVIEWS = [
-  { 
-    id: 1, user: "Maria Silva", handle: "@mariasilva", initials: "MS", time: "3 dias atrás", rating: 5, 
-    text: "Um dos melhores filmes que já assisti! A fotografia é espetacular e a narrativa prende do início ao fim.", 
-    likes: 24, likedByMe: false, 
-    repliesList: [
-      { id: 101, user: "Carlos M.", handle: "@carlosm", initials: "CM", time: "2 dias atrás", text: "Concordo totalmente! A trilha sonora no 3º ato me deu arrepios." }
-    ] 
-  },
-  { 
-    id: 2, user: "João Santos", handle: "@joaosantos", initials: "JS", time: "5 dias atrás", rating: 4, 
-    text: "Excelente produção. O elenco está impecável e a direção conseguiu extrair o melhor de cada cena.", 
-    likes: 12, likedByMe: false, 
-    repliesList: [] 
-  }
-];
+const BACKUP_REVIEWS = [];
 
 function DetalhesFilme() {
   const { id } = useParams(); 
@@ -29,7 +13,8 @@ function DetalhesFilme() {
   
   const [movie, setMovie] = useState(null);
   const [loading, setLoading] = useState(true);
-  const [reviews, setReviews] = useState(BACKUP_REVIEWS);
+  const [reviews, setReviews] = useState([]);
+  const [usuarioLogado, setUsuarioLogado] = useState(null);
   
   const [userRating, setUserRating] = useState(0);
   const [hoverRating, setHoverRating] = useState(0);
@@ -46,6 +31,40 @@ function DetalhesFilme() {
   const [isSaved, setIsSaved] = useState(false);
   const [isFavorite, setIsFavorite] = useState(false);
 
+  const [isListModalOpen, setIsListModalOpen] = useState(false);
+  const [userLists, setUserLists] = useState([]);
+  const [loadingLists, setLoadingLists] = useState(false);
+
+  const handleOpenListModal = async () => {
+    setIsListModalOpen(true);
+    setLoadingLists(true);
+    try {
+      const res = await api.get('/feed/listas');
+      setUserLists(res.data);
+    } catch (e) {
+      console.error("Erro ao carregar listas:", e);
+    } finally {
+      setLoadingLists(false);
+    }
+  };
+
+  const handleAddMovieToList = async (listId) => {
+    try {
+      await api.post('/feed/listas/adicionar', {
+        list_id: listId,
+        movie_id: movie.id,
+        movie_title: movie.title,
+        movie_poster: movie.img
+      });
+      alert(`Filme adicionado à lista com sucesso!`);
+      setIsListModalOpen(false);
+      setInList(true);
+    } catch (e) {
+      console.error("Erro ao adicionar filme à lista:", e);
+      alert("Erro ao adicionar o filme à lista.");
+    }
+  };
+
   useEffect(() => {
     const fetchMovieData = async () => {
       setLoading(true);
@@ -53,6 +72,30 @@ function DetalhesFilme() {
         const data = await getMovieDetail(id);
         if (data) {
           setMovie(data);
+          
+          // Checa se o filme está marcado como assistido no banco de dados
+          try {
+            const watchedRes = await api.get(`/feed/assistidos/checar?movie_id=${id}`);
+            setIsWatched(watchedRes.data.assistido);
+          } catch (e) {
+            console.error("Erro ao checar estado assistido:", e);
+          }
+
+          // Buscar críticas e avaliações reais do banco de dados
+          try {
+            const reviewsRes = await api.get(`/feed/opinioes/filme/${id}`);
+            setReviews(reviewsRes.data);
+          } catch (e) {
+            console.error("Erro ao carregar opiniões:", e);
+          }
+
+          // Buscar perfil logado do usuário
+          try {
+            const profileRes = await api.get('/usuarios/perfil');
+            setUsuarioLogado(profileRes.data);
+          } catch (e) {
+            console.error("Erro ao carregar perfil ativo:", e);
+          }
         } else {
           setMovie(null);
         }
@@ -65,6 +108,23 @@ function DetalhesFilme() {
 
     fetchMovieData();
   }, [id]);
+
+  const handleToggleWatched = async () => {
+    if (!movie) return;
+    try {
+      const res = await api.post('/feed/assistidos', {
+        movie_id: movie.id,
+        movie_title: movie.title,
+        movie_poster: movie.img,
+        runtime: movie.runtime || 120 // Usa a duração real de minutos do TMDB
+      });
+      setIsWatched(res.data.assistido);
+      alert(res.data.assistido ? "Filme marcado como visto!" : "Filme removido de assistidos.");
+    } catch (e) {
+      console.error("Erro ao alternar visto:", e);
+      alert("Erro ao marcar como visto no banco de dados.");
+    }
+  };
 
   const handleToggleLike = (reviewId) => {
     setReviews(reviews.map(review => {
@@ -120,17 +180,35 @@ function DetalhesFilme() {
     }
   };
 
-  const handlePublish = () => {
+  const handlePublish = async () => {
     if (userRating === 0) { alert("Selecione uma nota."); return; }
     if (reviewText.trim() === '') { alert("Escreva um comentário."); return; }
 
-    const newReview = {
-      id: Date.now(), user: LOGGED_USER.name, handle: LOGGED_USER.handle, initials: LOGGED_USER.initials,
-      time: "Agora mesmo", rating: userRating, text: reviewText, likes: 0, likedByMe: false, repliesList: []
-    };
+    try {
+      // 1. Salva a nota no banco de dados
+      await api.post('/feed/avaliar', {
+        movie_id: id,
+        rating: userRating
+      });
 
-    setReviews([newReview, ...reviews]);
-    setReviewText(''); setUserRating(0);
+      // 2. Salva o comentário/opinião no banco de dados
+      await api.post('/feed/opiniao', {
+        movie_id: id,
+        movie_title: movie.title,
+        comment: reviewText
+      });
+
+      // 3. Recarrega as avaliações reais do banco para atualizar a UI instantaneamente
+      const reviewsRes = await api.get(`/feed/opinioes/filme/${id}`);
+      setReviews(reviewsRes.data);
+
+      setReviewText('');
+      setUserRating(0);
+      alert("Avaliação e comentário publicados com sucesso!");
+    } catch (e) {
+      console.error("Erro ao publicar avaliação:", e);
+      alert("Erro ao publicar avaliação. Verifique a conexão.");
+    }
   };
 
   const handleShare = () => {
@@ -183,10 +261,10 @@ function DetalhesFilme() {
       <main className="detalhes-main">
         <div className="main-content-left">
           <div className="movie-action-bar">
-            <button className={`btn-action ${inList ? 'primary' : 'outline'}`} onClick={() => setInList(!inList)}>
+            <button className={`btn-action ${inList ? 'primary' : 'outline'}`} onClick={handleOpenListModal}>
               {inList ? '✔️ Na Lista' : '➕ Adicionar à Lista'}
             </button>
-            <button className={`btn-action ${isWatched ? 'active-action' : 'outline'}`} onClick={() => setIsWatched(!isWatched)}>
+            <button className={`btn-action ${isWatched ? 'active-action' : 'outline'}`} onClick={handleToggleWatched}>
               {isWatched ? '👁️‍🗨️ Visto' : '👁️ Marcar como visto'}
             </button>
             <button className={`btn-action ${isSaved ? 'active-action' : 'outline'}`} onClick={() => setIsSaved(!isSaved)}>
@@ -358,6 +436,75 @@ function DetalhesFilme() {
           </div>
         </aside>
       </main>
+
+      {isListModalOpen && (
+        <div className="modal-overlay">
+          <div className="modal-content" style={{ maxWidth: '400px' }}>
+            <div className="modal-header">
+              <h2>🎬 Adicionar à Lista</h2>
+              <button className="close-modal-btn" onClick={() => setIsListModalOpen(false)}>✕</button>
+            </div>
+            <div className="modal-body" style={{ padding: '15px 0' }}>
+              {loadingLists ? (
+                <p style={{ color: '#888', textAlign: 'center' }}>Carregando suas listas...</p>
+              ) : userLists.length > 0 ? (
+                <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
+                  {userLists.map(lista => (
+                    <button 
+                      key={lista.id} 
+                      onClick={() => handleAddMovieToList(lista.id)}
+                      style={{
+                        display: 'flex',
+                        alignItems: 'center',
+                        justifyContent: 'space-between',
+                        width: '100%',
+                        background: '#111',
+                        border: '1px solid rgba(255,255,255,0.05)',
+                        padding: '12px 16px',
+                        borderRadius: '8px',
+                        color: '#fff',
+                        textAlign: 'left',
+                        cursor: 'pointer',
+                        transition: 'all 0.2s ease'
+                      }}
+                      onMouseEnter={(e) => {
+                        e.currentTarget.style.background = 'rgba(255, 255, 255, 0.05)';
+                        e.currentTarget.style.borderColor = '#a86b32';
+                      }}
+                      onMouseLeave={(e) => {
+                        e.currentTarget.style.background = '#111';
+                        e.currentTarget.style.borderColor = 'rgba(255,255,255,0.05)';
+                      }}
+                    >
+                      <div>
+                        <strong style={{ display: 'block', fontSize: '0.95rem' }}>{lista.nome}</strong>
+                        <span style={{ fontSize: '0.75rem', color: '#888' }}>{lista.description || 'Sem descrição'}</span>
+                      </div>
+                      <span style={{ fontSize: '0.85rem', color: '#a86b32' }}>➕</span>
+                    </button>
+                  ))}
+                </div>
+              ) : (
+                <div style={{ textAlign: 'center', padding: '10px' }}>
+                  <p style={{ color: '#888', fontSize: '0.9rem', marginBottom: '15px' }}>Você ainda não criou nenhuma lista.</p>
+                  <button 
+                    className="btn-primary-small"
+                    onClick={() => {
+                      setIsListModalOpen(false);
+                      navigate('/perfil');
+                    }}
+                  >
+                    Ir para o Perfil Criar Lista
+                  </button>
+                </div>
+              )}
+            </div>
+            <div className="modal-footer">
+              <button className="btn-outline-small" onClick={() => setIsListModalOpen(false)}>Fechar</button>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 }

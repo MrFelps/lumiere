@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import HeaderLogado from '../../Components/HeaderLogado';
 import { getPopularMovies, getTopRatedMovies } from '../../services/tmdb';
+import api from '../../services/api';
 import './style.css';
 
 // Backup Mock Data in case of offline/loading
@@ -21,6 +22,39 @@ function Home() {
   const [populares, setPopulares] = useState([]);
   const [recentes, setRecentes] = useState([]);
   const [loading, setLoading] = useState(true);
+
+  const [isListModalOpen, setIsListModalOpen] = useState(false);
+  const [userLists, setUserLists] = useState([]);
+  const [loadingLists, setLoadingLists] = useState(false);
+
+  const handleOpenListModal = async () => {
+    setIsListModalOpen(true);
+    setLoadingLists(true);
+    try {
+      const res = await api.get('/feed/listas');
+      setUserLists(res.data);
+    } catch (e) {
+      console.error("Erro ao carregar listas na Home:", e);
+    } finally {
+      setLoadingLists(false);
+    }
+  };
+
+  const handleAddMovieToList = async (listId) => {
+    try {
+      await api.post('/feed/listas/adicionar', {
+        list_id: listId,
+        movie_id: featuredMovie.id,
+        movie_title: featuredMovie.title,
+        movie_poster: featuredMovie.img
+      });
+      alert(`Filme adicionado à lista com sucesso!`);
+      setIsListModalOpen(false);
+    } catch (e) {
+      console.error("Erro ao adicionar filme à lista:", e);
+      alert("Erro ao adicionar o filme à lista.");
+    }
+  };
 
   useEffect(() => {
     const fetchHomeData = async () => {
@@ -75,7 +109,7 @@ function Home() {
                 <button className="btn-featured-primary" onClick={() => navigate(`/filme/${featuredMovie.id}`)}>
                   ▶ Detalhes
                 </button>
-                <button className="btn-featured-outline">
+                <button className="btn-featured-outline" onClick={handleOpenListModal}>
                   ➕ Minha Lista
                 </button>
               </div>
@@ -126,6 +160,75 @@ function Home() {
 
           </main>
         </>
+      )}
+
+      {isListModalOpen && (
+        <div className="modal-overlay">
+          <div className="modal-content" style={{ maxWidth: '400px' }}>
+            <div className="modal-header">
+              <h2>🎬 Adicionar à Lista</h2>
+              <button className="close-modal-btn" onClick={() => setIsListModalOpen(false)}>✕</button>
+            </div>
+            <div className="modal-body" style={{ padding: '15px 0' }}>
+              {loadingLists ? (
+                <p style={{ color: '#888', textAlign: 'center' }}>Carregando suas listas...</p>
+              ) : userLists.length > 0 ? (
+                <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
+                  {userLists.map(lista => (
+                    <button 
+                      key={lista.id} 
+                      onClick={() => handleAddMovieToList(lista.id)}
+                      style={{
+                        display: 'flex',
+                        alignItems: 'center',
+                        justifyContent: 'space-between',
+                        width: '100%',
+                        background: '#111',
+                        border: '1px solid rgba(255,255,255,0.05)',
+                        padding: '12px 16px',
+                        borderRadius: '8px',
+                        color: '#fff',
+                        textAlign: 'left',
+                        cursor: 'pointer',
+                        transition: 'all 0.2s ease'
+                      }}
+                      onMouseEnter={(e) => {
+                        e.currentTarget.style.background = 'rgba(255, 255, 255, 0.05)';
+                        e.currentTarget.style.borderColor = '#a86b32';
+                      }}
+                      onMouseLeave={(e) => {
+                        e.currentTarget.style.background = '#111';
+                        e.currentTarget.style.borderColor = 'rgba(255,255,255,0.05)';
+                      }}
+                    >
+                      <div>
+                        <strong style={{ display: 'block', fontSize: '0.95rem' }}>{lista.nome}</strong>
+                        <span style={{ fontSize: '0.75rem', color: '#888' }}>{lista.description || 'Sem descrição'}</span>
+                      </div>
+                      <span style={{ fontSize: '0.85rem', color: '#a86b32' }}>➕</span>
+                    </button>
+                  ))}
+                </div>
+              ) : (
+                <div style={{ textAlign: 'center', padding: '10px' }}>
+                  <p style={{ color: '#888', fontSize: '0.9rem', marginBottom: '15px' }}>Você ainda não criou nenhuma lista.</p>
+                  <button 
+                    className="btn-primary-small"
+                    onClick={() => {
+                      setIsListModalOpen(false);
+                      navigate('/perfil');
+                    }}
+                  >
+                    Ir para o Perfil Criar Lista
+                  </button>
+                </div>
+              )}
+            </div>
+            <div className="modal-footer">
+              <button className="btn-outline-small" onClick={() => setIsListModalOpen(false)}>Fechar</button>
+            </div>
+          </div>
+        </div>
       )}
     </div>
   );

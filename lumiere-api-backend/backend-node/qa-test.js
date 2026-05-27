@@ -155,6 +155,35 @@ const runQATests = async () => {
       throw new Error(`Cálculo de filmes incorreto! Esperado: 2, Obtido: ${listaNoBanco ? listaNoBanco.qtd : 0}`);
     }
 
+    // 7. Teste de Lógica Social de Seguidores (Follows)
+    console.log("\n👥 7. Testando lógica social de seguir/seguidores...");
+    const outrId = crypto.randomUUID();
+    // outrId segue o usuario principal (userId)
+    await db.run(
+      "INSERT INTO follows (follower_id, followed_id) VALUES (?, ?)",
+      [outrId, userId]
+    );
+    // userId segue outrId
+    await db.run(
+      "INSERT INTO follows (follower_id, followed_id) VALUES (?, ?)",
+      [userId, outrId]
+    );
+    console.log("   ✅ Relacionamento bi-direcional de follow inserido na tabela 'follows'.");
+
+    const seguidoresRes = await db.get("SELECT COUNT(*) as qtd FROM follows WHERE followed_id = ?", [userId]);
+    const seguindoRes = await db.get("SELECT COUNT(*) as qtd FROM follows WHERE follower_id = ?", [userId]);
+    
+    if (seguidoresRes && seguidoresRes.qtd === 1 && seguindoRes && seguindoRes.qtd === 1) {
+      console.log(`   ✅ Contagem dinâmica de seguidores/seguindo validada!`);
+      console.log("   ⭐ [QA PASSED]: Lógica social de seguidores 100% validada!");
+    } else {
+      throw new Error(`Cálculo de seguidores incorreto!`);
+    }
+
+    // Limpa follow de teste
+    await db.run("DELETE FROM follows WHERE follower_id = ? OR followed_id = ?", [userId, userId]);
+    await db.run("DELETE FROM follows WHERE follower_id = ? OR followed_id = ?", [outrId, outrId]);
+
     console.log("\n========================================================");
     console.log("🎉  TODOS OS TESTES DE QA PASSARAM COM EXCELÊNCIA!  🎉");
     console.log("========================================================");

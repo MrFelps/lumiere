@@ -43,9 +43,9 @@ const getInitials = (name) => {
   return parts[0].substring(0, 2).toUpperCase();
 };
 
-export const getPopularMovies = async () => {
+export const getPopularMovies = async (page = 1) => {
   try {
-    const response = await tmdbApi.get("/movie/popular");
+    const response = await tmdbApi.get("/movie/popular", { params: { page } });
     return response.data.results.map((m) => ({
       id: m.id,
       title: m.title || m.original_title,
@@ -120,11 +120,13 @@ export const getMovieDetail = async (movieId) => {
       title: m.title || m.original_title,
       year: m.release_date ? m.release_date.split("-")[0] : "N/A",
       duration: durationStr,
+      runtime: m.runtime || 0,
       director: director,
       rating: parseFloat(m.vote_average.toFixed(1)),
       genres: m.genres ? m.genres.map(g => g.name) : [],
       synopsis: m.overview || "Sem sinopse disponível.",
       backdrop: m.backdrop_path ? `${IMAGE_BASE_URL}/w1280${m.backdrop_path}` : "https://images.unsplash.com/photo-1618336753974-aae8e04506aa?w=1600",
+      img: m.poster_path ? `${IMAGE_BASE_URL}/w500${m.poster_path}` : "https://images.unsplash.com/photo-1536440136628-849c177e76a1?w=400",
       cast: cast,
       stats: {
         watched: `${popularityK}K`,
@@ -160,10 +162,10 @@ export const searchMovies = async (query) => {
   }
 };
 
-export const discoverMoviesByGenre = async (genreName) => {
+export const discoverMoviesByGenre = async (genreName, page = 1) => {
   try {
     const genreId = Object.keys(GENRE_MAP).find(key => GENRE_MAP[key].toLowerCase() === genreName.toLowerCase());
-    const params = genreId ? { with_genres: genreId } : {};
+    const params = genreId ? { with_genres: genreId, page } : { page };
     
     const response = await tmdbApi.get("/discover/movie", { params });
     return response.data.results.map((m) => ({
