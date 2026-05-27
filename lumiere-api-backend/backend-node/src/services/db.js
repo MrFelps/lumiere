@@ -153,6 +153,29 @@ const initDb = async () => {
       )
     `);
 
+    // 7. Follows (Seguidores) table
+    await db.run(`
+      CREATE TABLE IF NOT EXISTS follows (
+        follower_id TEXT NOT NULL,
+        followed_id TEXT NOT NULL,
+        created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+        PRIMARY KEY (follower_id, followed_id)
+      )
+    `);
+
+    // 8. Watched (Assistidos) table
+    await db.run(`
+      CREATE TABLE IF NOT EXISTS watched (
+        user_id TEXT NOT NULL,
+        movie_id INT NOT NULL,
+        movie_title VARCHAR(255),
+        movie_poster TEXT,
+        runtime INT DEFAULT 0,
+        created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+        PRIMARY KEY (user_id, movie_id)
+      )
+    `);
+
     console.log("⚡ Tabelas do banco de dados verificadas/criadas com sucesso!");
   } catch (err) {
     console.error("❌ Erro ao criar tabelas do banco de dados:", err);

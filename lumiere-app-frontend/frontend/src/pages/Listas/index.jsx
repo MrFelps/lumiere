@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import HeaderLogado from '../../Components/HeaderLogado';
 import { getTopRatedMovies, discoverMoviesByGenre, getPopularMovies } from '../../services/tmdb';
+import api from '../../services/api';
 import './style.css';
 
 // 1. DADOS DO USUÁRIO LOGADO (Para quando ele criar uma lista)
@@ -39,8 +40,10 @@ function Listas() {
   const navigate = useNavigate();
   
   const [listas, setListas] = useState(BACKUP_LISTAS);
+  const [minhasListas, setMinhasListas] = useState([]);
   const [abaAtiva, setAbaAtiva] = useState('Comunidade');
   const [loading, setLoading] = useState(true);
+  const [loadingMinhasListas, setLoadingMinhasListas] = useState(false);
   
   // Estados do Modal de Nova Lista
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -101,8 +104,47 @@ function Listas() {
     fetchCoversForLists();
   }, []);
 
+  // Efeito para carregar as minhas listas reais do backend
+  useEffect(() => {
+    if (abaAtiva === 'Minhas Listas') {
+      const fetchMinhasListas = async () => {
+        setLoadingMinhasListas(true);
+        try {
+          const res = await api.get('/feed/listas');
+          setMinhasListas(res.data);
+        } catch (e) {
+          console.error("Erro ao carregar listas do banco de dados:", e);
+        } finally {
+          setLoadingMinhasListas(false);
+        }
+      };
+      fetchMinhasListas();
+    }
+  }, [abaAtiva]);
+
   const listasExibidas = abaAtiva === 'Minhas Listas' 
-    ? listas.filter(lista => lista.creator === LOGGED_USER.name) 
+    ? minhasListas.map(l => {
+        const defaultCovers = [
+          "https://images.unsplash.com/photo-1440404653325-ab127d49abc1?w=300",
+          "https://images.unsplash.com/photo-1536440136628-849c177e76a1?w=300",
+          "https://images.unsplash.com/photo-1518676590629-3dcbd9c5a5c9?w=300"
+        ];
+        
+        let covers = l.covers && l.covers.length > 0 ? l.covers : [];
+        while (covers.length < 3) {
+          covers.push(defaultCovers[covers.length]);
+        }
+
+        return {
+          id: l.id,
+          title: l.nome,
+          creator: "Você",
+          initials: "VC",
+          movieCount: l.qtd || 0,
+          likes: 0,
+          covers: covers
+        };
+      })
     : listas;
 
   const handleCreateList = async () => {
@@ -111,31 +153,24 @@ function Listas() {
       return;
     }
 
-    let defaultCovers = BACKUP_LISTAS[0].covers;
     try {
-      const popular = await getPopularMovies();
-      if (popular && popular.length >= 3) {
-        defaultCovers = [popular[0].img, popular[1].img, popular[2].img];
-      }
+      await api.post('/feed/listas', {
+        name: novaListaTitle,
+        description: "Uma coleção especial de filmes criada no painel de listas."
+      });
+
+      setNovaListaTitle('');
+      setIsModalOpen(false);
+      setAbaAtiva('Minhas Listas');
+
+      // Atualiza o estado carregando as listas mais recentes do banco
+      const res = await api.get('/feed/listas');
+      setMinhasListas(res.data);
+      alert("Lista criada com sucesso!");
     } catch (e) {
-      console.error(e);
+      console.error("Erro ao criar lista no backend:", e);
+      alert("Erro ao criar lista. Por favor, tente novamente.");
     }
-
-    const novaLista = {
-      id: Date.now(),
-      title: novaListaTitle,
-      creator: LOGGED_USER.name,
-      initials: LOGGED_USER.initials,
-      movieCount: 0,
-      likes: 0,
-      covers: defaultCovers
-    };
-
-    setListas([novaLista, ...listas]);
-    
-    setNovaListaTitle('');
-    setIsModalOpen(false);
-    setAbaAtiva('Minhas Listas');
   };
 
   return (

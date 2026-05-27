@@ -14,6 +14,36 @@ const formatarDataCadastro = (isoString) => {
   return `${mes.charAt(0).toUpperCase() + mes.slice(1)} ${ano}`;
 };
 
+const obterIconeAtividade = (acao) => {
+  if (acao === 'Avaliador') return '⭐';
+  if (acao === 'Assistiu') return '👁️';
+  return '≣';
+};
+
+const formatarTempoDecorrido = (dataStr) => {
+  if (!dataStr) return "Recentemente";
+  try {
+    const agora = new Date();
+    const dataAtiv = new Date(dataStr.replace(" ", "T"));
+    const diferencaMs = agora - dataAtiv;
+    const diferencaMinutos = Math.floor(diferencaMs / 60000);
+    
+    if (diferencaMinutos < 1) return "Agora mesmo";
+    if (diferencaMinutos < 60) return `Há ${diferencaMinutos} min`;
+    
+    const diferencaHoras = Math.floor(diferencaMinutos / 60);
+    if (diferencaHoras < 24) return `Há ${diferencaHoras} ${diferencaHoras === 1 ? 'hora' : 'horas'}`;
+    
+    const diferencaDias = Math.floor(diferencaHoras / 24);
+    if (diferencaDias === 1) return "Ontem";
+    if (diferencaDias < 30) return `Há ${diferencaDias} dias`;
+    
+    return dataAtiv.toLocaleDateString('pt-BR');
+  } catch (e) {
+    return "Recentemente";
+  }
+};
+
 const INITIAL_USER_DATA = {
   nome: "João da Silva",
   iniciais: "JD",
@@ -44,9 +74,11 @@ function Perfil() {
 
   const [isEditModalOpen, setIsEditModalOpen] = useState(false);
   const [isSettingsModalOpen, setIsSettingsModalOpen] = useState(false);
+  const [isCreateListModalOpen, setIsCreateListModalOpen] = useState(false);
 
   const [editForm, setEditForm] = useState({ nome: '', iniciais: '', bio: '' });
   const [settingsForm, setSettingsForm] = useState({ idioma: '' });
+  const [createListForm, setCreateListForm] = useState({ nome: '', descricao: '' });
 
   const [recentMovies, setRecentMovies] = useState([]);
   const [loadingMovies, setLoadingMovies] = useState(true);
@@ -93,22 +125,22 @@ function Perfil() {
           nome: user.nome || "Novo Usuário",
           iniciais: extrairIniciais(user.nome || "Novo Usuário"),
           bio: user.bio || "Cinéfilo apaixonado por histórias que nos transformam.",
-          membroDesde: formatarMembroDesde(new Date()),
+          membroDesde: formatarMembroDesde(user.created_at || new Date()),
           idioma: "Português (BR)",
           estatisticasGlobais: {
-            seguidores: 0,
-            seguindo: 0,
-            avaliacoes: 0,
+            seguidores: user.seguidores || 0,
+            seguindo: user.seguindo || 0,
+            avaliacoes: user.avaliacoes || 0,
             listas: userLists.length,
-            filmesAssistidos: 0
+            filmesAssistidos: user.filmesAssistidos || 0
           },
           estatisticasMensais: {
-            horasAssistidas: 0,
-            mediaAvaliacao: "0",
-            filmesEsteMes: 0
+            horasAssistidas: user.horasAssistidas || 0,
+            mediaAvaliacao: user.mediaAvaliacao || "0",
+            filmesEsteMes: user.filmesAssistidos || 0
           },
-          generosFavoritos: [], // Limpo para o novo usuário
-          atividadeRecente: [], // Limpo para o novo usuário
+          generosFavoritos: [], 
+          atividadeRecente: user.atividadeRecente || [], 
           listas: userLists.map(l => ({ id: l.id, nome: l.nome, qtd: l.qtd || 0 }))
         });
 
@@ -123,6 +155,38 @@ function Perfil() {
 
     fetchProfileAndData();
   }, [navigate]);
+
+  const handleCreateList = async () => {
+    if (!createListForm.nome.trim()) {
+      alert("O nome da lista é obrigatório.");
+      return;
+    }
+    try {
+      const response = await api.post('/feed/listas', {
+        name: createListForm.nome,
+        description: createListForm.descricao
+      });
+      
+      setUserData(prev => ({
+        ...prev,
+        listas: [
+          { id: response.data.id, nome: createListForm.nome, qtd: 0 },
+          ...prev.listas
+        ],
+        estatisticasGlobais: {
+          ...prev.estatisticasGlobais,
+          listas: prev.estatisticasGlobais.listas + 1
+        }
+      }));
+      
+      setIsCreateListModalOpen(false);
+      setCreateListForm({ nome: '', descricao: '' });
+      alert("Lista criada com sucesso!");
+    } catch (error) {
+      console.error("Erro ao criar lista:", error);
+      alert("Erro ao criar lista no banco de dados.");
+    }
+  };
 
   // Carrega filmes recomendados recentes do TMDB
   useEffect(() => {
@@ -220,16 +284,28 @@ function Perfil() {
             <section className="profile-section">
               <h2 className="section-title">Atividade Recente</h2>
               <div className="activity-list">
-                {userData.atividadeRecente.map(ativ => (
-                  <div key={ativ.id} className="activity-card">
-                    <div className="activity-icon">{ativ.acao === 'Avaliador' ? '⭐' : '👁️'}</div>
-                    <div className="activity-details">
-                      <p><strong>{userData.nome}</strong> {ativ.acao === 'Avaliador' ? 'avaliou' : 'assistiu'} <span className="highlight-text">{ativ.filme}</span></p>
-                      {ativ.estrelas && <span className="stars">{'★'.repeat(ativ.estrelas)}</span>}
-                      <span className="activity-time">{ativ.data}</span>
+                {userData.atividadeRecente.length > 0 ? (
+                  userData.atividadeRecente.map(ativ => (
+                    <div key={ativ.id} className="activity-card">
+                      <div className="activity-icon">{obterIconeAtividade(ativ.acao)}</div>
+                      <div className="activity-details">
+                        <p>
+                          <strong>{userData.nome}</strong>{' '}
+                          {ativ.acao === 'Avaliador'
+                            ? 'avaliou'
+                            : ativ.acao === 'Assistiu'
+                            ? 'assistiu'
+                            : ativ.acao.toLowerCase()}{' '}
+                          <span className="highlight-text">{ativ.filme}</span>
+                        </p>
+                        {ativ.estrelas ? <span className="stars">{'★'.repeat(ativ.estrelas)}</span> : null}
+                        <span className="activity-time">{formatarTempoDecorrido(ativ.data)}</span>
+                      </div>
                     </div>
-                  </div>
-                ))}
+                  ))
+                ) : (
+                  <p style={{ color: '#888', padding: '10px 0', fontSize: '0.9rem' }}>Nenhuma atividade recente registrada.</p>
+                )}
               </div>
             </section>
             <section className="profile-section">
@@ -256,10 +332,24 @@ function Perfil() {
           </div>
           <div className="grid-col-right">
             <section className="profile-section">
-              <h2 className="section-title">Minhas Listas</h2>
+              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '15px' }}>
+                <h2 className="section-title" style={{ marginBottom: 0 }}>Minhas Listas</h2>
+                <button className="btn-primary-small" style={{ padding: '4px 10px', fontSize: '0.75rem', borderRadius: '4px', textTransform: 'none' }} onClick={() => setIsCreateListModalOpen(true)}>+ Nova Lista</button>
+              </div>
               <div className="mini-lists">
                 {userData.listas.map(lista => (
-                  <div key={lista.id} className="mini-list-card"><div className="mini-list-icon">≣</div><div className="mini-list-info"><h4>{lista.nome}</h4><p>{lista.qtd} filmes</p></div></div>
+                  <div 
+                    key={lista.id} 
+                    className="mini-list-card" 
+                    onClick={() => navigate(`/lista/${lista.id}`)}
+                    style={{ cursor: 'pointer' }}
+                  >
+                    <div className="mini-list-icon">≣</div>
+                    <div className="mini-list-info">
+                      <h4>{lista.nome}</h4>
+                      <p>{lista.qtd} filmes</p>
+                    </div>
+                  </div>
                 ))}
               </div>
             </section>
@@ -336,6 +426,41 @@ function Perfil() {
             <div className="modal-footer">
               <button className="btn-outline-small" onClick={() => setIsSettingsModalOpen(false)}>Cancelar</button>
               <button className="btn-primary-small" onClick={handleSaveSettings}>Salvar Alterações</button>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {isCreateListModalOpen && (
+        <div className="modal-overlay">
+          <div className="modal-content">
+            <div className="modal-header">
+              <h2>🎬 Criar Nova Lista</h2>
+              <button className="close-modal-btn" onClick={() => setIsCreateListModalOpen(false)}>✕</button>
+            </div>
+            <div className="modal-body">
+              <div className="input-group">
+                <label>Nome da Lista</label>
+                <input 
+                  type="text" 
+                  placeholder="Ex: Clássicos do Suspense, Filmes para Fim de Semana..." 
+                  value={createListForm.nome} 
+                  onChange={(e) => setCreateListForm({...createListForm, nome: e.target.value})} 
+                />
+              </div>
+              <div className="input-group">
+                <label>Descrição</label>
+                <textarea 
+                  rows="3" 
+                  placeholder="Adicione uma descrição opcional para a sua lista..." 
+                  value={createListForm.descricao} 
+                  onChange={(e) => setCreateListForm({...createListForm, descricao: e.target.value})}
+                ></textarea>
+              </div>
+            </div>
+            <div className="modal-footer">
+              <button className="btn-outline-small" onClick={() => setIsCreateListModalOpen(false)}>Cancelar</button>
+              <button className="btn-primary-small" onClick={handleCreateList}>Criar Lista</button>
             </div>
           </div>
         </div>

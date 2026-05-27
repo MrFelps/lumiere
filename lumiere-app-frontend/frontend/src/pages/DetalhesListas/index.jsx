@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import HeaderLogado from '../../Components/HeaderLogado';
 import { getTopRatedMovies, discoverMoviesByGenre, getPopularMovies } from '../../services/tmdb';
+import api from '../../services/api';
 import './style.css';
 
 const BACKUP_LISTA = {
@@ -50,12 +51,23 @@ function DetalhesLista() {
           likes = 125;
           moviesFetched = await discoverMoviesByGenre("Terror");
         } else {
-          title = "Minha Coleção Especial";
-          description = "Uma lista personalizada de filmes incríveis salvos para assistir depois.";
-          creator = "João da Silva";
-          initials = "JD";
-          likes = 0;
-          moviesFetched = await getPopularMovies();
+          try {
+            const res = await api.get(`/feed/listas/${id}`);
+            title = res.data.nome;
+            description = res.data.description || "Uma lista personalizada de filmes incríveis.";
+            creator = res.data.creator || "Você";
+            initials = res.data.creator ? res.data.creator.substring(0, 2).toUpperCase() : "VC";
+            likes = 0;
+            moviesFetched = res.data.movies || [];
+          } catch (e) {
+            console.error("Erro ao carregar lista do banco de dados:", e);
+            title = "Coleção Não Encontrada";
+            description = "Essa lista não pôde ser carregada do banco de dados.";
+            creator = "Sistema";
+            initials = "SY";
+            likes = 0;
+            moviesFetched = [];
+          }
         }
 
         setLista({
@@ -77,6 +89,27 @@ function DetalhesLista() {
 
     fetchListaDetails();
   }, [id]);
+
+  const handleRemoveMovie = async (e, movieId) => {
+    e.stopPropagation(); // Impede o clique de abrir a página de detalhes do filme
+    if (!window.confirm("Deseja realmente remover este filme da lista?")) return;
+    try {
+      await api.post('/feed/listas/remover', {
+        list_id: id,
+        movie_id: movieId
+      });
+      // Atualiza o estado local
+      setLista(prev => ({
+        ...prev,
+        movies: prev.movies.filter(m => m.id !== movieId),
+        movieCount: prev.movieCount - 1
+      }));
+      alert("Filme removido com sucesso!");
+    } catch (error) {
+      console.error("Erro ao remover filme da lista:", error);
+      alert("Erro ao remover o filme da lista.");
+    }
+  };
 
   const handleShare = () => {
     navigator.clipboard.writeText(window.location.href)
@@ -132,15 +165,49 @@ function DetalhesLista() {
               {lista.movies.map((movie, index) => (
                 <div key={movie.id} className="lista-movie-card" onClick={() => navigate(`/filme/${movie.id}`)}>
                   <div className="movie-order-badge">{index + 1}</div>
-                  <div className="lista-movie-poster">
-                    <img src={movie.img} alt={movie.title} />
-                    <div className="lista-movie-rating">⭐ {movie.rating}</div>
+                  <div className="lista-movie-poster" style={{ position: 'relative' }}>
+                    <img src={movie.img || "https://images.unsplash.com/photo-1536440136628-849c177e76a1?w=400"} alt={movie.title} />
+                    {movie.rating !== undefined && (
+                      <div className="lista-movie-rating">⭐ {movie.rating}</div>
+                    )}
+                    {id !== "1" && id !== "2" && id !== "3" && (
+                      <button
+                        onClick={(e) => handleRemoveMovie(e, movie.id)}
+                        style={{
+                          position: 'absolute',
+                          top: '8px',
+                          right: '8px',
+                          background: 'rgba(239, 68, 68, 0.85)',
+                          color: '#fff',
+                          border: 'none',
+                          borderRadius: '50%',
+                          width: '28px',
+                          height: '28px',
+                          display: 'flex',
+                          alignItems: 'center',
+                          justifyContent: 'center',
+                          cursor: 'pointer',
+                          fontSize: '0.85rem',
+                          fontWeight: 'bold',
+                          zIndex: 20,
+                          transition: 'background 0.2s'
+                        }}
+                        onMouseEnter={(e) => e.currentTarget.style.background = '#ef4444'}
+                        onMouseLeave={(e) => e.currentTarget.style.background = 'rgba(239, 68, 68, 0.85)'}
+                      >
+                        ✕
+                      </button>
+                    )}
                   </div>
                   <h4 className="lista-movie-title">{movie.title}</h4>
                   <div className="lista-movie-meta">
-                    <span>{movie.year}</span>
-                    <span>•</span>
-                    <span>{movie.genre}</span>
+                    <span>{movie.year || "Lumière"}</span>
+                    {movie.genre && (
+                      <>
+                        <span>•</span>
+                        <span>{movie.genre}</span>
+                      </>
+                    )}
                   </div>
                 </div>
               ))}

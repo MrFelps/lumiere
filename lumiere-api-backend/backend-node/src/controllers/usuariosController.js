@@ -80,13 +80,97 @@ const perfil = async (req, res) => {
 
     const perfilObj = await db.get("SELECT * FROM profiles WHERE user_id = ?", [req.usuarioId]);
     
+    // Contagens de seguidores e seguindo
+    const seguidoresRes = await db.get("SELECT COUNT(*) as qtd FROM follows WHERE followed_id = ?", [req.usuarioId]);
+    const seguindoRes = await db.get("SELECT COUNT(*) as qtd FROM follows WHERE follower_id = ?", [req.usuarioId]);
+
+    const seguidores = seguidoresRes ? seguidoresRes.qtd : 0;
+    const seguindo = seguindoRes ? seguindoRes.qtd : 0;
+
+    // Estatísticas adicionais do banco
+    const avaliacoesRes = await db.get("SELECT COUNT(*) as qtd FROM ratings WHERE user_id = ?", [req.usuarioId]);
+    const assistidosRes = await db.get("SELECT COUNT(*) as qtd FROM watched WHERE user_id = ?", [req.usuarioId]);
+    const runtimeRes = await db.get("SELECT SUM(runtime) as total FROM watched WHERE user_id = ?", [req.usuarioId]);
+
+    const avaliacoes = avaliacoesRes ? avaliacoesRes.qtd : 0;
+    const filmesAssistidos = assistidosRes ? assistidosRes.qtd : 0;
+    const horasAssistidas = runtimeRes && runtimeRes.total ? Math.round(runtimeRes.total / 60) : 0;
+
+    // Média de Avaliação
+    const mediaRes = await db.get("SELECT AVG(rating) as media FROM ratings WHERE user_id = ?", [req.usuarioId]);
+    const mediaAvaliacao = mediaRes && mediaRes.media ? parseFloat(mediaRes.media.toFixed(1)) : 0;
+
+    // Atividade Recente real integrada do banco
+    const reviewsAtividade = await db.query(
+      `SELECT 'Avaliador' as acao, r.movie_title as filme, r.comment as texto, rat.rating as estrelas, r.created_at as data 
+       FROM reviews r
+       LEFT JOIN ratings rat ON rat.user_id = r.user_id AND rat.movie_id = r.movie_id
+       WHERE r.user_id = ?`,
+      [req.usuarioId]
+    );
+
+    const watchedAtividade = await db.query(
+      `SELECT 'Assistiu' as acao, movie_title as filme, '' as texto, 0 as estrelas, created_at as data 
+       FROM watched 
+       WHERE user_id = ?`,
+      [req.usuarioId]
+    );
+
+    const listsAtividade = await db.query(
+      `SELECT 'Adicionou' as acao, lm.movie_title as filme, l.name as texto, 0 as estrelas, lm.created_at as data 
+       FROM list_movies lm 
+       JOIN lists l ON l.id = lm.list_id 
+       WHERE l.user_id = ?`,
+      [req.usuarioId]
+    );
+
+    // Combina todas as atividades
+    let atividadeRecente = [
+      ...reviewsAtividade.map(r => ({
+        id: `rev-${r.filme}-${r.data}`,
+        acao: 'Avaliador',
+        filme: r.filme,
+        texto: r.texto,
+        estrelas: r.estrelas,
+        data: r.data
+      })),
+      ...watchedAtividade.map(w => ({
+        id: `wat-${w.filme}-${w.data}`,
+        acao: 'Assistiu',
+        filme: w.filme,
+        texto: "",
+        estrelas: null,
+        data: w.data
+      })),
+      ...listsAtividade.map(l => ({
+        id: `lst-${l.filme}-${l.data}`,
+        acao: `Adicionou à lista "${l.texto}"`,
+        filme: l.filme,
+        texto: "",
+        estrelas: null,
+        data: l.data
+      }))
+    ];
+
+    // Ordena pela data mais recente
+    atividadeRecente.sort((a, b) => new Date(b.data) - new Date(a.data));
+    atividadeRecente = atividadeRecente.slice(0, 5); // Limita aos 5 mais recentes
+
     res.json({
       id: usuario.id,
       nome: perfilObj ? perfilObj.name : usuario.username,
       username: usuario.username,
       email: usuario.email,
       bio: usuario.bio,
-      profile_id: perfilObj ? perfilObj.id : null
+      profile_id: perfilObj ? perfilObj.id : null,
+      seguidores,
+      seguindo,
+      avaliacoes,
+      filmesAssistidos,
+      horasAssistidas,
+      mediaAvaliacao,
+      atividadeRecente,
+      created_at: usuario.created_at
     });
   } catch (error) {
     console.error("Erro ao carregar perfil:", error);
