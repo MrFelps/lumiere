@@ -1,0 +1,157 @@
+.em-alta-container {
+  background-color: #000;
+  min-height: 100vh;
+  color: #fff;
+  font-family: 'Inter', system-ui, sans-serif;
+  padding-bottom: 80px;
+}
+
+.em-alta-main {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 40px 60px;
+}
+
+.em-alta-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.header-title-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.fire-icon {
+  font-size: 3.5rem;
+}
+
+.em-alta-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin: 0 0 8px 0;
+  letter-spacing: -1px;
+}
+
+.em-alta-subtitle {
+  color: #888;
+  font-size: 1.05rem;
+  margin: 0;
+}
+
+.period-toggle {
+  display: flex;
+  background-color: #111;
+  padding: 4px;
+  border-radius: 30px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.toggle-btn {
+  background: transparent;
+  color: #888;
+  border: none;
+  padding: 10px 24px;
+  border-radius: 26px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.toggle-btn.active {
+  background-color: #a86b32;
+  color: #fff;
+}
+
+.em-alta-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 30px;
+}
+
+.em-alta-card {
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.em-alta-card:hover {
+  transform: translateY(-8px);
+}
+
+.em-alta-poster {
+  width: 100%;
+  aspect-ratio: 2 / 3;
+  border-radius: 12px;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 16px;
+  background-color: #111;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.4);
+}
+
+.em-alta-poster img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.em-alta-card:hover .em-alta-poster img {
+  transform: scale(1.05);
+}
+
+.em-alta-rating {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 4px 8px;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  backdrop-filter: blur(4px);
+}
+
+.rank-badge {
+  position: absolute;
+  top: 0;
+  left: 10px;
+  background-color: #333;
+  color: #fff;
+  padding: 8px 12px;
+  font-size: 1.2rem;
+  font-weight: 900;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+  z-index: 10;
+}
+
+.rank-badge.rank-1 { background-color: #fbbf24; color: #000; font-size: 1.4rem; }
+.rank-badge.rank-2 { background-color: #94a3b8; color: #000; }
+.rank-badge.rank-3 { background-color: #b45309; color: #fff; }
+
+.em-alta-card-title {
+  margin: 0 0 6px 0;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.em-alta-card-meta {
+  font-size: 0.9rem;
+  color: #888;
+  display: flex;
+  gap: 8px;
+}
+
+@media (max-width: 768px) {
+  .em-alta-main { padding: 24px; }
+  .em-alta-header { flex-direction: column; align-items: flex-start; }
+  .em-alta-grid { grid-template-columns: repeat(2, 1fr); gap: 16px; }
+}

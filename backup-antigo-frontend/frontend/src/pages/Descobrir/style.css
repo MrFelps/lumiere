@@ -1,0 +1,184 @@
+/* =========================================
+   CONTAINER PRINCIPAL
+   ========================================= */
+.descobrir-container {
+  background-color: #000;
+  min-height: 100vh;
+  color: #fff;
+  font-family: 'Inter', system-ui, sans-serif;
+  padding-bottom: 80px;
+}
+
+.descobrir-main {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 40px 60px;
+}
+
+.descobrir-header {
+  text-align: center;
+  margin-bottom: 50px;
+  padding: 40px 0;
+}
+
+.descobrir-title {
+  font-size: 3rem;
+  font-weight: 700;
+  margin: 0 0 12px 0;
+  letter-spacing: -1px;
+}
+
+.descobrir-subtitle {
+  color: #888;
+  font-size: 1.1rem;
+}
+
+/* =========================================
+   SEÇÕES GERAIS
+   ========================================= */
+.descobrir-section {
+  margin-bottom: 60px;
+}
+
+.section-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 0 0 24px 0;
+  color: #fff;
+}
+
+/* =========================================
+   GRID DE GÊNEROS
+   ========================================= */
+.genres-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.genre-card {
+  height: 120px;
+  border-radius: 12px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.genre-card:hover {
+  transform: translateY(-5px) scale(1.02);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+}
+
+.genre-emoji {
+  font-size: 2rem;
+  opacity: 0.8;
+}
+
+.genre-name {
+  margin: 0;
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+}
+
+/* =========================================
+   GRID DE MOODS / COLEÇÕES
+   ========================================= */
+.moods-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 24px;
+}
+
+.mood-card {
+  height: 200px;
+  border-radius: 16px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-end;
+  transition: transform 0.3s ease;
+}
+
+.mood-card:hover {
+  transform: scale(1.03);
+}
+
+.mood-overlay {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: linear-gradient(to top, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.2) 100%);
+  transition: background 0.3s ease;
+}
+
+.mood-card:hover .mood-overlay {
+  background: linear-gradient(to top, rgba(168, 107, 50, 0.8) 0%, rgba(0,0,0,0.4) 100%);
+}
+
+.mood-content {
+  position: relative;
+  z-index: 10;
+  padding: 24px;
+}
+
+.mood-title {
+  margin: 0 0 6px 0;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.mood-subtitle {
+  margin: 0;
+  font-size: 0.95rem;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.descobrir-banner-ia {
+  background: linear-gradient(135deg, #111, #1a1a1a);
+  border: 1px solid rgba(168, 107, 50, 0.3);
+  border-radius: 16px;
+  padding: 40px;
+  text-align: center;
+  cursor: pointer;
+  transition: border-color 0.3s ease;
+  margin-top: 40px;
+}
+
+.descobrir-banner-ia:hover {
+  border-color: #a86b32;
+}
+
+.banner-ia-content h2 { margin: 0 0 12px 0; font-size: 1.8rem; }
+.banner-ia-content p { color: #888; margin: 0 0 24px 0; font-size: 1.05rem; }
+
+.btn-ia-discover {
+  background-color: #a86b32;
+  color: #fff;
+  border: none;
+  padding: 12px 28px;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.descobrir-banner-ia:hover .btn-ia-discover {
+  background-color: #c17d3d;
+}
+
+@media (max-width: 768px) {
+  .descobrir-main { padding: 24px; }
+  .descobrir-title { font-size: 2.2rem; }
+  .descobrir-header { padding: 20px 0; }
+  .genres-grid { grid-template-columns: repeat(2, 1fr); }
+  .moods-grid { grid-template-columns: 1fr; }
+}

@@ -1,0 +1,282 @@
+.listas-container {
+  background-color: #000;
+  min-height: 100vh;
+  color: #fff;
+  font-family: 'Inter', system-ui, sans-serif;
+  padding-bottom: 80px;
+}
+
+.listas-main {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 40px 60px;
+}
+
+.listas-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 50px;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.header-title-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.list-icon {
+  font-size: 3.5rem;
+  color: #a86b32;
+}
+
+.listas-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin: 0 0 8px 0;
+  letter-spacing: -1px;
+}
+
+.listas-subtitle {
+  color: #888;
+  font-size: 1.05rem;
+  margin: 0;
+}
+
+.list-actions-header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.btn-create-list {
+  background-color: #a86b32;
+  color: #fff;
+  border: none;
+  padding: 10px 24px;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.btn-create-list:hover {
+  background-color: #c17d3d;
+}
+
+.listas-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 40px;
+}
+
+.lista-card {
+  cursor: pointer;
+  background-color: #0f0f0f;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  padding: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.lista-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 24px rgba(0,0,0,0.4);
+  border-color: rgba(168, 107, 50, 0.3);
+}
+
+.lista-covers-stack {
+  position: relative;
+  height: 180px;
+  margin-bottom: 24px;
+  display: flex;
+  justify-content: center;
+}
+
+.stacked-cover {
+  position: absolute;
+  width: 110px;
+  aspect-ratio: 2 / 3;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 2px solid #1a1a1a;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+  transition: transform 0.3s ease;
+}
+
+.cover-1 { left: 10px; z-index: 1; transform: rotate(-10deg) scale(0.9); opacity: 0.7; }
+.cover-2 { right: 10px; z-index: 2; transform: rotate(10deg) scale(0.9); opacity: 0.7; }
+.cover-3 { z-index: 3; transform: scale(1); } 
+
+/* Animação no Hover */
+.lista-card:hover .cover-1 { transform: rotate(-15deg) scale(0.95) translateX(-10px); }
+.lista-card:hover .cover-2 { transform: rotate(15deg) scale(0.95) translateX(10px); }
+.lista-card:hover .cover-3 { transform: scale(1.05); }
+
+.lista-count-overlay {
+  position: absolute;
+  bottom: -10px;
+  right: 20px;
+  background-color: #a86b32;
+  color: #fff;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+  font-weight: 800;
+  font-size: 1rem;
+  border: 3px solid #0f0f0f;
+  line-height: 1;
+}
+
+.lista-count-overlay .small-text {
+  font-size: 0.5rem;
+  font-weight: 500;
+}
+
+.lista-info {
+  text-align: center;
+}
+
+.lista-card-title {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin: 0 0 12px 0;
+}
+
+.lista-creator-meta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.creator-avatar-small {
+  width: 24px;
+  height: 24px;
+  background-color: #333;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.7rem;
+  font-weight: 700;
+}
+
+.creator-name {
+  font-size: 0.85rem;
+  color: #ccc;
+}
+
+.lista-stats {
+  font-size: 0.85rem;
+  color: #888;
+}
+
+.listas-empty-state {
+  grid-column: 1 / -1;
+  text-align: center;
+  padding: 60px 0;
+}
+
+.listas-empty-state h2 { margin: 0 0 10px 0; }
+.listas-empty-state p { color: #888; margin-bottom: 24px; }
+.btn-create-list-large {
+  background-color: #a86b32; color: #fff; border: none; padding: 12px 28px; border-radius: 8px; font-weight: 600; cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .listas-main { padding: 24px; }
+  .listas-header { flex-direction: column; align-items: flex-start; }
+  .list-actions-header { flex-direction: column; width: 100%; align-items: flex-start;}
+}
+
+.lista-modal-overlay {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(5px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  animation: fadeIn 0.2s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.lista-modal-content {
+  background-color: #111;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  width: 90%;
+  max-width: 500px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.5);
+  overflow: hidden;
+}
+
+.lista-modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 24px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.lista-modal-header h2 { margin: 0; font-size: 1.2rem; }
+
+.close-modal-btn {
+  background: none; border: none; color: #888; font-size: 1.2rem; cursor: pointer; transition: 0.2s;
+}
+.close-modal-btn:hover { color: #fff; }
+
+.lista-modal-body {
+  padding: 24px;
+}
+
+.lista-input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.lista-input-group label {
+  font-size: 0.9rem; color: #ccc; font-weight: 500;
+}
+
+.lista-input-group input {
+  background-color: #000; color: #fff; border: 1px solid rgba(255, 255, 255, 0.2); padding: 12px; border-radius: 8px; font-family: inherit; font-size: 1rem;
+}
+
+.lista-input-group input:focus {
+  outline: none; border-color: #a86b32;
+}
+
+.lista-modal-hint {
+  font-size: 0.85rem; color: #666; margin: 0; line-height: 1.5;
+}
+
+.lista-modal-footer {
+  padding: 16px 24px; border-top: 1px solid rgba(255, 255, 255, 0.05); display: flex; justify-content: flex-end; gap: 12px; background-color: #0a0a0a;
+}
+
+.btn-cancel-lista {
+  background: transparent; border: 1px solid rgba(255, 255, 255, 0.2); color: #ccc; padding: 10px 20px; border-radius: 8px; cursor: pointer; font-weight: 500; transition: 0.2s;
+}
+.btn-cancel-lista:hover { background-color: rgba(255, 255, 255, 0.05); color: #fff; }
+
+.btn-save-lista {
+  background-color: #a86b32; color: #fff; border: none; padding: 10px 24px; border-radius: 8px; font-weight: 600; cursor: pointer; transition: 0.2s;
+}
+.btn-save-lista:hover { background-color: #c17d3d; }

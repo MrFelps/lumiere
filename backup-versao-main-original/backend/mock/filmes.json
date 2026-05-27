@@ -1,0 +1,56 @@
+﻿{
+  "filmes_populares": [
+    {
+      "id": 1,
+      "titulo": "Duna: Parte 2",
+      "titulo_original": "Dune: Part Two",
+      "ano": 2024,
+      "generos": ["Ficcao Cientifica", "Aventura", "Drama"],
+      "nota": 8.5,
+      "total_votos": 320000,
+      "sinopse": "Paul Atreides une forcas com os Fremen enquanto busca vingar a destruicao de sua familia.",
+      "poster_url": "https://image.tmdb.org/t/p/w500/1pdfLvkbY9ohJlCjQH2CZjjYVvJ.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/original/yjOx1gWaEC3jyLzKrHZCOjOFBZv.jpg",
+      "duracao_min": 166,
+      "classificacao": "12",
+      "elenco": [
+        { "nome": "Timothee Chalamet", "personagem": "Paul Atreides" },
+        { "nome": "Zendaya", "personagem": "Chani" }
+      ]
+    },
+    {
+      "id": 2,
+      "titulo": "Oppenheimer",
+      "titulo_original": "Oppenheimer",
+      "ano": 2023,
+      "generos": ["Drama", "Historia", "Thriller"],
+      "nota": 8.9,
+      "total_votos": 580000,
+      "sinopse": "A historia do fisico J. Robert Oppenheimer e seu papel no desenvolvimento da bomba atomica.",
+      "poster_url": "https://image.tmdb.org/t/p/w500/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/original/rLb2cwF3Pazuxaj0sRXQ037tGI1.jpg",
+      "duracao_min": 180,
+      "classificacao": "14",
+      "elenco": [
+        { "nome": "Cillian Murphy", "personagem": "J. Robert Oppenheimer" },
+        { "nome": "Emily Blunt", "personagem": "Katherine Oppenheimer" }
+      ]
+    }
+  ],
+  "categorias": [
+    { "id": 1, "nome": "Em Alta", "slug": "em-alta" },
+    { "id": 2, "nome": "Acao", "slug": "acao" },
+    { "id": 3, "nome": "Drama", "slug": "drama" },
+    { "id": 4, "nome": "Comedia", "slug": "comedia" },
+    { "id": 5, "nome": "Terror", "slug": "terror" }
+  ],
+  "usuario_exemplo": {
+    "AVISO": "Todos os dados abaixo sao ficticios, apenas para teste",
+    "id": "usr_001",
+    "nome": "Joao Silva",
+    "email": "joao@email.com",
+    "watchlist": [1],
+    "filmes_assistidos": [2],
+    "amigos": ["usr_002"]
+  }
+}
