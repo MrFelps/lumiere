@@ -1,0 +1,153 @@
+{
+  "id": 687163,
+  "title": "Devoradores de Estrelas",
+  "overview": "O professor de ciências Ryland Grace acorda em uma espaçonave anos-luz de casa sem memória de quem ele é ou como chegou lá. Enquanto sua memória volta, ele começa a descobrir sua missão: desvendar o misteriosa substância que está causando a morte do Sol.",
+  "release_date": "2026-03-15",
+  "runtime": 157,
+  "vote_average": 8.2,
+  "vote_count": 737,
+  "tagline": "Acredite na Ave Maria.",
+  "status": "Released",
+  "poster_url": "https://image.tmdb.org/t/p/w500/bOzG3SG6gBxHGGHYiq7xXeNb1bG.jpg",
+  "backdrop_url": "https://image.tmdb.org/t/p/w780/8Tfys3mDZVp4tNoH2ktm06a0Tau.jpg",
+  "genres": [
+    {
+      "id": 878,
+      "name": "Ficção científica"
+    },
+    {
+      "id": 12,
+      "name": "Aventura"
+    }
+  ],
+  "cast": [
+    {
+      "id": 30614,
+      "name": "Ryan Gosling",
+      "character": "Ryland Grace",
+      "profile_url": "https://image.tmdb.org/t/p/w185/lyUyVARQKhGxaxy0FbPJCQRpiaW.jpg"
+    },
+    {
+      "id": 2096164,
+      "name": "James Ortiz",
+      "character": "Rocky (voice)",
+      "profile_url": "https://image.tmdb.org/t/p/w185/zYYDXniHb36mjG7xK59r9IoOKvt.jpg"
+    },
+    {
+      "id": 7152,
+      "name": "Sandra Hüller",
+      "character": "Eva Stratt",
+      "profile_url": "https://image.tmdb.org/t/p/w185/t7wGqC2dRwTEnt9Fk5pxQ0uXTqs.jpg"
+    },
+    {
+      "id": 2320708,
+      "name": "Lionel Boyce",
+      "character": "Carl",
+      "profile_url": "https://image.tmdb.org/t/p/w185/hpIxX5nkfA3pWCW8rYkEUCSBVyS.jpg"
+    },
+    {
+      "id": 1454946,
+      "name": "Milana Vayntrub",
+      "character": "Olesya Ilyukhina",
+      "profile_url": "https://image.tmdb.org/t/p/w185/i5Cou9ExwTZvRRtl79V75CsI7oC.jpg"
+    },
+    {
+      "id": 2131,
+      "name": "Ken Leung",
+      "character": "Yao",
+      "profile_url": "https://image.tmdb.org/t/p/w185/hpatUP6u74gkpDRmn9voNY9V43O.jpg"
+    },
+    {
+      "id": 3554544,
+      "name": "Priya Kansara",
+      "character": "Mary (voice)",
+      "profile_url": "https://image.tmdb.org/t/p/w185/zv9kpaQ8AVBfjI2LAAZV58NeVQg.jpg"
+    },
+    {
+      "id": 1749206,
+      "name": "Mia Soteriou",
+      "character": "Dr. Browne",
+      "profile_url": "https://image.tmdb.org/t/p/w185/bU4Twfk4as290gPFouByj7Wjd2.jpg"
+    },
+    {
+      "id": 3074054,
+      "name": "Annelle Olaleye",
+      "character": "Olivia",
+      "profile_url": "https://image.tmdb.org/t/p/w185/V0UqW30EQaHjGhwDnb6dT0AWmz.jpg"
+    },
+    {
+      "id": 6080198,
+      "name": "Maya Eva Hosein",
+      "character": "Rekha",
+      "profile_url": null
+    }
+  ],
+  "directors": [
+    {
+      "id": 107446,
+      "name": "Phil Lord"
+    },
+    {
+      "id": 155267,
+      "name": "Christopher Miller"
+    }
+  ],
+  "recommendations": [
+    {
+      "id": 299687,
+      "title": "A 5ª Onda",
+      "overview": "No futuro, a Terra é tomada por alienígenas. Na primeira onda de ataques, um pulso eletromagnético acaba com toda a eletricidade do planeta. Na segunda, um tsunami mata 40% da população. Na terceira onda, os pássaros começam a transmitir um vírus que mata 97% das pessoas que resistiram aos outros ataques. Já na quarta onda, a adolescente Cassie Sullivan precisa se virar sozinha para sobreviver e ainda reencontrar seu irmão.",
+      "vote_average": 5.9,
+      "poster_url": "https://image.tmdb.org/t/p/w342/asPv5M6bUn270EcUXUnEnC8CkB7.jpg"
+    },
+    {
+      "id": 1272,
+      "title": "Sunshine: Alerta Solar",
+      "overview": "Em um futuro não muito distante, a morte do sol anuncia o fim da humanidade. Em um último esforço para salvar o planeta, uma tripulação de oito pessoas vai ao espaço com um dispositivo que poderia reviver o sol. No entanto, um acidente, um erro grave e uma nave espacial perdida há muito tempo coloca a tripulação e sua missão em perigo.",
+      "vote_average": 7.0,
+      "poster_url": "https://image.tmdb.org/t/p/w342/sbVPlGjEMlRzRWDfOsT1og4QhHj.jpg"
+    },
+    {
+      "id": 49521,
+      "title": "O Homem de Aço",
+      "overview": "Um garoto descobre que não é deste planeta e que tem poderes extraordinários. Quando se torna adolescente, viaja para descobrir de onde veio e para o quê foi enviado a fazer. Mas o herói nele deve emergir se quiser salvar o mundo da aniquilação e se tornar o símbolo de esperança para toda a humanidade.",
+      "vote_average": 6.6,
+      "poster_url": "https://image.tmdb.org/t/p/w342/cheo9jDPfyW1GevfPjXtnO91KNe.jpg"
+    },
+    {
+      "id": 286217,
+      "title": "Perdido em Marte",
+      "overview": "O astronauta Mark Watney é enviado a uma missão em Marte. Após uma severa tempestade ele é dado como morto, abandonado pelos colegas e acorda sozinho no misterioso planeta com escassos suprimentos, sem saber como reencontrar os companheiros ou retornar à Terra.",
+      "vote_average": 7.7,
+      "poster_url": "https://image.tmdb.org/t/p/w342/fG3S4zdgnsaF77tJGK3rA9tHBu4.jpg"
+    },
+    {
+      "id": 559581,
+      "title": "Passageiro Acidental",
+      "overview": "Três pessoas em uma missão de dois anos para Marte enfrentam um dilema fatal depois que um passageiro inesperado coloca todos em risco.",
+      "vote_average": 6.0,
+      "poster_url": "https://image.tmdb.org/t/p/w342/n91IdvTOxogvs08HN0mYK7nY5T7.jpg"
+    },
+    {
+      "id": 37420,
+      "title": "Fugindo do Futuro",
+      "overview": "Before they can complete renovations on their new inn, a father and daughter are visited by a woman seeking immediate lodging for her strange group of travelers.",
+      "vote_average": 6.5,
+      "poster_url": "https://image.tmdb.org/t/p/w342/rDwV9kDggCoGOh74X7PPW3V9QBB.jpg"
+    },
+    {
+      "id": 118340,
+      "title": "Guardiões da Galáxia",
+      "overview": "Abduzido da Terra quando ainda era criança, Peter Quill fez carreira como saqueador e se auto denominou \"Senhor das Estrelas\". Quando rouba uma esfera, na qual o poderoso vilão Ronan, da raça kree, está interessado, passa a ser procurado por vários caçadores de recompensas. Para escapar do perigo, Quill une forças com quatro personagens fora do sistema: Groot, uma árvore humanóide (Vin Diesel), a sombria e perigosa Gamora, o guaxinim rápido no gatilho Rocket Racoon e o vingativo Drax, o Destruidor. A esfera roubada é capaz de mudar o destino de todo o universo.",
+      "vote_average": 7.9,
+      "poster_url": "https://image.tmdb.org/t/p/w342/xaY92XMToaSnBuvCui3LHzNGqZB.jpg"
+    },
+    {
+      "id": 696506,
+      "title": "Mickey 17",
+      "overview": "Mickey faz parte de um programa espacial de colonização e sempre é enviado para missões perigosas, quase suicidas. Se morrer, ele é clonado e boa parte de suas memórias são recuperadas. Mas, após seis mortes, ele começa a entender o porquê de seu cargo nunca ter sido ocupado antes.",
+      "vote_average": 6.8,
+      "poster_url": "https://image.tmdb.org/t/p/w342/is1U9n0e9ofg50U1T7p2WZuIwiO.jpg"
+    }
+  ]
+}

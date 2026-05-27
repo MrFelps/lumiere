@@ -1,0 +1,153 @@
+{
+  "id": 1198994,
+  "title": "Socorro!",
+  "overview": "Após um acidente aéreo, um chefe e uma funcionária que se odeiam são os únicos sobreviventes. Isolados numa ilha deserta, eles precisam decidir se cooperam ou competem para escapar, mas é difícil deixar para trás os conflitos do escritório.",
+  "release_date": "2026-01-22",
+  "runtime": 113,
+  "vote_average": 7.1,
+  "vote_count": 704,
+  "tagline": "Conheça Linda Liddle... Ela é de estratégia e planejamento. Agora ela é a chefe.",
+  "status": "Released",
+  "poster_url": "https://image.tmdb.org/t/p/w500/furPD78BZsKAWZoGvoqArIJYPy2.jpg",
+  "backdrop_url": "https://image.tmdb.org/t/p/w780/gCmfeKmEAZBP5gcXpiqb0gii9rS.jpg",
+  "genres": [
+    {
+      "id": 27,
+      "name": "Terror"
+    },
+    {
+      "id": 53,
+      "name": "Thriller"
+    },
+    {
+      "id": 35,
+      "name": "Comédia"
+    }
+  ],
+  "cast": [
+    {
+      "id": 53714,
+      "name": "Rachel McAdams",
+      "character": "Linda Liddle",
+      "profile_url": "https://image.tmdb.org/t/p/w185/vDUGcy0sdqHx76VWkoemy9n4waT.jpg"
+    },
+    {
+      "id": 527393,
+      "name": "Dylan O'Brien",
+      "character": "Bradley Preston",
+      "profile_url": "https://image.tmdb.org/t/p/w185/xN3GdvIlqsR838gDoblhPH0numP.jpg"
+    },
+    {
+      "id": 4477127,
+      "name": "Edyll Ismail",
+      "character": "Zuri",
+      "profile_url": "https://image.tmdb.org/t/p/w185/4JNIAlJXlw1HTF2log6GUeErDcT.jpg"
+    },
+    {
+      "id": 352,
+      "name": "Dennis Haysbert",
+      "character": "Franklin",
+      "profile_url": "https://image.tmdb.org/t/p/w185/lcnjaw2CFN6q9eaes1jTYrUB0rb.jpg"
+    },
+    {
+      "id": 109438,
+      "name": "Xavier Samuel",
+      "character": "Donovan",
+      "profile_url": "https://image.tmdb.org/t/p/w185/gHvKqCXfpzaGp46gqsy9MVDfmSf.jpg"
+    },
+    {
+      "id": 145248,
+      "name": "Chris Pang",
+      "character": "Chase",
+      "profile_url": "https://image.tmdb.org/t/p/w185/rd1ScdIuW0Wo4qdjIDsnXeZDr8a.jpg"
+    },
+    {
+      "id": 1743358,
+      "name": "ธเนศ วรากุลนุเคราะห์",
+      "character": "Boat Captain",
+      "profile_url": "https://image.tmdb.org/t/p/w185/jQBCefKZTK1U1BusbpH0OWpYjXB.jpg"
+    },
+    {
+      "id": 1446431,
+      "name": "Emma Raimi",
+      "character": "River",
+      "profile_url": "https://image.tmdb.org/t/p/w185/lrzUm5whjsyqOfADa8cJYVl6del.jpg"
+    },
+    {
+      "id": 1485593,
+      "name": "Kristy Best",
+      "character": "Polly Perera",
+      "profile_url": "https://image.tmdb.org/t/p/w185/59SfxmgV30kqIlsgNfYG20EimHu.jpg"
+    },
+    {
+      "id": 2300917,
+      "name": "Francesca Waters",
+      "character": "Barbara",
+      "profile_url": "https://image.tmdb.org/t/p/w185/z0zXS5qNuts4sJmf1KFNhmDWMIZ.jpg"
+    }
+  ],
+  "directors": [
+    {
+      "id": 7623,
+      "name": "Sam Raimi"
+    }
+  ],
+  "recommendations": [
+    {
+      "id": 9960,
+      "title": "O Senhor das Moscas",
+      "overview": "Após a queda de um avião um grande grupo de crianças fica isolado em uma ilha. Sem nenhum adulto por perto as crianças vão começar a desenvolver seus próprios costumes e regras.",
+      "vote_average": 6.7,
+      "poster_url": "https://image.tmdb.org/t/p/w342/tCbTRdeAn4Ukgfw77xt4DlXAGXU.jpg"
+    },
+    {
+      "id": 514847,
+      "title": "A Caçada",
+      "overview": "Doze estranhos acordam em uma clareira. Eles não sabem onde estão ou como chegaram lá. Eles não sabem que foram escolhidos para um propósito muito específico, A Caçada.",
+      "vote_average": 6.6,
+      "poster_url": "https://image.tmdb.org/t/p/w342/mDt3GkephI5yrRsEgLfdo3MYxyj.jpg"
+    },
+    {
+      "id": 405774,
+      "title": "Bird Box",
+      "overview": "Uma misteriosa presença dizima grande parte da sociedade. Cinco anos depois, uma sobrevivente e seus dois filhos saem em busca de um abrigo seguro.",
+      "vote_average": 6.8,
+      "poster_url": "https://image.tmdb.org/t/p/w342/fiqsYTrNpo9MNuWHu7Bb9Tjrv2V.jpg"
+    },
+    {
+      "id": 347031,
+      "title": "Um Cadáver para Sobreviver",
+      "overview": "Hank, um homem perdido no deserto, e sem esperanças, encontra um corpo no meio do caminho. Decidido em ficar amigo do morto, eles vão partir, juntos, em uma jornada surrealista para voltar para casa. Ao mesmo tempo em que  Hank descobre que o corpo é a chave para sua sobrevivência, ele é forçado a convencer o morto o quanto vale a pena viver.",
+      "vote_average": 6.9,
+      "poster_url": "https://image.tmdb.org/t/p/w342/sDIFBt9ubWYi1xjNARvjCM5KaT.jpg"
+    },
+    {
+      "id": 1161617,
+      "title": "Código 3",
+      "overview": "Um paramédico exausto está pronto para se demitir, mas ele deve primeiro cobrir um último turno de 24 horas para treinar seu substituto.",
+      "vote_average": 7.1,
+      "poster_url": "https://image.tmdb.org/t/p/w342/gIAYMDb5mIAeCAj76q1sRsKjkzo.jpg"
+    },
+    {
+      "id": 1308757,
+      "title": "Armadilha em Alto Mar",
+      "overview": "Após um acidente em alto mar, três jovens são resgatadas por um barco de pesca. Mas a ajuda se torna um pesadelo quando elas descobrem que o capitão esconde segredos macabros.",
+      "vote_average": 6.2,
+      "poster_url": "https://image.tmdb.org/t/p/w342/ex7BjWQvSEnubQzCyxElw2qi1Zx.jpg"
+    },
+    {
+      "id": 146015,
+      "title": "O Duplo",
+      "overview": "Simon (Jesse Eisenberg) é um jovem e neurótico rapaz, que certo dia, tem um grande choque ao se deparar com seu novo colega de trabalho, um sujeito com a mesma aparência física que a sua, porém, personalidade exatamente oposta, chamado James. Além de aguentar as humilhações constantes de seu chefe (Wallace Shawn), agora, Simon descobre que seu sósia ocupa seu cargo pouco importante na empresa e tem que lidar com esse novo colega, que é tudo que ele não é: confiante, charmoso, bem sucedido e superficial.",
+      "vote_average": 6.5,
+      "poster_url": "https://image.tmdb.org/t/p/w342/nXcqxN1FnQTnZf8I8Zy8Wp0ZNuh.jpg"
+    },
+    {
+      "id": 1042834,
+      "title": "Éden",
+      "overview": "Movidos por um profundo desejo de mudança, um grupo de pessoas deixou a sociedade para construir um novo futuro na paisagem árida das Ilhas Galápagos.",
+      "vote_average": 6.7,
+      "poster_url": "https://image.tmdb.org/t/p/w342/zjcsy6cqKfYhNqRnzgpBYW6kAdP.jpg"
+    }
+  ]
+}

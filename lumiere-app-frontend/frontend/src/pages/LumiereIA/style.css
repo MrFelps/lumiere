@@ -1,0 +1,233 @@
+.ia-container {
+  background-color: #000;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Inter', system-ui, sans-serif;
+  color: #fff;
+}
+
+.ia-main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.ia-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0a0a0a;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  padding: 16px 40px;
+}
+
+.ia-header-info {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.ia-logo-circle {
+  width: 48px;
+  height: 48px;
+  background-color: rgba(168, 107, 50, 0.15);
+  border: 1px solid rgba(168, 107, 50, 0.3);
+  color: #a86b32;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.ia-title {
+  margin: 0 0 4px 0;
+  font-size: 1.3rem;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+}
+
+.ia-subtitle {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.85rem;
+}
+
+.ia-close-btn {
+  background: transparent;
+  border: none;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.ia-close-btn:hover {
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.1);
+  transform: scale(1.05);
+}
+
+.ia-content-area {
+  max-width: 900px;
+  margin: 0 auto;
+  width: 100%;
+  padding: 40px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.ia-chat-history {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: flex-start;
+}
+
+.ia-message {
+  background-color: #1f1f1f; 
+  border: 1px solid rgba(255, 255, 255, 0.08); 
+  padding: 20px 24px;
+  border-radius: 20px; 
+  border-top-left-radius: 6px;
+  max-width: 85%;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.ia-message-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.ia-message-icon {
+  color: #a86b32;
+  font-size: 1.1rem;
+}
+
+.ia-message-sender {
+  color: #a86b32;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.ia-message-text {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.9);
+  line-height: 1.6;
+  font-size: 1rem;
+}
+
+.ia-message-time {
+  display: block;
+  margin-top: 12px;
+  font-size: 0.75rem;
+  color: rgba(255, 255, 255, 0.4);
+  font-weight: 500;
+}
+
+.ia-suggestions-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ia-suggestions-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 30px;
+  text-align: center;
+  color: #fff;
+}
+
+.ia-suggestions-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  width: 100%;
+}
+
+.ia-suggestion-card {
+  background-color: #1f1f1f;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 20px; 
+  padding: 24px;
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  cursor: pointer;
+  text-align: left;
+  transition: all 0.3s ease;
+}
+
+.ia-suggestion-card:hover {
+  background-color: #2a2a2a;
+  border-color: rgba(168, 107, 50, 0.5);
+  transform: translateY(-3px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4); 
+}
+
+.suggestion-icon {
+  font-size: 1.8rem;
+  background: rgba(255, 255, 255, 0.05);
+  padding: 12px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.suggestion-text h3 {
+  margin: 0 0 8px 0;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff;
+  line-height: 1.3;
+}
+
+.suggestion-text p {
+  margin: 0;
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.6);
+  line-height: 1.4;
+}
+
+.ia-footer-warning {
+  margin-top: auto; 
+  padding: 30px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.ia-footer-warning span {
+  background-color: rgba(255, 255, 255, 0.05);
+  color: rgba(255, 255, 255, 0.5);
+  padding: 10px 24px;
+  border-radius: 30px;
+  font-size: 0.8rem;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+@media (max-width: 768px) {
+  .ia-suggestions-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .ia-header {
+    padding: 16px 20px;
+  }
+  
+  .ia-message {
+    max-width: 95%;
+  }
+}

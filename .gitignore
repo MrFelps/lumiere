@@ -1,0 +1,24 @@
+# Dependências e Builds de Frontend
+node_modules/
+dist/
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Banco de Dados Local (Muito importante para não sobrescrever o dos colegas!)
+database.db
+*.db
+*.sqlite
+
+# Cache de Python e IA
+__pycache__/
+*.pyc
+.env
+
+# Configurações de IDEs e do Sistema
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

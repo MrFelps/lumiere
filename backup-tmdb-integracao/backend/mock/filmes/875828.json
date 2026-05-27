@@ -1,0 +1,149 @@
+{
+  "id": 875828,
+  "title": "Peaky Blinders: O Homem Imortal",
+  "overview": "Após o envolvimento do filho em um complô nazista, o gângster Tommy Shelby precisa deixar o exílio e voltar a Birmingham para salvar a família e a nação.",
+  "release_date": "2026-03-05",
+  "runtime": 112,
+  "vote_average": 7.3,
+  "vote_count": 559,
+  "tagline": "Tudo vai acabar assim.",
+  "status": "Released",
+  "poster_url": "https://image.tmdb.org/t/p/w500/8XLNDeumvz0cXa6sntZJ6p4zfLb.jpg",
+  "backdrop_url": "https://image.tmdb.org/t/p/w780/1fkuBPid72KGS6WmtkEXMftZtkE.jpg",
+  "genres": [
+    {
+      "id": 80,
+      "name": "Crime"
+    },
+    {
+      "id": 18,
+      "name": "Drama"
+    }
+  ],
+  "cast": [
+    {
+      "id": 2037,
+      "name": "Cillian Murphy",
+      "character": "Tommy Shelby",
+      "profile_url": "https://image.tmdb.org/t/p/w185/2lKs67r7FI4bPu0AXxMUJZxmUXn.jpg"
+    },
+    {
+      "id": 1290466,
+      "name": "Barry Keoghan",
+      "character": "Duke Shelby",
+      "profile_url": "https://image.tmdb.org/t/p/w185/ngoitknM6hw8fffLywyvjzy6Iti.jpg"
+    },
+    {
+      "id": 933238,
+      "name": "Rebecca Ferguson",
+      "character": "Kaulo / Zelda",
+      "profile_url": "https://image.tmdb.org/t/p/w185/lJloTOheuQSirSLXNA3JHsrMNfH.jpg"
+    },
+    {
+      "id": 3129,
+      "name": "Tim Roth",
+      "character": "John Beckett",
+      "profile_url": "https://image.tmdb.org/t/p/w185/qSizF2i9gz6c6DbAC5RoIq8sVqX.jpg"
+    },
+    {
+      "id": 1115,
+      "name": "Stephen Graham",
+      "character": "Hayden Stagg",
+      "profile_url": "https://image.tmdb.org/t/p/w185/yguEO9zFvuccq87kOJpFLsmUgvs.jpg"
+    },
+    {
+      "id": 1088620,
+      "name": "Sophie Rundle",
+      "character": "Ada Shelby",
+      "profile_url": "https://image.tmdb.org/t/p/w185/8kZTjHZcvmGo1W53DXM2mjXex2A.jpg"
+    },
+    {
+      "id": 63362,
+      "name": "Ned Dennehy",
+      "character": "Charlie Strong",
+      "profile_url": "https://image.tmdb.org/t/p/w185/wTacXk4meFOJRK38rED0lrhlLw3.jpg"
+    },
+    {
+      "id": 211610,
+      "name": "Packy Lee",
+      "character": "Johnny Dogs",
+      "profile_url": "https://image.tmdb.org/t/p/w185/e3E734NTL7OMCkSDTTixLZr8H4E.jpg"
+    },
+    {
+      "id": 208467,
+      "name": "Ian Peck",
+      "character": "Curly",
+      "profile_url": "https://image.tmdb.org/t/p/w185/efEJsO8xhDdpOkWR0ArLl34B47f.jpg"
+    },
+    {
+      "id": 2588506,
+      "name": "Jay Lycurgo",
+      "character": "Elijah",
+      "profile_url": "https://image.tmdb.org/t/p/w185/pbsoexLxfXZZvITACzfOB1dsDip.jpg"
+    }
+  ],
+  "directors": [
+    {
+      "id": 212240,
+      "name": "Tom Harper"
+    }
+  ],
+  "recommendations": [
+    {
+      "id": 12888,
+      "title": "Barra Pesada",
+      "overview": "Tommy 'Buns' Bundy (DMX) e seu amigo Sincere (Nas) são bandidos que aprenderam a ganhar a vida traficando drogas e fazendo assaltos à mão armada. Tommy e Sincere conseguiram sair do gueto de Queens, onde foram criados e se mudaram para uma parte sofisticada de Manhattan; eles parecem ter conseguido vencer na vida, mas ambos percebem que estão caminhando para um beco sem saída. Sincere começa a entrar em contato com suas raízes africanas e tenta convencer sua namorada Tionne (Tionne 'T-Boz' Watkins) de que eles deveriam emigrar para a Pátria, enquanto Tommy tem um despertar religioso e se junta à Nação do Islã.",
+      "vote_average": 6.0,
+      "poster_url": "https://image.tmdb.org/t/p/w342/vYzK2t5Rqww4Vj7VCe786MFyQIy.jpg"
+    },
+    {
+      "id": 31962,
+      "title": "Uma Luz na Escuridão",
+      "overview": "Uma secretária se apaixona por seu novo chefe misterioso e insiste em ir para a Alemanha como espiã da Segunda Guerra Mundial.",
+      "vote_average": 6.5,
+      "poster_url": "https://image.tmdb.org/t/p/w342/wMErY9THNrk9M63iUSb1bs8yPvE.jpg"
+    },
+    {
+      "id": 11372,
+      "title": "A Águia Pousou",
+      "overview": "Quando o alto comando nazista descobre, no final de 1943, que  Winston Churchill passará um tempo em uma propriedade rural em Norfolk, cria um esquema audacioso para seqüestrar o primeiro-ministro e enviá-lo à Alemanha para negociações forçadas com Hitler.",
+      "vote_average": 6.6,
+      "poster_url": "https://image.tmdb.org/t/p/w342/mZ8U6rBNOMqi9kZzL5DjYZaVfT6.jpg"
+    },
+    {
+      "id": 22073,
+      "title": "Homens Perigosos",
+      "overview": "No Harlem dos anos 1930, mafioso trava batalha pela lucrativa casa de jogos de uma mulher conhecida como a Rainha Stephanie St. Clair. É quando entra em cena um gângster negro, recém-saído da prisão, que se aproxima do legendário \"Lucky\" Luciano para tentar vencer a guerra.",
+      "vote_average": 6.4,
+      "poster_url": "https://image.tmdb.org/t/p/w342/7sveli98dNp9ZMWIFUj4Itf5hyW.jpg"
+    },
+    {
+      "id": 152760,
+      "title": "Caçadores de Obras-Primas",
+      "overview": "Durante o declínio de Hitler na Alemanha, um grupo de 13 especialistas vindos de países diferentes é reunido para reencontrar obras de arte roubadas pelos nazistas durante a Segunda Guerra Mundial. George Stout (George Clooney), um oficial americano e conservador de obras de arte, lidera a equipe.",
+      "vote_average": 6.1,
+      "poster_url": "https://image.tmdb.org/t/p/w342/pPr0yONkXWA9GgX3PAoM1YA8P9W.jpg"
+    },
+    {
+      "id": 16958,
+      "title": "O Segredo das Jóias",
+      "overview": "Quando o inteligente criminoso Erwin \"Doc\" Riedenschneider é libertado da prisão, ele procura um investidor de cinquenta mil dólares na casa de apostas Cobby para recrutar um pequeno grupo de especialistas e realizar um assalto de milhões de dólares de joias de uma joalheria. Doc é apresentado ao advogado Alonzo D. Emmerich, que se oferece para financiar toda a operação e comprar as pedras imediatamente após o roubo. Doc contrata o arrombador Louis Ciavelli, o motorista Gus Minissi e o pistoleiro Dix Handley para o assalto. No início, o plano funciona como um relógio, mas pequenos acidentes se acumulam e cada parceiro mostra ter sua própria fraqueza fatal. No fundo é um perverso e doentio submundo sujo.",
+      "vote_average": 7.5,
+      "poster_url": "https://image.tmdb.org/t/p/w342/vYBI1Xw8NrvDN6RIPue6hoH81eG.jpg"
+    },
+    {
+      "id": 27899,
+      "title": "Alma no Lodo",
+      "overview": "Rico, um pequeno criminoso, e Joe, seu amigo, vão para Chicago para dar o pontapé inicial em suas carreiras. Rico quer ser um figurão no submundo, enquanto Joe quer tentar a sorte como dançarino profissional. Rico passa a fazer parte da equipe do chefe da máfia Sam Vettori e sobe rapidamente na hierarquia. Rico é ambicioso e está disposto a se esforçar ao máximo para chegar ao topo. Joe, por outro lado, quer deixar seu passado para trás, mas isso não se encaixa nos planos de Rico.",
+      "vote_average": 6.9,
+      "poster_url": "https://image.tmdb.org/t/p/w342/1K3Q1tAHHA5Sdtja2pPALBQevA7.jpg"
+    },
+    {
+      "id": 171337,
+      "title": "Educação Siberiana",
+      "overview": "Sibéria. Em uma pequena comunidade um grupo de mafiosos ensina crianças a lidarem com a violência desde bem pequenas. Mais do que educação, um incentivo para que, quando crescerem, tornem-se membros da máfia russa.",
+      "vote_average": 6.8,
+      "poster_url": "https://image.tmdb.org/t/p/w342/pSXguX0FmIvRr7r85uSZW96tLut.jpg"
+    }
+  ]
+}

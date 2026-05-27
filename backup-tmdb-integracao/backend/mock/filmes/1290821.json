@@ -1,0 +1,153 @@
+{
+  "id": 1290821,
+  "title": "Missão Refúgio",
+  "overview": "Um ex-assassino de aluguel, agora um homem recluso numa ilha costeira remota, salva uma garota de uma tempestade terrível, colocando os dois na mira do perigo. Forçado a sair da aposentadoria e do isolamento, o homem é obrigado a enfrentar seu passado perigoso para proteger a menina enquanto tenta sobreviver uma jornada tensa repleta de perigos e redenção.",
+  "release_date": "2026-01-28",
+  "runtime": 107,
+  "vote_average": 6.7,
+  "vote_count": 427,
+  "tagline": "A segurança dela é o objetivo dele.",
+  "status": "Released",
+  "poster_url": "https://image.tmdb.org/t/p/w500/hSvhZRkbYD9crC4nqy8uCk9EdFH.jpg",
+  "backdrop_url": "https://image.tmdb.org/t/p/w780/nHxWyy18SvAZ8jJeemtS8k1UNjM.jpg",
+  "genres": [
+    {
+      "id": 28,
+      "name": "Ação"
+    },
+    {
+      "id": 80,
+      "name": "Crime"
+    },
+    {
+      "id": 53,
+      "name": "Thriller"
+    }
+  ],
+  "cast": [
+    {
+      "id": 976,
+      "name": "Jason Statham",
+      "character": "Mason",
+      "profile_url": "https://image.tmdb.org/t/p/w185/pXGSq2UpcDE2NMF8LR56QZf5U1q.jpg"
+    },
+    {
+      "id": 4088089,
+      "name": "Bodhi Rae Breathnach",
+      "character": "Jesse",
+      "profile_url": "https://image.tmdb.org/t/p/w185/sONxErk3r0xfoESAmU3GVTxoPDe.jpg"
+    },
+    {
+      "id": 1563431,
+      "name": "Michael Shaeffer",
+      "character": "Uncle",
+      "profile_url": "https://image.tmdb.org/t/p/w185/5O0UCmRy8NWpYvHeCJDntPKXmti.jpg"
+    },
+    {
+      "id": 1233545,
+      "name": "Anna Crilly",
+      "character": "Haneron",
+      "profile_url": "https://image.tmdb.org/t/p/w185/wT6e4gDsQwrJjhXlIAj5IhcLICy.jpg"
+    },
+    {
+      "id": 2440,
+      "name": "Bill Nighy",
+      "character": "Manafort",
+      "profile_url": "https://image.tmdb.org/t/p/w185/ixFI2YCGNGJfwlpI8iyhvVZRg8C.jpg"
+    },
+    {
+      "id": 17477,
+      "name": "Harriet Walter",
+      "character": "Prime Minister Fordham",
+      "profile_url": "https://image.tmdb.org/t/p/w185/vH8JrqdHaoFeGos44XeKTNuQMKE.jpg"
+    },
+    {
+      "id": 237087,
+      "name": "Eugenia Caruso",
+      "character": "Shop Clerk",
+      "profile_url": "https://image.tmdb.org/t/p/w185/ocWaLnqvU58oU7ZAVsVKA1w2Als.jpg"
+    },
+    {
+      "id": 1389549,
+      "name": "Celine Buckens",
+      "character": "Maddison",
+      "profile_url": "https://image.tmdb.org/t/p/w185/6pGlBFPZ0tErnpr9vi4C8Pe7JJ0.jpg"
+    },
+    {
+      "id": 1537686,
+      "name": "Naomi Ackie",
+      "character": "Roberta",
+      "profile_url": "https://image.tmdb.org/t/p/w185/dijwuTAEZUzQtoJfK49S4X80fQw.jpg"
+    },
+    {
+      "id": 2000704,
+      "name": "Bally Gill",
+      "character": "Aziz",
+      "profile_url": "https://image.tmdb.org/t/p/w185/kjlgABGFfYHwFmZwc7fBwckngMG.jpg"
+    }
+  ],
+  "directors": [
+    {
+      "id": 76422,
+      "name": "Ric Roman Waugh"
+    }
+  ],
+  "recommendations": [
+    {
+      "id": 1215162,
+      "title": "O Vingador da Iugoslávia 2",
+      "overview": "O aposentado espião Philip e sua filha vivem tranquilamente na Itália. Mas quando o inimigo vingativo os persegue, eles devem lutar pela sobrevivência. Em fuga, eles se unem para se manter seguros em sua vizinhança sabendo que a batalha não terminará até que a última bala seja disparada.",
+      "vote_average": 6.7,
+      "poster_url": "https://image.tmdb.org/t/p/w342/fSrBQXN5u0EeG9Acv2SBX84yuBY.jpg"
+    },
+    {
+      "id": 1024627,
+      "title": "O Sistema",
+      "overview": "Quando um jovem soldado (Tyrese Gibson), recém-chegado da guerra, é pego em uma apreensão de drogas, ele é recrutado pelas autoridades para se infiltrar em uma prisão notoriamente perigosa para investigar o que realmente está acontecendo nos bastidores. Quando ele descobre um ringue subterrâneo de luta de prisioneiros, o diretor o força a competir. Para ganhar sua liberdade, ele deve lutar para se manter vivo, bem como derrubar o sistema corrupto do diretor.",
+      "vote_average": 7.0,
+      "poster_url": "https://image.tmdb.org/t/p/w342/nP4kUNBCYBCDPBtTZEfjllu7048.jpg"
+    },
+    {
+      "id": 1217379,
+      "title": "Cão de Briga",
+      "overview": "Loreno é um matador de aluguel decidido a mudar de vida, mas antes de se aposentar ele aceita uma última missão para ajudar um velho amigo. Ele viaja até Bangkok para caçar um chefão do crime, mas acaba entrando em uma perigosa espiral de violência.",
+      "vote_average": 6.5,
+      "poster_url": "https://image.tmdb.org/t/p/w342/hSYO4omSzrx2UvKYJCDKd31Pmkk.jpg"
+    },
+    {
+      "id": 808396,
+      "title": "God Is a Bullet",
+      "overview": "Vice detective Bob Hightower finds his ex-wife murdered and daughter kidnapped by a cult. Frustrated by the botched official investigations, he quits the force and infiltrates the cult to hunt down the leader with the help of the cult’s only female victim escapee, Case Hardin.",
+      "vote_average": 6.0,
+      "poster_url": "https://image.tmdb.org/t/p/w342/5kiLS9nsSJxDdlYUyYGiSUt8Fi8.jpg"
+    },
+    {
+      "id": 843633,
+      "title": "Vingança e Redenção",
+      "overview": "Um ex-fuzileiro naval deve lutar contra sua consciência e seu código de honra quando é forçado a fazer serviços para a máfia.",
+      "vote_average": 5.8,
+      "poster_url": "https://image.tmdb.org/t/p/w342/6hLaPB3OFcRZMFQT6skxLnnErpF.jpg"
+    },
+    {
+      "id": 628847,
+      "title": "Boca de Fumo",
+      "overview": "Em El Paso, Texas, um agente disfarçado da Narcóticos e seu parceiro brincam de gato e rato com um grupo ousado de ladrões: seus próprios filhos adolescentes. Usando as táticas e as informações secretas dos pais, eles começam a roubar de um cartel perigoso.",
+      "vote_average": 6.6,
+      "poster_url": "https://image.tmdb.org/t/p/w342/aKr6jSFBrL1VFZIJ541boREu0a4.jpg"
+    },
+    {
+      "id": 1280450,
+      "title": "Garota Roubada",
+      "overview": "Uma mulher americana passa mais de dez anos procurando sua filha, sequestrada e levada para o Oriente Médio pelo pai, enfrentando perigos e desafios em sua busca incansável.",
+      "vote_average": 6.2,
+      "poster_url": "https://image.tmdb.org/t/p/w342/hpwmR1AE8Ro0KO68YPhk1thACvL.jpg"
+    },
+    {
+      "id": 999205,
+      "title": "Ameaça a Bordo",
+      "overview": "Bella é uma jovem problemática. Ao herdar um iate do pai distante, ela se vê em perigo quando três ladrões o sequestram. Agora, ela precisa lutar para sobreviver.",
+      "vote_average": 6.1,
+      "poster_url": "https://image.tmdb.org/t/p/w342/nZY9zf7z0Gy3bFOpwf0qOgJKaX7.jpg"
+    }
+  ]
+}

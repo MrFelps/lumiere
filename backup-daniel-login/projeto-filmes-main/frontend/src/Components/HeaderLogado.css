@@ -1,0 +1,58 @@
+.header-logado {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  background-color: #000;
+  border-bottom: 1px solid #1a1a1a;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.hl-logo { display: flex; align-items: center; gap: 10px; cursor: pointer; }
+.hl-sun { font-size: 1.5rem; color: #a86b32; }
+.hl-text { color: #fff; font-size: 1.2rem; font-weight: bold; letter-spacing: 1px; }
+
+.hl-nav { display: flex; gap: 30px; align-items: center; }
+
+.hl-item {
+  background: none;
+  border: none;
+  color: #888;
+  font-size: 0.95rem;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.hl-item:hover { color: #fff; }
+
+.hl-icon { font-size: 1.1rem; }
+
+.hl-actions { display: flex; align-items: center; gap: 20px; }
+
+.hl-btn-icon {
+  background: none;
+  border: none;
+  color: #888;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.hl-btn-icon:hover { color: #fff; }
+.hl-btn-icon.active-icon { color: #a86b32; } /* Deixa o sino laranja igual sua imagem */
+
+.hl-notification-box { position: relative; display: flex; align-items: center; }
+
+.hl-dot {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 8px;
+  height: 8px;
+  background-color: #a86b32;
+  border-radius: 50%;
+}

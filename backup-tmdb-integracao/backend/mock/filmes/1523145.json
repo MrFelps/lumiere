@@ -1,0 +1,149 @@
+{
+  "id": 1523145,
+  "title": "Um Amor de Mentiras",
+  "overview": "Polina, uma estudante do ensino médio, é salva do bullying em sua nova escola e faz um acordo com o principal valentão, Bars: ele deve fingir ser seu namorado e protegê-la, e ela deve fazer tudo o que ele mandar. Durante esse jogo, o casal desenvolve sentimentos verdadeiros, mas sua família e colegas de classe têm motivos para separá-los.",
+  "release_date": "2026-03-26",
+  "runtime": 134,
+  "vote_average": 6.9,
+  "vote_count": 20,
+  "tagline": "Partindo seu coração...",
+  "status": "Released",
+  "poster_url": "https://image.tmdb.org/t/p/w500/hXNn25hE2SH2kHMPVOLjqDISSxf.jpg",
+  "backdrop_url": "https://image.tmdb.org/t/p/w780/1x9e0qWonw634NhIsRdvnneeqvN.jpg",
+  "genres": [
+    {
+      "id": 10749,
+      "name": "Romance"
+    },
+    {
+      "id": 18,
+      "name": "Drama"
+    }
+  ],
+  "cast": [
+    {
+      "id": 5598110,
+      "name": "Даниэль Вегас",
+      "character": "Bars",
+      "profile_url": "https://image.tmdb.org/t/p/w185/t9AFZX1rpTt59npITX2GY3JgySd.jpg"
+    },
+    {
+      "id": 5037367,
+      "name": "Вероника Журавлёва",
+      "character": "Polina",
+      "profile_url": "https://image.tmdb.org/t/p/w185/bvlry6DeiYkm0onAZhonlpl4J7.jpg"
+    },
+    {
+      "id": 4508505,
+      "name": "Иван Трушин",
+      "character": "Laym",
+      "profile_url": "https://image.tmdb.org/t/p/w185/8DWSEUJnxlr7kTP0O8iOSnsqbcs.jpg"
+    },
+    {
+      "id": 2007622,
+      "name": "Максим Сапрыкин",
+      "character": "Lyokha",
+      "profile_url": "https://image.tmdb.org/t/p/w185/u6c2wEvtqhXHyYRqd2LXKsyHr5a.jpg"
+    },
+    {
+      "id": 5654199,
+      "name": "Аля Майер",
+      "character": "",
+      "profile_url": null
+    },
+    {
+      "id": 558048,
+      "name": "Евгения Лоза",
+      "character": "",
+      "profile_url": "https://image.tmdb.org/t/p/w185/ruLILWf9x0gxg8o9W9Yj9LCI0us.jpg"
+    },
+    {
+      "id": 1565264,
+      "name": "Павел Кузьмин",
+      "character": "",
+      "profile_url": "https://image.tmdb.org/t/p/w185/uIIS1FLF4zMxR0Sj53a4wc9tGU6.jpg"
+    },
+    {
+      "id": 4465638,
+      "name": "Александра Тихонова",
+      "character": "",
+      "profile_url": "https://image.tmdb.org/t/p/w185/iZL6tYLqs5uhvqE4SM7GwJHxUz3.jpg"
+    },
+    {
+      "id": 2887356,
+      "name": "Маргарита Дьяченкова",
+      "character": "",
+      "profile_url": "https://image.tmdb.org/t/p/w185/a3c2BqkxkZBlJNKFtZTjxZUiLvZ.jpg"
+    },
+    {
+      "id": 5654204,
+      "name": "Антон Соломатин",
+      "character": "",
+      "profile_url": "https://image.tmdb.org/t/p/w185/rsiqKjHvpQGmDvba4TMpe8Rt8hj.jpg"
+    }
+  ],
+  "directors": [
+    {
+      "id": 1547457,
+      "name": "Михаил Вайнберг"
+    }
+  ],
+  "recommendations": [
+    {
+      "id": 447362,
+      "title": "A Vida em um Ano",
+      "overview": "Daryn, um excelente atleta do colégio, estudioso e aspirante a rapper, descobre que sua namorada, Isabelle está doente de um câncer no ovário. Então, ele decide fazer com que ambos vivam juntos, em um ano, experiências dignas de uma vida inteira.",
+      "vote_average": 8.2,
+      "poster_url": "https://image.tmdb.org/t/p/w342/dfmbwqkalJRfYqFSwNhRn4QYK30.jpg"
+    },
+    {
+      "id": 1078600,
+      "title": "Na Sua Pele - A Série Marked Men",
+      "overview": "Uma história de amor tão intensa quanto improvável une Shaw, uma dedicada estudante de medicina de família aristocrática, e Rule, um tatuador rebelde de espírito livre. Para ele, Shaw sempre foi apenas uma amiga da família, até que uma noite impulsiva altera o curso de suas vidas. Agora, ambos precisam confrontar sentimentos reprimidos e superar o luto, as pressões familiares e o medo do compromisso para descobrir se uma conexão entre mundos tão opostos pode realmente sobreviver.",
+      "vote_average": 6.7,
+      "poster_url": "https://image.tmdb.org/t/p/w342/o3fTmIZdIEJH9VM25QkJCxokWPz.jpg"
+    },
+    {
+      "id": 426203,
+      "title": "Love Everlasting",
+      "overview": "Bridger is a young outsider who's always wanted more. He and his mother flee an abusive home, eventually finding a small town in the middle of nowhere. Once there, Bridger finds true acceptance with another misfit.",
+      "vote_average": 7.4,
+      "poster_url": "https://image.tmdb.org/t/p/w342/fQeaB97z2g0vdu0tvu0T9me1aJF.jpg"
+    },
+    {
+      "id": 763148,
+      "title": "A Vida é Agora",
+      "overview": "Vivien, que é uma estudante talentosa apaixonada pela física, e Roy, que é um jovem problemático, ou seja, dois estudantes com personalidades totalmente diferentes. Entretanto, um acidente mudará a vida desses protagonistas e, então, eles viverão novas experiências, como um novo amor.",
+      "vote_average": 6.5,
+      "poster_url": "https://image.tmdb.org/t/p/w342/neKaddWZOH6elKQRjI49avgSGfY.jpg"
+    },
+    {
+      "id": 85654,
+      "title": "Brincando com Fogo",
+      "overview": "Um rapaz interno em uma prisão-fazenda para delinqüentes juvenis, e uma jovem que se sente aprisionada em um colégio católico, se apaixonam e vivem um amor proibido.",
+      "vote_average": 6.2,
+      "poster_url": "https://image.tmdb.org/t/p/w342/1QhFJWk8tZ9xdcJusbrLgEFXpbm.jpg"
+    },
+    {
+      "id": 77985,
+      "title": "Os Amantes de Maria",
+      "overview": "1946. O veterano de guerra americano Ivan Bibic (John Savage), que foi um prisioneiro de guerra, sofreu uma crise nervosa que só lhe permitia morrer ou sonhar. Assim, ao retornar para a sua pequena cidade natal, Brownsville, na Pensilvânia, ele só pensa em encontrar seu sonho: uma refugiada iugoslava, Maria Bosic (Nastassja Kinski), uma amiga de infância que se tornou uma bela mulher. Ele sempre sonhou ter com Maria o casamento perfeito, embora ela seja desejada por outros homens. Em certo ponto Ivan diz que sonhou tanto com Maria que ela vive em seus sonhos, não no seu corpo, e é verdade, pois os sonhos dele não são iguais à realidade. Maria e Ivan se casam, mas ele descobre que não consegue fazer amor com ela.",
+      "vote_average": 5.9,
+      "poster_url": "https://image.tmdb.org/t/p/w342/jXPEtaEpqWHUJ8T3sulUVdNFDr8.jpg"
+    },
+    {
+      "id": 364733,
+      "title": "Um Novo Olhar",
+      "overview": "Bill Oakland (Alec Baldwin) é um bem sucedido romancista. Em um acidente de carro, ele acaba perdendo a visão e sua esposa morre. Anos depois, a socialite Suzanne Dutchman (Demi Moore) é obrigada a ler para ele três vezes na semana em uma pequena sala devido a um acordo por estar associada à informações privilegiadas do marido, um homem de negócios. Um caso de paixão se constrói entre os dois, despertando o amor neles mais uma vez.",
+      "vote_average": 6.2,
+      "poster_url": "https://image.tmdb.org/t/p/w342/7jPyGQMTtOzmMFVlCOqKrMBuDnT.jpg"
+    },
+    {
+      "id": 658854,
+      "title": "We",
+      "overview": "Dating within different cultures and being open to all religions, Ethan must deal with constant roadblocks. From First Nations to South American, his journey to find love in Toronto is nothing but complex. He faces discrimination and depression but always remains optimistic.",
+      "vote_average": 6.3,
+      "poster_url": "https://image.tmdb.org/t/p/w342/zDl36RTXJW1GhCqz6FOYRl7sCt7.jpg"
+    }
+  ]
+}

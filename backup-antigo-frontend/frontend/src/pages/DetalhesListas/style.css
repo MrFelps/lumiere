@@ -1,0 +1,189 @@
+.detalhes-lista-container {
+  background-color: #000;
+  min-height: 100vh;
+  color: #fff;
+  font-family: 'Inter', system-ui, sans-serif;
+  padding-bottom: 80px;
+}
+
+.detalhes-lista-main {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 40px 60px;
+}
+
+.lista-hero-header {
+  background: linear-gradient(135deg, #111, #1a1a1a);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  padding: 40px;
+  margin-bottom: 60px;
+  position: relative;
+}
+
+.btn-voltar {
+  background: none;
+  border: none;
+  color: #a86b32;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin-bottom: 24px;
+  padding: 0;
+}
+.btn-voltar:hover { text-decoration: underline; }
+
+.lista-hero-title {
+  font-size: 3rem;
+  font-weight: 800;
+  margin: 0 0 16px 0;
+  letter-spacing: -1px;
+}
+
+.lista-hero-desc {
+  color: #aaa;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  max-width: 800px;
+  margin-bottom: 24px;
+}
+
+.lista-hero-meta {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: #888;
+  margin-bottom: 32px;
+}
+
+.creator-badge {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: #0f0f0f;
+  padding: 6px 12px 6px 6px;
+  border-radius: 30px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: #ccc;
+}
+.creator-badge strong { color: #fff; }
+
+.creator-avatar {
+  width: 28px;
+  height: 28px;
+  background-color: #a86b32;
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.meta-dot { font-size: 1.2rem; }
+
+.lista-hero-actions {
+  display: flex;
+  gap: 16px;
+}
+
+.btn-lista-action {
+  background-color: #222;
+  color: #fff;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.btn-lista-action:hover { background-color: #333; }
+.btn-lista-action.liked { background-color: rgba(220, 38, 38, 0.15); color: #ef4444; border: 1px solid rgba(220, 38, 38, 0.5); }
+.btn-lista-action.outline { background: transparent; border: 1px solid rgba(255, 255, 255, 0.3); }
+.btn-lista-action.outline:hover { background-color: rgba(255, 255, 255, 0.1); }
+
+.lista-movies-section .section-title {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+
+.lista-movies-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 30px;
+}
+
+.lista-movie-card {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease;
+  position: relative;
+}
+
+.lista-movie-card:hover { transform: translateY(-8px); }
+
+.movie-order-badge {
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  background-color: #a86b32;
+  color: #fff;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+  z-index: 10;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+}
+
+.lista-movie-poster {
+  width: 100%;
+  aspect-ratio: 2 / 3;
+  border-radius: 12px;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 12px;
+}
+
+.lista-movie-poster img {
+  width: 100%; height: 100%; object-fit: cover;
+}
+
+.lista-movie-rating {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 4px 8px;
+  border-radius: 6px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  backdrop-filter: blur(4px);
+}
+
+.lista-movie-title {
+  margin: 0 0 4px 0;
+  font-size: 1.05rem;
+  font-weight: 600;
+}
+
+.lista-movie-meta {
+  font-size: 0.85rem;
+  color: #888;
+  display: flex;
+  gap: 8px;
+}
+
+@media (max-width: 768px) {
+  .detalhes-lista-main { padding: 24px; }
+  .lista-hero-header { padding: 24px; }
+  .lista-hero-title { font-size: 2rem; }
+  .lista-hero-actions { flex-direction: column; }
+  .lista-movies-grid { grid-template-columns: repeat(2, 1fr); gap: 16px; }
+}
