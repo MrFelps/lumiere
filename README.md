@@ -104,3 +104,30 @@ cd lumiere-api-backend/backend-node
 node qa-test.js
 ```
 A suíte retornará o status de **PASSED** para todas as tabelas e funções testadas diretamente no arquivo local do banco.
+
+---
+
+## 📊 Como Consultar o Banco de Dados Local (Visualizador de Planilhas)
+
+Nós desenvolvemos um utilitário exclusivo chamado `query-db.js` que permite a qualquer membro do grupo visualizar em tempo real todas as informações salvas no banco de dados SQLite (`database.db`) em formato de planilhas estruturadas e elegantes direto no terminal!
+
+Para rodar o visualizador, certifique-se de que o servidor do backend (Passo 2) está ligado e rodando em um terminal separado. Em seguida:
+
+1. Abra um **novo terminal** no seu VS Code ou no seu computador.
+2. Navegue até a pasta do backend:
+   ```bash
+   cd lumiere-api-backend/backend-node
+   ```
+3. Execute o script de consulta:
+   ```bash
+   node query-db.js
+   ```
+
+### 📋 O que você verá na tela:
+O script lerá o banco de dados ativo e imprimirá planilhas ASCII completas e atualizadas em tempo real contendo:
+- **Tabela de Usuários Cadastrados (`users`):** Exibindo os e-mails e as senhas de teste protegidas com bolinhas elegantes (`••••••••`).
+- **Tabela de Críticas/Comentários (`reviews`):** Mostrando qual usuário comentou em qual filme e o texto da crítica.
+- **Tabela de Notas (`ratings`):** Exibindo a nota de 1 a 5 estrelas dada para cada filme.
+- **Tabela de Assistidos (`watched`):** Mostrando o histórico de filmes vistos e a duração acumulada em minutos.
+- **Tabela de Listas (`lists`):** Mostrando as listas customizadas criadas no perfil.
+
